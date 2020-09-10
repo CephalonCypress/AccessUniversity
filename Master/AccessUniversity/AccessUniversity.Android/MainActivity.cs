@@ -14,7 +14,6 @@ namespace AccessUniversity.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {   
-            int a;
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
