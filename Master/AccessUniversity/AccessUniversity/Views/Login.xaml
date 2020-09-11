@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AccessUniversity.Login"
+             x:Class="AccessUniversity.Views.LoginPage"
              BackgroundColor="#005595">
     
     <StackLayout>
@@ -13,17 +12,12 @@
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
-            <BoxView Color="White"
-             Grid.Row="1"
-             CornerRadius="10"
-             WidthRequest="170"
-             HeightRequest="900"
-             HorizontalOptions="Center"
-             VerticalOptions="EndAndExpand"
-             />
-            <Image Grid.Row="1" 
-                   Source="Logo1.png"/>
-            <Entry Grid.Row="3"
+            <!--<Image Grid.Row="1" 
+                   Source="LogoAnimated.gif"
+                   IsAnimationPlaying="True"/>-->
+            <Image Grid.Row="1"
+                   Source="Logo.png"/>
+            <Entry Grid.Row="2"
                 Text="Student ID / Email"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
@@ -31,7 +25,7 @@
                 TextColor="Black"
                 HeightRequest="40"
                 WidthRequest="170"/>
-            <Entry Grid.Row="4"
+            <Entry Grid.Row="3"
                 IsPassword="true"
                 Text="Password"
                 HorizontalOptions="Center"
