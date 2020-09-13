@@ -6,7 +6,8 @@ namespace AccessUniversity.Models {
     public enum MenuItemType {
         Browse,
         About,
-        Login
+        Login,
+        ContentsPDF
     }
     public class HomeMenuItem {
         public MenuItemType Id { get; set; }
