@@ -14,40 +14,44 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width ="80"/>
+                <ColumnDefinition Width ="100"/>
                 <ColumnDefinition Width ="Auto"/>
-                <ColumnDefinition Width ="80"/>
+                <ColumnDefinition Width ="100"/>
             </Grid.ColumnDefinitions>
             <!--<Image Grid.Row="1" 
                    Source="LogoAnimated.gif"
                    IsAnimationPlaying="True"/>-->
             <Image Grid.Row="0" Grid.Column="1"
-                   Source="Logo.png"/>
+                   Source="Logo.png"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
             <Entry Grid.Row="1" Grid.Column="1"
+                x:Name="entryUsername"
                 Text="{Binding Username}"
                 Placeholder="Student ID or Email"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="White"
                 TextColor="Black"
-                HeightRequest="40"
                 WidthRequest="200"/>
             <Entry Grid.Row="2" Grid.Column="1"
+                x:Name="entryPassword"
                 IsPassword="true"
                 Text="{Binding Password}"
                 Placeholder="Password"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="White" 
-                HeightRequest="40"
                 WidthRequest="200"/>
             <Label Grid.Row="3" Grid.Column="1"
+                x:Name="labelForgotPassword"
                 Text="Forgot your password?" 
                 HorizontalTextAlignment="End"
                 TextColor="White"/>
             <Button Grid.Row="4" Grid.Column="1"
+                x:Name="buttonSignIn"
                 Text="Log in"
-                WidthRequest="100"
+                HorizontalOptions="End"
                 />
         </Grid>
 
