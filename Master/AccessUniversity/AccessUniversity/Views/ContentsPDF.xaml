@@ -3,10 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AccessUniversity.Views.ContentsPDF">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="PDF Content"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout BackgroundColor="#606060">
+            <Grid BackgroundColor="#263445" HeightRequest="70" VerticalOptions="StartAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="5*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="BackArrow.png" Grid.Column="0"
+                       HorizontalOptions="Center" Margin="15,0,5,0" />
+                <Label Grid.Column="1" 
+                       Text="IAB330_Mobile_Application_Development_Wk04_Ws03.pdf" 
+                       TextColor="#E8E8E8"
+                       FontSize="20"
+                       MaxLines="2"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="StartAndExpand" Margin="10,15,15,15"/>
+            </Grid>
+            <Grid VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Image Source="ExamplePDF.jpg" Grid.Row="0" />
+            </Grid>
+            <Grid BackgroundColor="White" HeightRequest="70" VerticalOptions="EndAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="1" Text="Change Language" TextColor="#47525E"
+                       FontSize="24" VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" Margin="0" />
+                <Image Grid.Column="2" Source="LanguageMenuArrow.png"
+                       VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                       Margin="0,0,15,0" />
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

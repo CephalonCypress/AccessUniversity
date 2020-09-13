@@ -16,5 +16,10 @@ namespace AccessUniversity.Views
         {
             InitializeComponent();
         }
+
+        private void Image_SizeChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
