@@ -18,7 +18,8 @@ namespace AccessUniversity.Views {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
                 new HomeMenuItem {Id = MenuItemType.Login, Title="Login" },
-                new HomeMenuItem {Id = MenuItemType.ContentsPDF, Title="PDF"}
+                new HomeMenuItem {Id = MenuItemType.ContentsPDF, Title="PDF"},
+                new HomeMenuItem {Id = MenuItemType.AssessmentPage, Title="Assessment Page" }
             };
 
             ListViewMenu.ItemsSource = menuItems;
