@@ -7,7 +7,8 @@ namespace AccessUniversity.Models {
         Browse,
         About,
         Login,
-        ContentsPDF
+        ContentsPDF,
+        AssessmentPage
     }
     public class HomeMenuItem {
         public MenuItemType Id { get; set; }

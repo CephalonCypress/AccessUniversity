@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AccessUniversity.Droid
+namespace AccessUniversity.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AssessmentPage : ContentPage
