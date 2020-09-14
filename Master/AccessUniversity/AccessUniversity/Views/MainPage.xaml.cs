@@ -35,6 +35,9 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.AssessmentPage:
                         MenuPages.Add(id, new NavigationPage(new AssessmentPage()));
                         break;
+                    case (int)MenuItemType.ContentsPage:
+                        MenuPages.Add(id, new NavigationPage(new ContentsPage()));
+                        break;
 
 
                 }
