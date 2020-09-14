@@ -29,6 +29,9 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.Login:
                         MenuPages.Add(id, new NavigationPage(new LoginPage()));
                         break;
+                    case (int)MenuItemType.ContentsPDF:
+                        MenuPages.Add(id, new NavigationPage(new ContentsPDF()));
+                        break;
                 }
             }
 
