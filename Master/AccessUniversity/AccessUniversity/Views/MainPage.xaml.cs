@@ -41,6 +41,12 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.LectureRecording:
                         MenuPages.Add(id, new NavigationPage(new LectureRecording()));
                         break;
+                    case (int)MenuItemType.LandingPage:
+                        MenuPages.Add(id, new NavigationPage(new LandingPage()));
+                        break;
+                    case (int)MenuItemType.Announcements:
+                        MenuPages.Add(id, new NavigationPage(new Announcements()));
+                        break;
                 }
             }
 
