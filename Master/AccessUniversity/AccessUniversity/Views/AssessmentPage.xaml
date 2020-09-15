@@ -8,48 +8,36 @@
              >
     <ContentPage.Content>
         <StackLayout>
-            <Grid BackgroundColor="#263445" HeightRequest="180" VerticalOptions="Start">
+            <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="1.4*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
+
 
                 <Grid Grid.Row="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="2.6*" />
                     </Grid.ColumnDefinitions>
-                    <Image Source="Avatar.png" Grid.Column="0" Margin="10" HorizontalOptions="End" />
-
-                    <StackLayout Grid.Column="1" VerticalOptions="Center">
-                        <Label Text="Access University" TextColor="White" 
-                               FontSize="30" Margin="0,0,0,0"/>
-                        <Label Text="Welcome STUDENT_NAME" TextColor="White" 
-                               FontSize="15" />
-                    </StackLayout>
-                </Grid>
-
-                <Grid Grid.Row="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="5*" />
-                    </Grid.ColumnDefinitions>
-                    <Image Source="MenuIcon01.png" Grid.Column="0" Margin="20"/>
-                    <Grid Grid.Column="1">
+                    
+                    <Grid Grid.Column="0">
+                        
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
+                        
                         <Label Grid.Row="0" Text="CAB303 - Network"
-                               TextColor="White" FontSize="25" VerticalOptions="End" />
+                               TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
                         <Label Grid.Row="1" Text="Assessment"
-                               TextColor="White" FontSize="15" VerticalOptions="Start" />
+                               TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
                     </Grid>
                 </Grid>
             </Grid>
-
+            
             <Grid HeightRequest="300" VerticalOptions="Start">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -95,7 +83,7 @@
                 </Grid.RowDefinitions>
             </Grid>
             
-            <Grid BackgroundColor="#DDDFE1" HeightRequest="85" VerticalOptions="End">
+            <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
@@ -107,7 +95,7 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="EndAndExpand" />
+                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="Center" />
                     <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
