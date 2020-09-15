@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AccessUniversity.Views.ContentsPage">
+             x:Class="AccessUniversity.Views.ContentsPage"
+             Title="Content">
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
@@ -76,7 +77,7 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="EndAndExpand" />
+                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="7" />
                     <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -85,7 +86,7 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="5" />
+                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="7" />
                     <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -94,7 +95,7 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="5" />
+                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="7" />
                     <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -103,7 +104,7 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="5" />
+                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="7" />
                     <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
