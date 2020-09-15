@@ -18,6 +18,7 @@ namespace AccessUniversity.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

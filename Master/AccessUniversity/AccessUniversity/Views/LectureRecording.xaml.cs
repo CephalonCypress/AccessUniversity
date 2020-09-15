@@ -16,5 +16,5 @@ namespace AccessUniversity.Views
 		{
 			InitializeComponent ();
 		}
-	}
+    }
 }
