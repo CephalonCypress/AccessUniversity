@@ -38,8 +38,9 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.ContentsPage:
                         MenuPages.Add(id, new NavigationPage(new ContentsPage()));
                         break;
-
-
+                    case (int)MenuItemType.LectureRecording:
+                        MenuPages.Add(id, new NavigationPage(new LectureRecording()));
+                        break;
                 }
             }
 
