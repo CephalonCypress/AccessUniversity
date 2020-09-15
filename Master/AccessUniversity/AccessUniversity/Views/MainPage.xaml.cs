@@ -32,6 +32,12 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.ContentsPDF:
                         MenuPages.Add(id, new NavigationPage(new ContentsPDF()));
                         break;
+                    case (int)MenuItemType.Announcements:
+                        MenuPages.Add(id, new NavigationPage(new Announcements()));
+                        break;
+                    case (int)MenuItemType.LandingPage:
+                        MenuPages.Add(id, new NavigationPage(new LandingPage()));
+                        break;
                 }
             }
 
