@@ -34,13 +34,13 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="5*" />
                     </Grid.ColumnDefinitions>
-                    <Image Source="MenuIcon.png" Grid.Column="0" Margin="20"/>
+                    <Image Source="MenuIcon01.png" Grid.Column="0" Margin="20"/>
                     <Grid Grid.Column="1">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
-                        <Label Grid.Row="0" Text="IGB200"
+                        <Label Grid.Row="0" Text="CAB303 - Network"
                                TextColor="White" FontSize="25" VerticalOptions="End" />
                         <Label Grid.Row="1" Text="Assessment"
                                TextColor="White" FontSize="15" VerticalOptions="Start" />
@@ -80,6 +80,12 @@
                     <Button Grid.Column="0" BackgroundColor="White" />
                     <Image Source="FolderIcon.png" Grid.Column="0" />
                     <Label Grid.Column="1" Text="Assessment03" FontSize="20" VerticalOptions="Center" />
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
                 </Grid>
             </Grid>
 
