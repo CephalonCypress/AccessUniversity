@@ -21,7 +21,9 @@ namespace AccessUniversity.Views {
                 new HomeMenuItem {Id = MenuItemType.ContentsPDF, Title="PDF"},
                 new HomeMenuItem {Id = MenuItemType.AssessmentPage, Title="Assessment Page" },
                 new HomeMenuItem {Id = MenuItemType.ContentsPage, Title="Contents Page"},
-                new HomeMenuItem {Id = MenuItemType.LectureRecording, Title="Lecture Recording"}
+                new HomeMenuItem {Id = MenuItemType.LectureRecording, Title="Lecture Recording"},
+                new HomeMenuItem {Id = MenuItemType.LandingPage, Title="Home"},
+                new HomeMenuItem {Id = MenuItemType.Announcements, Title="Announcements"}
             };
 
             ListViewMenu.ItemsSource = menuItems;
