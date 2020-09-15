@@ -5,8 +5,10 @@
              BackgroundColor="#263445">
     <ContentPage.Content>
         <MediaElement Source="https://cdn.discordapp.com/attachments/281449336917852162/746953416538062898/aBmVgLx_460svvp9.webm"
-                              Grid.Row="0"
-                              ShowsPlaybackControls="True" 
-                              AutoPlay="True"/>
+                      Grid.Row="0"
+                      ShowsPlaybackControls="True" 
+                      AutoPlay="True"
+                      KeepScreenOn="True"
+                      VerticalOptions="Center"/>
     </ContentPage.Content>
 </ContentPage>
