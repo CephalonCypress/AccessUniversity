@@ -10862,19 +10862,22 @@ namespace AccessUniversity.Droid
 			public const int notify_panel_notification_icon_bg = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int tooltip_frame_dark = 2131165513;
+			public const int RightArrow_Black = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int tooltip_frame_light = 2131165514;
+			public const int tooltip_frame_dark = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int UnitIcon = 2131165515;
+			public const int tooltip_frame_light = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int VideoIcon = 2131165516;
+			public const int UnitIcon = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int xamarin_logo = 2131165517;
+			public const int VideoIcon = 2131165517;
+			
+			// aapt resource value: 0x7F07014E
+			public const int xamarin_logo = 2131165518;
 			
 			static Drawable()
 			{
