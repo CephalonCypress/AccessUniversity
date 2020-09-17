@@ -50,7 +50,11 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.Announcements:
                         MenuPages.Add(id, new NavigationPage(new Announcements()));
                         break;
+                    case (int)MenuItemType.EmergencyPage:
+                        MenuPages.Add(id, new NavigationPage(new EmergencyPage()));
+                        break;
                 }
+               
             }
 
             var newPage = MenuPages[id];

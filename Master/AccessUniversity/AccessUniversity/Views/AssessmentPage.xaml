@@ -34,7 +34,7 @@
                 </Grid>
             </Grid>
 
-            <Grid HeightRequest="480" VerticalOptions="Start">
+            <Grid BackgroundColor="White" HeightRequest="480" VerticalOptions="Start">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -98,9 +98,6 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-
-                    <Label x:Name="label" Grid.Row="1" Text="Assessment"
-                               TextColor="Black" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
                 </Grid>
                 
             </Grid>

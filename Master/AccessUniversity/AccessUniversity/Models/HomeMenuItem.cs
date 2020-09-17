@@ -13,7 +13,8 @@ namespace AccessUniversity.Models {
         ContentsPage,
         LectureRecording, 
         LandingPage,
-        Announcements
+        Announcements,
+        EmergencyPage
 
     }
     public class HomeMenuItem {
