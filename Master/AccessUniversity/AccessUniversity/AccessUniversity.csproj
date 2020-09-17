@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="Xam.Forms.VideoPlayer" Version="1.0.8" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +31,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ContentsPDF.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\EmergencyPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -8,10 +8,13 @@ namespace AccessUniversity.Models {
         Login,
         ContentsPDF,
         AssessmentPage,
+        AssessmentContent,
         ContentsPage,
         LectureRecording, 
         LandingPage,
-        Announcements
+        Announcements,
+        EmergencyPage
+
     }
     public class HomeMenuItem {
         public MenuItemType Id { get; set; }

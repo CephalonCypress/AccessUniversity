@@ -32,6 +32,9 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.AssessmentPage:
                         MenuPages.Add(id, new NavigationPage(new AssessmentPage()));
                         break;
+                    case (int)MenuItemType.AssessmentContent:
+                        MenuPages.Add(id, new NavigationPage(new AssessmentContent()));
+                        break;
                     case (int)MenuItemType.ContentsPage:
                         MenuPages.Add(id, new NavigationPage(new ContentsPage()));
                         break;
@@ -44,7 +47,11 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.Announcements:
                         MenuPages.Add(id, new NavigationPage(new Announcements()));
                         break;
+                    case (int)MenuItemType.EmergencyPage:
+                        MenuPages.Add(id, new NavigationPage(new EmergencyPage()));
+                        break;
                 }
+               
             }
 
             var newPage = MenuPages[id];

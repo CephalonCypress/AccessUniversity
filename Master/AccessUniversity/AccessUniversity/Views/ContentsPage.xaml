@@ -25,6 +25,27 @@
                        HorizontalOptions="Start" VerticalOptions="Start"
                        Margin="70,0,0,0"/>
             </Grid>
+
+            <ListView x:Name="ItemsListView"
+                ItemsSource="{Binding Items}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                RefreshCommand="{Binding LoadItemsCommand}"
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                CachingStrategy="RecycleElement"
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Image Source="FolderIcon.png" />
+                                <Label Text="Topics" FontSize="20" VerticalOptions="Center" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             
             <!--Contents List-->
             <Grid HeightRequest="300" VerticalOptions="Start">

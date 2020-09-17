@@ -33,9 +33,11 @@
                     </Grid>
                 </Grid>
             </Grid>
-            
-            <Grid HeightRequest="300" VerticalOptions="Start">
+
+            <Grid BackgroundColor="White" HeightRequest="480" VerticalOptions="Start">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -48,41 +50,58 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
-                    <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Assessment01" FontSize="20" VerticalOptions="Center" />
+
+                    <Image Grid.Column="0" Source="FolderIcon.png"  />
+
+                    <Button Grid.Column="1" 
+                            x:Name="btnAssess01"
+                            BackgroundColor="White" 
+                            Clicked="BtnAssess01_Clicked"
+                            Text="Assessment01"/>
+
                 </Grid>
+                
                 <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" BackgroundColor="White" />
-                    <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Assessment02" FontSize="20" VerticalOptions="Center" />
+
+                    <Image Grid.Column="0" Source="FolderIcon.png"  />
+                    
+                    <Button Grid.Column="1"
+                            x:Name="btnAssess02"
+                            BackgroundColor="White" 
+                            Clicked="BtnAssess02_Clicked"
+                            Text="Assessment02"/>
+                    
+                    
                 </Grid>
                 <Grid Grid.Row="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" BackgroundColor="White" />
-                    <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Assessment03" FontSize="20" VerticalOptions="Center" />
+
+                    <Image Grid.Column="0" Source="FolderIcon.png"/>
+                    
+                    <Button Grid.Column="1" 
+                            x:Name="btnAssess03"
+                            BackgroundColor="White" 
+                            Clicked="BtnAssess03_Clicked"
+                            Text="Assessment03"/>
+
+                   
                 </Grid>
+                
                 <Grid Grid.Row="3">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                 </Grid>
+                
             </Grid>
 
-            <Grid HeightRequest="20" VerticalOptions="FillAndExpand">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-            </Grid>
-            
             <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -90,21 +109,33 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                
                 <Grid Grid.Column="0" >
                     <Grid.RowDefinitions>
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="Center" />
+
+                    <ImageButton x:Name="btnUnit"
+                                 Source="UnitIcon.png" 
+                                 Grid.Row="0" 
+                                 Clicked="BtnUnit_Clicked"/>
+
                     <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
+
                 <Grid Grid.Column="1">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="5" />
+
+                    <ImageButton x:Name="btnStudent"
+                                 Source="eStudentIcon.png" 
+                                 Grid.Row="0" 
+                                 Clicked="BtnStudent_Clicked"/>
+
                     <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -113,7 +144,12 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="5" />
+
+                    <ImageButton x:Name="btnLib"
+                                 Source="LibraryIcon.png" 
+                                 Grid.Row="0" 
+                                 Clicked="BtnLib_Clicked"/>
+
                     <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -122,7 +158,11 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="5" />
+                    <Image />
+                    <ImageButton x:Name="btnEmergency"
+                                 Source="EmergencyIcon.png" 
+                                 Grid.Row="0" 
+                                 Clicked="BtnEmergency_Clicked"/>
                     <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>

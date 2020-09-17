@@ -16,5 +16,26 @@ namespace AccessUniversity.Views
         {
             InitializeComponent();
         }
+
+        private void BtnUnit_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnStudent_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnLib_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnEmergency_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new EmergencyPage());
+        }
     }
 }
