@@ -5,7 +5,6 @@ using System.Text;
 namespace AccessUniversity.Models {
     public enum MenuItemType {
         Browse,
-        About,
         Login,
         ContentsPDF,
         AssessmentPage,

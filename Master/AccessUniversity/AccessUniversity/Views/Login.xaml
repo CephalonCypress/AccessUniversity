@@ -12,6 +12,7 @@
                 <RowDefinition Height="20"/>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width ="100"/>
                 <ColumnDefinition Width ="Auto"/>
@@ -24,6 +25,7 @@
                    Source="Logo.png"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"/>
+            
             <Entry Grid.Row="1" Grid.Column="1"
                 x:Name="entryUsername"
                 Text="{Binding Username}"
@@ -33,6 +35,7 @@
                 BackgroundColor="White"
                 TextColor="Black"
                 WidthRequest="200"/>
+            
             <Entry Grid.Row="2" Grid.Column="1"
                 x:Name="entryPassword"
                 IsPassword="true"
@@ -42,15 +45,18 @@
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="White" 
                 WidthRequest="200"/>
+            
             <Label Grid.Row="3" Grid.Column="1"
                 x:Name="labelForgotPassword"
                 Text="Forgot your password?" 
                 HorizontalTextAlignment="End"
                 TextColor="White"/>
+            
             <Button Grid.Row="4" Grid.Column="1"
                 x:Name="buttonSignIn"
                 Text="Log in"
                 HorizontalOptions="End"
+                Clicked="signInProcess"
                 />
         </Grid>
 
