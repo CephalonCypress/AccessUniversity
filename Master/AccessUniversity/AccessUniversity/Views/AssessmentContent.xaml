@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AccessUniversity.Views.AssessmentContent">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Text="CAB303 - Network"
+                               TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        <Label Grid.Row="1" Text="Assessment"
+                               TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <Grid HeightRequest="540" VerticalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="13*" />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label Grid.Column="0" Text="Assessment01" FontSize="20" VerticalOptions="StartAndExpand" />
+                </Grid>
+                
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Project - Network" FontSize="20" VerticalOptions="Start" HorizontalOptions="Center"/>
+                </Grid>
+                
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <BoxView Color="#CBCEED"> </BoxView>
+                    <Label Grid.Column="0" TextColor="Gray" Text="The content of the assessment" FontSize="16" VerticalOptions="Start" HorizontalOptions="Start"/>
+                </Grid>
+                
+            </Grid>
+
+          
+
+            <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="Center" />
+                    <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="5" />
+                    <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="5" />
+                    <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="5" />
+                    <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
