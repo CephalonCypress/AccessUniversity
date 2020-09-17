@@ -39,19 +39,20 @@ namespace AccessUniversity.Views
         private void BtnStudent_Clicked(object sender, EventArgs e)
         {
             clickTotal_3 += 1;
-            label.Text = $"{clickTotal_3} Unit Button click{(clickTotal_3 == 1 ? "" : "s")}";
+            label.Text = $"{clickTotal_3} eStudent Button click{(clickTotal_3 == 1 ? "" : "s")}";
         }
 
-        private void BtnLib_Clicked_1(object sender, EventArgs e)
+        private void BtnLib_Clicked(object sender, EventArgs e)
         {
             clickTotal_4 += 1;
-            label.Text = $"{clickTotal_4} Unit Button click{(clickTotal_4 == 1 ? "" : "s")}";
+            label.Text = $"{clickTotal_4} Library Button click{(clickTotal_4 == 1 ? "" : "s")}";
         }
 
         private void BtnEmergency_Clicked(object sender, EventArgs e)
         {
             clickTotal_5 += 1;
-            label.Text = $"{clickTotal_5} Unit Button click{(clickTotal_5 == 1 ? "" : "s")}";
+            label.Text = $"{clickTotal_5} Emergency Button click{(clickTotal_5 == 1 ? "" : "s")}";
+
         }
     }
 }
