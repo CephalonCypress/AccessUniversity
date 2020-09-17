@@ -20,9 +20,6 @@ namespace AccessUniversity.Views {
         public async Task NavigateFromMenu(int id) {
             if (!MenuPages.ContainsKey(id)) {
                 switch (id) {
-                    case (int)MenuItemType.Browse:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
-                        break;
                     case (int)MenuItemType.Login:
                         MenuPages.Add(id, new NavigationPage(new LoginPage()));
                         break;

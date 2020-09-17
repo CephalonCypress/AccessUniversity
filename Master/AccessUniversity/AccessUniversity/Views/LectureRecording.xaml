@@ -6,9 +6,8 @@
     <ContentPage.Content>
         <MediaElement Source="https://cdn.discordapp.com/attachments/281449336917852162/746953416538062898/aBmVgLx_460svvp9.webm"
                       Grid.Row="0"
-                      ShowsPlaybackControls="True" 
+                      ShowsPlaybackControls="True"
                       AutoPlay="True"
-                      KeepScreenOn="True"
-                      VerticalOptions="Center"/>
+                      KeepScreenOn="True"/>
     </ContentPage.Content>
 </ContentPage>

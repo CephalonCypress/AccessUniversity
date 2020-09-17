@@ -10,16 +10,6 @@ namespace AccessUniversity.Services {
 
         public MockDataStore() {
             items = new List<Item>();
-            var mockItems = new List<Item>
-            {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-            };
-
-            foreach (var item in mockItems) {
-                items.Add(item);
-            }
         }
 
         public async Task<bool> AddItemAsync(Item item) {
