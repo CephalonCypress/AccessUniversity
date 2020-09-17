@@ -40,12 +40,24 @@
                     <RowDefinition Height="13*" />
                 </Grid.RowDefinitions>
 
-                <Grid Grid.Row="0">
+                <Grid Grid.Row="0" >
                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0" 
+                           x:Name="label"
+                           Text="Assessment01" 
+                           FontSize="20" 
+                           VerticalOptions="StartAndExpand" />
                     
-                    <Label Grid.Column="0" Text="Assessment01" FontSize="20" VerticalOptions="StartAndExpand" />
+                    <ImageButton Grid.Column="1"  
+                                 x:Name="btnBack"
+                                 Source="RightArrow_Black.png"  
+                                 VerticalOptions="Start" 
+                                 HorizontalOptions="End" 
+                                 Clicked="BtnBack_Clicked"/>
                 </Grid>
                 
                 <Grid Grid.Row="1">
@@ -80,7 +92,14 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="Center" />
+                    
+                    <ImageButton x:Name="btnUnit"
+                                 Source="UnitIcon.png" 
+                                 Grid.Row="0" 
+                                 Margin="5" 
+                                 VerticalOptions="Center"
+                                 Clicked="BtnUnit_Clicked"/>
+                    
                     <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -89,7 +108,14 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="5" />
+                    
+                    <ImageButton x:Name="btnStudent"
+                                 Source="eStudentIcon.png" 
+                                 Grid.Row="0" 
+                                 Margin="5" 
+                                 VerticalOptions="Center"
+                                 Clicked="BtnStudent_Clicked"/>
+                    
                     <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -98,7 +124,14 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="5" />
+
+                    <ImageButton x:Name="btnLib"
+                                 Source="LibraryIcon.png" 
+                                 Grid.Row="0" 
+                                 Margin="5" 
+                                 VerticalOptions="Center"
+                                 Clicked="BtnLib_Clicked_1"/>
+                    
                     <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
@@ -107,7 +140,13 @@
                         <RowDefinition Height="2*" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="5" />
+                    <Image />
+                    <ImageButton x:Name="btnEmergency"
+                                 Source="EmergencyIcon.png" 
+                                 Grid.Row="0" 
+                                 Margin="5" 
+                                 VerticalOptions="Center"
+                                 Clicked="BtnEmergency_Clicked"/>
                     <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
