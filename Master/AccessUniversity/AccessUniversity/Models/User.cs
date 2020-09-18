@@ -21,12 +21,22 @@ namespace AccessUniversity.Models
 
         public bool VerifyLogin()
         {
-            if ((!this.password.Equals("") && (!this.studentID.Equals("") || (!this.username.Equals(""))))) {
-                return true;
-            } else
+            try
+            {
+                if ((this.password.Equals("") && (this.studentID.Equals("") || (this.username.Equals("")))))
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            catch(NullReferenceException e)
             {
                 return false;
             }
+            
         }
     }
 }
