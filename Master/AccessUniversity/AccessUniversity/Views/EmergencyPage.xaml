@@ -6,10 +6,42 @@
              mc:Ignorable="d"
              x:Class="AccessUniversity.Views.EmergencyPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to EmergencyPage!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <FlexLayout Direction="Column"
+                    AlignItems="Stretch"
+                    JustifyContent="SpaceEvenly">
+            <StackLayout>
+                <Grid BackgroundColor="Gray" HeightRequest="768" VerticalOptions="Start">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="2*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="1">
+                        <Button x:Name="btnMedicalEmergency"
+                                Text="Medical Emergency(000)"
+                                />
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Button x:Name="btnOtherEmergency"
+                                Text="Other Emergency"
+                                />
+                    </Grid>
+
+                    <Grid Grid.Row="3">
+                        <Button x:Name="btnQutSecurity"
+                                Text="QUT Security"
+                                />
+                    </Grid>
+
+                </Grid>
+            </StackLayout>
+        </FlexLayout>
+        
     </ContentPage.Content>
 </ContentPage>

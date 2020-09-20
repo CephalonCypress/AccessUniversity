@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AccessUniversity.Models;
 
 namespace AccessUniversity.Views
 {
@@ -21,6 +22,7 @@ namespace AccessUniversity.Views
         private void BtnAssess01_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new AssessmentContent()); 
+            
         }
 
         private void BtnAssess02_Clicked(object sender, EventArgs e)
