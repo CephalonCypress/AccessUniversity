@@ -5,14 +5,16 @@ using System.Text;
 namespace AccessUniversity.Models {
     public enum MenuItemType {
         Browse,
-        About,
         Login,
         ContentsPDF,
         AssessmentPage,
+        AssessmentContent,
         ContentsPage,
         LectureRecording, 
         LandingPage,
-        Announcements
+        Announcements,
+        EmergencyPage
+
     }
     public class HomeMenuItem {
         public MenuItemType Id { get; set; }

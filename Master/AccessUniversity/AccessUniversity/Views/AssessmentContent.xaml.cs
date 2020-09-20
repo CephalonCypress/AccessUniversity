@@ -6,33 +6,17 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using AccessUniversity.Models;
 
 namespace AccessUniversity.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AssessmentPage : ContentPage
+    public partial class AssessmentContent : ContentPage
     {
+       
 
-        public AssessmentPage()
+        public AssessmentContent()
         {
             InitializeComponent();
-        }
-
-        private void BtnAssess01_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AssessmentContent()); 
-            
-        }
-
-        private void BtnAssess02_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AssessmentContent());
-        }
-
-        private void BtnAssess03_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AssessmentContent());
         }
 
         private void BtnUnit_Clicked(object sender, EventArgs e)
@@ -50,10 +34,13 @@ namespace AccessUniversity.Views
 
         }
 
+
         private void BtnEmergency_Clicked(object sender, EventArgs e)
         {
-
-            Navigation.PushAsync(new EmergencyPage());
+            
+            Navigation.PushAsync(new EmergencyPage(),true);
         }
+
+        
     }
 }

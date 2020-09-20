@@ -4,8 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AccessUniversity.Views.AssessmentPage"
-             >
+             x:Class="AccessUniversity.Views.AssessmentContent">
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
@@ -13,19 +12,18 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-
                 <Grid Grid.Row="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    
+
                     <Grid Grid.Column="0">
-                        
+
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
-                        
+
                         <Label Grid.Row="0" Text="CAB303 - Network"
                                TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
                         <Label Grid.Row="1" Text="Assessment"
@@ -37,69 +35,53 @@
             <Grid BackgroundColor="White" HeightRequest="480" VerticalOptions="Start">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="1.5*" />
+                    <RowDefinition Height="12*" />
                 </Grid.RowDefinitions>
-                
-                <Grid Grid.Row="0">
+
+                <Grid Grid.Row="0" >
                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
 
-                    <Image Grid.Column="0" Source="FolderIcon.png"  />
-
-                    <Button Grid.Column="1" 
-                            x:Name="btnAssess01"
-                            BackgroundColor="White" 
-                            Clicked="BtnAssess01_Clicked"
-                            Text="Assessment01"/>
-
+                    <Label Grid.Column="0" 
+                           x:Name="lblNumber"
+                           Text="Assessment01" 
+                           FontSize="20" 
+                           VerticalOptions="StartAndExpand"
+                           Margin="5"/>
                 </Grid>
-                
+
                 <Grid Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
-
-                    <Image Grid.Column="0" Source="FolderIcon.png"  />
                     
-                    <Button Grid.Column="1"
-                            x:Name="btnAssess02"
-                            BackgroundColor="White" 
-                            Clicked="BtnAssess02_Clicked"
-                            Text="Assessment02"/>
-                    
-                    
+                    <Label Grid.Column="0" 
+                           x:Name="lblTitle"
+                           Text="Project - Network" 
+                           FontSize="20" 
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Center"/>
                 </Grid>
+
                 <Grid Grid.Row="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
 
-                    <Image Grid.Column="0" Source="FolderIcon.png"/>
-                    
-                    <Button Grid.Column="1" 
-                            x:Name="btnAssess03"
-                            BackgroundColor="White" 
-                            Clicked="BtnAssess03_Clicked"
-                            Text="Assessment03"/>
+                    <BoxView Color="#CBCEED"> </BoxView>
+                    <Label Grid.Column="0" 
+                           x:Name="lblContent"
+                           TextColor="Gray" 
+                           Text="The content of the assessment" 
+                           FontSize="16" 
+                           VerticalOptions="Start" 
+                           HorizontalOptions="Start"
+                           Margin="10"/>
+                </Grid>
 
-                   
-                </Grid>
-                
-                <Grid Grid.Row="3">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                </Grid>
-                
             </Grid>
 
             <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
@@ -109,7 +91,7 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                
+
                 <Grid Grid.Column="0" >
                     <Grid.RowDefinitions>
                         <RowDefinition Height="2*" />
@@ -139,6 +121,7 @@
                     <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
+                
                 <Grid Grid.Column="2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="2*" />
@@ -153,6 +136,7 @@
                     <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
+                
                 <Grid Grid.Column="3">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="2*" />

@@ -20,12 +20,6 @@ namespace AccessUniversity.Views {
         public async Task NavigateFromMenu(int id) {
             if (!MenuPages.ContainsKey(id)) {
                 switch (id) {
-                    case (int)MenuItemType.Browse:
-                        MenuPages.Add(id, new NavigationPage(new ItemsPage()));
-                        break;
-                    case (int)MenuItemType.About:
-                        MenuPages.Add(id, new NavigationPage(new AboutPage()));
-                        break;
                     case (int)MenuItemType.Login:
                         MenuPages.Add(id, new NavigationPage(new LoginPage()));
                         break;
@@ -34,6 +28,9 @@ namespace AccessUniversity.Views {
                         break;
                     case (int)MenuItemType.AssessmentPage:
                         MenuPages.Add(id, new NavigationPage(new AssessmentPage()));
+                        break;
+                    case (int)MenuItemType.AssessmentContent:
+                        MenuPages.Add(id, new NavigationPage(new AssessmentContent()));
                         break;
                     case (int)MenuItemType.ContentsPage:
                         MenuPages.Add(id, new NavigationPage(new ContentsPage()));
@@ -47,7 +44,11 @@ namespace AccessUniversity.Views {
                     case (int)MenuItemType.Announcements:
                         MenuPages.Add(id, new NavigationPage(new Announcements()));
                         break;
+                    case (int)MenuItemType.EmergencyPage:
+                        MenuPages.Add(id, new NavigationPage(new EmergencyPage()));
+                        break;
                 }
+               
             }
 
             var newPage = MenuPages[id];

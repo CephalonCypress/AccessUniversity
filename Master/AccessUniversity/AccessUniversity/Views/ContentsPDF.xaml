@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AccessUniversity.Views.ContentsPDF">
+             x:Class="AccessUniversity.Views.ContentsPDF"
+             Title="PDF">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#606060">
             
-            <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="StartAndExpand">
+            <!--Top Section-->
+            <Grid BackgroundColor="{StaticResource NavigationPrimary}" 
+                  HeightRequest="80" VerticalOptions="Start">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="5*" />
@@ -20,7 +23,8 @@
                        VerticalOptions="CenterAndExpand"
                        HorizontalOptions="StartAndExpand" Margin="8,15,15,15"/>
             </Grid>
-            
+
+            <!--PDF-->
             <Grid VerticalOptions="CenterAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -28,7 +32,8 @@
                 <Image Source="ExamplePDF.jpg" Grid.Row="0" />
             </Grid>
             
-            <Grid BackgroundColor="White" HeightRequest="70" VerticalOptions="EndAndExpand">
+            <!--Bottom Menu-->
+            <Grid BackgroundColor="White" HeightRequest="70" VerticalOptions="End">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="4*" />

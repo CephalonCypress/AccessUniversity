@@ -14,11 +14,14 @@
 
   <ItemGroup>
     <PackageReference Include="Xam.Forms.VideoPlayer" Version="1.0.8" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Login.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AssessmentContent.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\AssessmentPage.xaml">
@@ -30,7 +33,7 @@
     <EmbeddedResource Update="Views\ContentsPDF.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Page1.xaml">
+    <EmbeddedResource Update="Views\EmergencyPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\StudentAnnouncements.xaml">
