@@ -12,6 +12,8 @@ namespace AccessUniversity.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AssessmentContent : ContentPage
     {
+       
+
         public AssessmentContent()
         {
             InitializeComponent();
@@ -32,10 +34,13 @@ namespace AccessUniversity.Views
 
         }
 
+
         private void BtnEmergency_Clicked(object sender, EventArgs e)
         {
-
-            Navigation.PushAsync(new EmergencyPage());
+            
+            Navigation.PushAsync(new EmergencyPage(),true);
         }
+
+        
     }
 }
