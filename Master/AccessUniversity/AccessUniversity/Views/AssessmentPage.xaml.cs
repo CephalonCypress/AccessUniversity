@@ -13,7 +13,7 @@ namespace AccessUniversity.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AssessmentPage : ContentPage
     {
-
+        
         public AssessmentPage()
         {
             InitializeComponent();
@@ -21,17 +21,25 @@ namespace AccessUniversity.Views
 
         private void BtnAssess01_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AssessmentContent()); 
-            
+
+            Navigation.PushAsync(new AssessmentContent());
+           
+
+           
         }
 
         private void BtnAssess02_Clicked(object sender, EventArgs e)
         {
+
+
             Navigation.PushAsync(new AssessmentContent());
+
         }
 
         private void BtnAssess03_Clicked(object sender, EventArgs e)
         {
+
+
             Navigation.PushAsync(new AssessmentContent());
         }
 
