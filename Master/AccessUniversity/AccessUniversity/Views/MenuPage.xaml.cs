@@ -15,14 +15,13 @@ namespace AccessUniversity.Views {
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
                 new HomeMenuItem {Id = MenuItemType.Login, Title="Login" },
-                new HomeMenuItem {Id = MenuItemType.ContentsPDF, Title="PDF"},
-                new HomeMenuItem {Id = MenuItemType.AssessmentPage, Title="Assessment Page" },
-                new HomeMenuItem {Id = MenuItemType.ContentsPage, Title="Contents Page"},
-                new HomeMenuItem {Id = MenuItemType.LectureRecording, Title="Lecture Recording"},
                 new HomeMenuItem {Id = MenuItemType.LandingPage, Title="Home"},
-                new HomeMenuItem {Id = MenuItemType.Announcements, Title="Announcements"}
+                new HomeMenuItem {Id = MenuItemType.Announcements, Title="Announcements"},
+                new HomeMenuItem {Id = MenuItemType.ContentsPage, Title="Contents Page"},
+                new HomeMenuItem {Id = MenuItemType.AssessmentPage, Title="Assessment Page" },
+                new HomeMenuItem {Id = MenuItemType.ContentsPDF, Title="PDF"},
+                new HomeMenuItem {Id = MenuItemType.LectureRecording, Title="Lecture Recording"}
             };
 
             ListViewMenu.ItemsSource = menuItems;
