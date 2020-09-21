@@ -4,7 +4,39 @@
              x:Class="AccessUniversity.Views.LandingPage">
     <ContentPage.Content>
         <StackLayout>
-            
+
+
+            <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Text="Home"
+                               TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        <Label Grid.Row="1" Text="Interpreter"
+                               TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
+                    </Grid>
+                </Grid>
+            </Grid>
+
+
+
+
+
+
             <Grid>
 
                 <Grid.RowDefinitions>
@@ -59,6 +91,57 @@
                 
                 HorizontalOptions="Start" />
                 
+            </Grid>
+
+
+
+
+
+
+
+            <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="Center" />
+                    <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="5" />
+                    <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="5" />
+                    <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="5" />
+                    <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Grid>
             </Grid>
 
         </StackLayout>
