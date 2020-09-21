@@ -17,6 +17,7 @@ namespace AccessUniversity.Views
         public AssessmentContent()
         {
             InitializeComponent();
+
         }
 
         private void BtnUnit_Clicked(object sender, EventArgs e)
@@ -38,9 +39,12 @@ namespace AccessUniversity.Views
         private void BtnEmergency_Clicked(object sender, EventArgs e)
         {
             
-            Navigation.PushAsync(new EmergencyPage(),true);
+            Navigation.PushAsync(new EmergencyPage());
         }
 
-        
+        private void BtnPDF_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ContentsPDF());
+        }
     }
 }
