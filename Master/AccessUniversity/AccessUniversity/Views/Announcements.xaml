@@ -4,7 +4,6 @@
              x:Class="AccessUniversity.Views.Announcements">
     <ContentPage.Content>
         <StackLayout>
-
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />

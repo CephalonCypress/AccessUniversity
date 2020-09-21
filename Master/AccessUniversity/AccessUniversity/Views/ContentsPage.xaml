@@ -48,7 +48,7 @@
             </ListView>
             
             <!--Contents List-->
-            <Grid HeightRequest="300" VerticalOptions="Start">
+            <Grid HeightRequest="300" VerticalOptions="Center">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -63,7 +63,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Topics" FontSize="20" VerticalOptions="Center" />
+                    <Label Grid.Column="1" Text="Topics" FontSize="20" VerticalOptions="Start" />
                 </Grid>
                 
                 <!--Contents List/Worksheets-->
@@ -73,7 +73,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Worksheets" FontSize="20" VerticalOptions="Center" />
+                    <Label Grid.Column="1" Text="Worksheets" FontSize="20" VerticalOptions="Start" />
                 </Grid>
                 
                 <!--Contents List/Lectures-->
