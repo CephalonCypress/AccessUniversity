@@ -42,7 +42,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Topics" FontSize="20" VerticalOptions="Start" />
+                    <Label Grid.Column="1" Text="Topics" FontSize="20" VerticalOptions="Center" />
                 </Grid>
                 
                 <!--Contents List/Worksheets-->
@@ -52,7 +52,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Worksheets" FontSize="20" VerticalOptions="Start" />
+                    <Label Grid.Column="1" Text="Worksheets" FontSize="20" VerticalOptions="Center" />
                 </Grid>
                 
                 <!--Contents List/Lectures-->
