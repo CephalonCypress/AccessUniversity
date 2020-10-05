@@ -10,11 +10,12 @@
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="20"/>
-                <RowDefinition Height="50"/>
+                <RowDefinition Height="70"/>
             </Grid.RowDefinitions>
             
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width ="100"/>
+                <ColumnDefinition Width ="Auto"/>
                 <ColumnDefinition Width ="Auto"/>
                 <ColumnDefinition Width ="100"/>
             </Grid.ColumnDefinitions>
@@ -53,10 +54,21 @@
                 TextColor="White"/>
             
             <Button Grid.Row="4" Grid.Column="1"
-                x:Name="buttonSignIn"
-                Text="Log in"
+                x:Name="studentSignIn"
+                Text="Log in as &#x0a;Student"
                 HorizontalOptions="End"
-                Clicked="signInProcess"
+                Clicked="interpreterSignInProcess"
+                WidthRequest="105"
+                FontSize="10"
+                />
+            
+            <Button Grid.Row="4" Grid.Column="1"
+                x:Name="interpreterSignIn"
+                Text="Log in as &#x0a;Interpreter"
+                HorizontalOptions="Start"
+                Clicked="studentSignInProcess"
+                WidthRequest="105"
+                FontSize="10"
                 />
         </Grid>
 
