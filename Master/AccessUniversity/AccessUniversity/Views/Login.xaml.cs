@@ -18,7 +18,7 @@ namespace AccessUniversity.Views
 			InitializeComponent();
         }
 
-        private async void signInProcess(object sender, EventArgs e)
+        private async void studentSignInProcess(object sender, EventArgs e)
         {
             User user = new User(entryUsername.Text, entryPassword.Text);
             if (user.VerifyLogin())
@@ -31,6 +31,20 @@ namespace AccessUniversity.Views
             }
         }
 
-        
-	}
+        private async void interpreterSignInProcess(object sender, EventArgs e)
+        {
+            User user = new User(entryUsername.Text, entryPassword.Text);
+            if (user.VerifyLogin())
+            {
+                DisplayAlert("", "Login Successful", "Ok");
+                await Navigation.PushAsync(new LandingPage());
+            }
+            else
+            {
+                DisplayAlert("", "Login failed, username or passsword incorrect.", "Ok");
+            }
+        }
+
+
+    }
 }
