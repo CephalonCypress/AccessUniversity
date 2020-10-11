@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ForgotPassword" xml:space="preserve">
-    <value>Vous avez oublié votre mot de passe ?</value>
-  </data>
   <data name="HelloMessage" xml:space="preserve">
     <value>Bonjours les étudiants</value>
   </data>
@@ -135,7 +132,42 @@
   <data name="UsernameText" xml:space="preserve">
     <value>Carte d&amp;#39;étudiant ou e-mail</value>
   </data>
+  <data name="Library" xml:space="preserve">
+    <value>Bibliothèque</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unité</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Échec de la connexion, nom d&amp;#39;utilisateur ou mot de passe incorrect.</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>Connexion réussie</value>
+  </data>
+  <data name="OkConfirmation" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Bienvenue au semestre 2, 2020 et à l&amp;#39;unité IAB330 - Développement d&amp;#39;applications mobiles! Nous aimerions vous souhaiter la bienvenue au développement d&amp;#39;applications mobiles IAB330 ce semestre. Veuillez consulter les dossiers «Mise en route», «Calendrier hebdomadaire» et «Semaine 1» qui fournissent des informations importantes pour l&amp;#39;unité. Cordialement, Sri (Co-coordinateur d&amp;#39;unité / conférencier) Trina (Co-coordinateur d&amp;#39;unité) Josh (Tuteur)!</value>
+    <value>Bienvenue au semestre 2, 2020 et à l’IAB330 - Unité de développement d’applications mobiles!
+
+Nous aimerions vous souhaiter la bienvenue à IAB330 Mobile Application Development ce semestre. 
+Veuillez consulter les dossiers « Mise en route », « horaire hebdomadaire » et « semaine 1 » qui fournissent des informations importantes pour l’unité. 
+Cordialement
+
+Sri (Coordonnateur/Conférencier)
+Trina (coordonnatrice de l’unité)
+Josh (Tuteur)</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Vous avez oublié votre mot de passe ?</value>
+  </data>
+  <data name="AnnouncementTitle" xml:space="preserve">
+    <value>Annonces</value>
+  </data>
+  <data name="Emergency" xml:space="preserve">
+    <value>Urgence</value>
+  </data>
+  <data name="eStudent" xml:space="preserve">
+    <value>élève</value>
   </data>
 </root>

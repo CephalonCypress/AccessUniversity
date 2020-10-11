@@ -64,15 +64,52 @@ namespace AccessUniversity.Helper.Resources {
         ///   Looks up a localized string similar to Welcome to Semester 2, 2020 and the IAB330 - Mobile Application Development unit!
         ///
         ///We would like to welcome you to IAB330 Mobile Application Development this semester. 
-        ///Please check out the &apos;Getting Started&apos;, &apos;weekly schedule&apos; and &apos;week 1&apos; folders (folders 
-        ///available via side navigation), which provides important information for the unit. If you
-        ///have any questions, please feel free to contact us. You&apos;ll find our contact details in
-        ///Blackboard under Contact Us.
-        ///We also request you to fill this survey p [rest of string was truncated]&quot;;.
+        ///Please check out the &apos;Getting Started&apos;, &apos;weekly schedule&apos; and &apos;week 1&apos; folders which provides important information for the unit. 
+        ///Kind regards,
+        ///
+        ///Sri (Co-Unit Coordinator/Lecturer)
+        ///Trina (Co-Unit coordinator)
+        ///Josh (Tutor).
         /// </summary>
         internal static string AnnouncementMessage {
             get {
                 return ResourceManager.GetString("AnnouncementMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Announcements.
+        /// </summary>
+        internal static string AnnouncementTitle {
+            get {
+                return ResourceManager.GetString("AnnouncementTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Assessment.
+        /// </summary>
+        internal static string Assessment {
+            get {
+                return ResourceManager.GetString("Assessment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Emergency.
+        /// </summary>
+        internal static string Emergency {
+            get {
+                return ResourceManager.GetString("Emergency", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to eStudent.
+        /// </summary>
+        internal static string eStudent {
+            get {
+                return ResourceManager.GetString("eStudent", resourceCulture);
             }
         }
         
@@ -86,11 +123,11 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hello students.
+        ///   Looks up a localized string similar to Home.
         /// </summary>
-        internal static string HelloMessage {
+        internal static string Home {
             get {
-                return ResourceManager.GetString("HelloMessage", resourceCulture);
+                return ResourceManager.GetString("Home", resourceCulture);
             }
         }
         
@@ -101,6 +138,51 @@ namespace AccessUniversity.Helper.Resources {
         internal static string InterpreterLoginButton {
             get {
                 return ResourceManager.GetString("InterpreterLoginButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Library.
+        /// </summary>
+        internal static string Library {
+            get {
+                return ResourceManager.GetString("Library", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Login.
+        /// </summary>
+        internal static string Login {
+            get {
+                return ResourceManager.GetString("Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Login failed, username or passsword incorrect..
+        /// </summary>
+        internal static string LoginFail {
+            get {
+                return ResourceManager.GetString("LoginFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Login Successful.
+        /// </summary>
+        internal static string LoginSuccess {
+            get {
+                return ResourceManager.GetString("LoginSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ok.
+        /// </summary>
+        internal static string OkConfirmation {
+            get {
+                return ResourceManager.GetString("OkConfirmation", resourceCulture);
             }
         }
         
@@ -120,6 +202,24 @@ namespace AccessUniversity.Helper.Resources {
         internal static string StudentLoginButton {
             get {
                 return ResourceManager.GetString("StudentLoginButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unit.
+        /// </summary>
+        internal static string Unit {
+            get {
+                return ResourceManager.GetString("Unit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unit Content.
+        /// </summary>
+        internal static string UnitContent {
+            get {
+                return ResourceManager.GetString("UnitContent", resourceCulture);
             }
         }
         

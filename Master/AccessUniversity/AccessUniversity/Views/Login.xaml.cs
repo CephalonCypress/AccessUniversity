@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using AccessUniversity.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using AccessUniversity.Helper.Resources;
 
 namespace AccessUniversity.Views
 {
@@ -23,11 +23,11 @@ namespace AccessUniversity.Views
             User user = new User(entryUsername.Text, entryPassword.Text);
             if (user.VerifyLogin())
             {
-                DisplayAlert("", "Login Successful", "Ok");
+                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginSuccess, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
                 await Navigation.PushAsync(new LandingPage());
             } else
             {
-                DisplayAlert("", "Login failed, username or passsword incorrect.", "Ok");
+                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
             }
         }
 
@@ -36,12 +36,12 @@ namespace AccessUniversity.Views
             User user = new User(entryUsername.Text, entryPassword.Text);
             if (user.VerifyLogin())
             {
-                DisplayAlert("", "Login Successful", "Ok");
+                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginSuccess, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
                 await Navigation.PushAsync(new LandingPage());
             }
             else
             {
-                DisplayAlert("", "Login failed, username or passsword incorrect.", "Ok");
+                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
             }
         }
 
