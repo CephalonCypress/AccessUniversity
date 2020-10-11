@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="AccessUniversity.Views.Announcements">
+             x:Class="AccessUniversity.Views.Announcements"
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources">
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
@@ -46,21 +47,14 @@
                     FontSize="30"                    
                     />
 
-                <Label
-
-
-
-                    TextColor="Gray"
-                Text="Announcements
-                    
-                    
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non dapibus augue. 
+                <Label TextColor="Gray"
+                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non dapibus augue. 
                 Donec ullamcorper ut lectus elementum euismod. Aliquam dapibus semper pulvinar. Morbi non augue at tellus ullamcorper vulputate ut sollicitudin sem. Etiam semper, est sed rutrum scelerisque, eros ipsum maximus nisl, at accumsan dolor velit et eros. 
                 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum at dolor blandit tellus ornare eleifend ac in mauris. Sed ultricies efficitur ante, non vestibulum libero scelerisque eget. Aenean consectetur blandit neque at luctus. Cras hendrerit fermentum lorem, auctor auctor mi vehicula eu. Mauris quis pretium ante, sed tempus lacus. Nulla porta diam eget mauris tempus luctus. Morbi congue rutrum enim, gravida lobortis enim volutpat quis. Morbi vel interdum ex. Etiam posuere justo sed ligula interdum aliquam. Ut dignissim metus vel elit convallis fermentum."
                 VerticalOptions="Center" 
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"/>
             </Grid>
-
+            <Label Text="{res:Translator HelloMessage}"></Label>
 
             <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
                 <Grid.ColumnDefinitions>
