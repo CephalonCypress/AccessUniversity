@@ -11,7 +11,8 @@ namespace AccessUniversity {
             InitializeComponent();
             Device.SetFlags(new string[] { "MediaElement_Experimental" });
 
-            MainPage = new MainPage();
+            // MainPage = new MainPage();
+            MainPage = new AppShell();
         }
 
         protected override void OnStart() {
