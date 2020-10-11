@@ -55,9 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PDFTron.Android">
-      <Version>7.1.4</Version>
-    </PackageReference>
     <PackageReference Include="Xam.Forms.VideoPlayer">
       <Version>1.0.8</Version>
     </PackageReference>
