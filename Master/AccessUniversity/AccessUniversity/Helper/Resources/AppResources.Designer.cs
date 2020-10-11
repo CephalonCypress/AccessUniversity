@@ -61,11 +61,27 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sample text.
+        ///   Looks up a localized string similar to Welcome to Semester 2, 2020 and the IAB330 - Mobile Application Development unit!
+        ///
+        ///We would like to welcome you to IAB330 Mobile Application Development this semester. 
+        ///Please check out the &apos;Getting Started&apos;, &apos;weekly schedule&apos; and &apos;week 1&apos; folders (folders 
+        ///available via side navigation), which provides important information for the unit. If you
+        ///have any questions, please feel free to contact us. You&apos;ll find our contact details in
+        ///Blackboard under Contact Us.
+        ///We also request you to fill this survey p [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string AnnouncementMessage {
             get {
                 return ResourceManager.GetString("AnnouncementMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forgot your password?.
+        /// </summary>
+        internal static string ForgotPassword {
+            get {
+                return ResourceManager.GetString("ForgotPassword", resourceCulture);
             }
         }
         
@@ -75,6 +91,44 @@ namespace AccessUniversity.Helper.Resources {
         internal static string HelloMessage {
             get {
                 return ResourceManager.GetString("HelloMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in as 
+        ///Student.
+        /// </summary>
+        internal static string InterpreterLoginButton {
+            get {
+                return ResourceManager.GetString("InterpreterLoginButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        internal static string PasswordText {
+            get {
+                return ResourceManager.GetString("PasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in as 
+        ///Interpreter.
+        /// </summary>
+        internal static string StudentLoginButton {
+            get {
+                return ResourceManager.GetString("StudentLoginButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Student ID or Email.
+        /// </summary>
+        internal static string UsernameText {
+            get {
+                return ResourceManager.GetString("UsernameText", resourceCulture);
             }
         }
     }

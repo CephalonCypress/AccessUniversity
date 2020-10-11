@@ -10,8 +10,22 @@
             <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
         </Tab>
     </FlyoutItem>
-    
+
     <FlyoutItem Title="Home" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="Unit" Icon="UnitIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Announcements}" />
+        </Tab>
+        <Tab Title="eStudent" Icon="eStudentIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
+        </Tab>
+        <Tab Title="Library" Icon="LibraryIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
+        </Tab>
+        <Tab Title="Emergency" Icon="EmergencyIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:EmergencyPage}" />
+        </Tab>
+    </FlyoutItem>
+    <!--<FlyoutItem Title="Home" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Announcements" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:Announcements}" />
         </Tab>
@@ -24,7 +38,7 @@
         <Tab Title="Student Landing Page" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:StudentLandingPage}" />
         </Tab>
-    </FlyoutItem>
+    </FlyoutItem>-->
 
     <FlyoutItem Title="Assessment" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Assessment Content" Icon="">

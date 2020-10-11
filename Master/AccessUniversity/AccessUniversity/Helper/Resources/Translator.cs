@@ -12,7 +12,7 @@ namespace AccessUniversity.Helper.Resources
     [ContentProperty("Text")]
     class Translator : IMarkupExtension
     {
-        const string ResourceId = "AccessUniversity.Helpers.Resources.AppResources";
+        const string ResourceId = "AccessUniversity.Helper.Resources.AppResources";
         public string Text { get; set; }
 
         public object ProvideValue(IServiceProvider serviceProvider)

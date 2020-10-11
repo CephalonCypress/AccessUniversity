@@ -117,35 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Welcome to Semester 2, 2020 and the IAB330 - Mobile Application Development unit!
-
-We would like to welcome you to IAB330 Mobile Application Development this semester. 
-Please check out the 'Getting Started', 'weekly schedule' and 'week 1' folders which provides important information for the unit. 
-Kind regards,
-
-Sri (Co-Unit Coordinator/Lecturer)
-Trina (Co-Unit coordinator)
-Josh (Tutor)</value>
-  </data>
   <data name="ForgotPassword" xml:space="preserve">
-    <value>Forgot your password?</value>
+    <value>忘記密碼?</value>
   </data>
   <data name="HelloMessage" xml:space="preserve">
-    <value>Hello students</value>
+    <value>同學們大家好</value>
   </data>
   <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Log in as 
-Student</value>
+    <value>以學生身份登錄</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
-    <value>Password</value>
+    <value>密碼</value>
   </data>
   <data name="StudentLoginButton" xml:space="preserve">
-    <value>Log in as 
-Interpreter</value>
+    <value>以口譯員身份登錄</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
-    <value>Student ID or Email</value>
+    <value>學生證或電子郵件</value>
+  </data>
+  <data name="AnnouncementMessage" xml:space="preserve">
+    <value>歡迎來到2020年第二學期和IAB330-移動應用開發部門！我們歡迎您本學期參加IAB330移動應用程序開發。請查看“入門”，“每週時間表”和“第1週”文件夾，其中提供了有關該設備的重要信息。親切的問候，Sri（聯合單元協調員/講師）Trina（聯合單元協調員）Josh（老師）！</value>
   </data>
 </root>

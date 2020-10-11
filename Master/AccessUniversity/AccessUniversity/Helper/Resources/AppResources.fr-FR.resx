@@ -117,35 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Welcome to Semester 2, 2020 and the IAB330 - Mobile Application Development unit!
-
-We would like to welcome you to IAB330 Mobile Application Development this semester. 
-Please check out the 'Getting Started', 'weekly schedule' and 'week 1' folders which provides important information for the unit. 
-Kind regards,
-
-Sri (Co-Unit Coordinator/Lecturer)
-Trina (Co-Unit coordinator)
-Josh (Tutor)</value>
-  </data>
   <data name="ForgotPassword" xml:space="preserve">
-    <value>Forgot your password?</value>
+    <value>Vous avez oublié votre mot de passe ?</value>
   </data>
   <data name="HelloMessage" xml:space="preserve">
-    <value>Hello students</value>
+    <value>Bonjours les étudiants</value>
   </data>
   <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Log in as 
-Student</value>
+    <value>Connectez-vous en tant qu&amp;#39;étudiant</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
-    <value>Password</value>
+    <value>Mot de passe</value>
   </data>
   <data name="StudentLoginButton" xml:space="preserve">
-    <value>Log in as 
-Interpreter</value>
+    <value>Connectez-vous en tant qu&amp;#39;interprète</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
-    <value>Student ID or Email</value>
+    <value>Carte d&amp;#39;étudiant ou e-mail</value>
+  </data>
+  <data name="AnnouncementMessage" xml:space="preserve">
+    <value>Bienvenue au semestre 2, 2020 et à l&amp;#39;unité IAB330 - Développement d&amp;#39;applications mobiles! Nous aimerions vous souhaiter la bienvenue au développement d&amp;#39;applications mobiles IAB330 ce semestre. Veuillez consulter les dossiers «Mise en route», «Calendrier hebdomadaire» et «Semaine 1» qui fournissent des informations importantes pour l&amp;#39;unité. Cordialement, Sri (Co-coordinateur d&amp;#39;unité / conférencier) Trina (Co-coordinateur d&amp;#39;unité) Josh (Tuteur)!</value>
   </data>
 </root>

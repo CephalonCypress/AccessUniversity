@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="AccessUniversity.Views.Announcements"
-             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources">
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
+             Title="Announcements">
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
@@ -20,12 +21,8 @@
 
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
-
-                        <Label Grid.Row="0" Text="Announcements"
-                               TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
-                        <Label Grid.Row="1" Text="Interpreter"
+                        <Label Grid.Row="0" Text="Interpreter"
                                TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
                     </Grid>
                 </Grid>
@@ -45,62 +42,14 @@
                     TextColor="Black"
                     Text="Announcements"
                     FontSize="30"                    
-                    />
+                    HorizontalOptions="Center"/>
 
                 <Label TextColor="Gray"
-                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non dapibus augue. 
-                Donec ullamcorper ut lectus elementum euismod. Aliquam dapibus semper pulvinar. Morbi non augue at tellus ullamcorper vulputate ut sollicitudin sem. Etiam semper, est sed rutrum scelerisque, eros ipsum maximus nisl, at accumsan dolor velit et eros. 
-                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum at dolor blandit tellus ornare eleifend ac in mauris. Sed ultricies efficitur ante, non vestibulum libero scelerisque eget. Aenean consectetur blandit neque at luctus. Cras hendrerit fermentum lorem, auctor auctor mi vehicula eu. Mauris quis pretium ante, sed tempus lacus. Nulla porta diam eget mauris tempus luctus. Morbi congue rutrum enim, gravida lobortis enim volutpat quis. Morbi vel interdum ex. Etiam posuere justo sed ligula interdum aliquam. Ut dignissim metus vel elit convallis fermentum."
+                Text="{res:Translator AnnouncementMessage}"
                 VerticalOptions="Center" 
-                HorizontalOptions="Center"/>
+                HorizontalOptions="Center"
+                WidthRequest="380"/>
             </Grid>
-            <Label Text="{res:Translator HelloMessage}"></Label>
-
-            <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid Grid.Column="0" >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Image Source="UnitIcon.png" Grid.Row="0" Margin="5" VerticalOptions="Center" />
-                    <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-                <Grid Grid.Column="1">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Image Source="eStudentIcon.png" Grid.Row="0" Margin="5" />
-                    <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-                <Grid Grid.Column="2">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Image Source="LibraryIcon.png" Grid.Row="0" Margin="5" />
-                    <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-                <Grid Grid.Column="3">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Image Source="EmergencyIcon.png" Grid.Row="0" Margin="5" />
-                    <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-            </Grid>
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
