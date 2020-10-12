@@ -147,9 +147,6 @@
   <data name="eStudent" xml:space="preserve">
     <value>電子學生</value>
   </data>
-  <data name="Library" xml:space="preserve">
-    <value>程式庫</value>
-  </data>
   <data name="Unit" xml:space="preserve">
     <value>單位</value>
   </data>
@@ -161,6 +158,9 @@
   </data>
   <data name="OkConfirmation" xml:space="preserve">
     <value>確定</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>程式庫</value>
   </data>
   <data name="ContentsPage_Topics" xml:space="preserve">
     <value>主題</value>
