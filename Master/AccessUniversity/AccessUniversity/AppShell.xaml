@@ -55,7 +55,7 @@
             <ShellContent ContentTemplate="{DataTemplate views:ContentsPage}"/>
         </Tab>
         <Tab Title="PDF" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:ContentsPDF}" />
+            <ShellContent ContentTemplate="{DataTemplate views:PDFViewer}" />
         </Tab>
         <Tab Title="Lecture Recording" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:LectureRecording}" />
