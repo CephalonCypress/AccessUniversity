@@ -117,72 +117,59 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>Bonjours les étudiants</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Connectez-vous en tant qu&amp;#39;étudiant</value>
-  </data>
-  <data name="PasswordText" xml:space="preserve">
-    <value>Mot de passe</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Connectez-vous en tant qu&amp;#39;interprète</value>
-  </data>
-  <data name="UsernameText" xml:space="preserve">
-    <value>Carte d&amp;#39;étudiant ou e-mail</value>
-  </data>
-  <data name="Library" xml:space="preserve">
-    <value>Bibliothèque</value>
-  </data>
-  <data name="Unit" xml:space="preserve">
-    <value>Unité</value>
-  </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>Échec de la connexion, nom d&amp;#39;utilisateur ou mot de passe incorrect.</value>
-  </data>
-  <data name="LoginSuccess" xml:space="preserve">
-    <value>Connexion réussie</value>
-  </data>
-  <data name="OkConfirmation" xml:space="preserve">
-    <value>OK</value>
-  </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Bienvenue au semestre 2, 2020 et à l’IAB330 - Unité de développement d’applications mobiles!
+    <value>Welcome to Semester 2, 2020 and the IAB330 - Mobile Application Development unit!
 
-Nous aimerions vous souhaiter la bienvenue à IAB330 Mobile Application Development ce semestre. 
-Veuillez consulter les dossiers « Mise en route », « horaire hebdomadaire » et « semaine 1 » qui fournissent des informations importantes pour l’unité. 
-Cordialement
+We would like to welcome you to IAB330 Mobile Application Development this semester. 
+Please check out the 'Getting Started', 'weekly schedule' and 'week 1' folders which provides important information for the unit. 
+Kind regards,
 
-Sri (Coordonnateur/Conférencier)
-Trina (coordonnatrice de l’unité)
-Josh (Tuteur)</value>
-  </data>
-  <data name="ForgotPassword" xml:space="preserve">
-    <value>Vous avez oublié votre mot de passe ?</value>
+Sri (Co-Unit Coordinator/Lecturer)
+Trina (Co-Unit coordinator)
+Josh (Tutor)</value>
   </data>
   <data name="AnnouncementTitle" xml:space="preserve">
-    <value>Annonces</value>
+    <value>Announcements</value>
   </data>
   <data name="Emergency" xml:space="preserve">
-    <value>Urgence</value>
+    <value>Emergency</value>
   </data>
   <data name="eStudent" xml:space="preserve">
-    <value>élève</value>
+    <value>eStudent</value>
   </data>
-  <data name="ContentsPage_Topics" xml:space="preserve">
-    <value>Rubriques</value>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
   </data>
-  <data name="ContentsPage_Title" xml:space="preserve">
-    <value>CAB303 - Contenu</value>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>Log in as 
+Student</value>
   </data>
-  <data name="ContentsPage_Worksheets" xml:space="preserve">
-    <value>Feuilles de calcul</value>
+  <data name="Library" xml:space="preserve">
+    <value>Library</value>
   </data>
-  <data name="ContentsPage_Lectures" xml:space="preserve">
-    <value>Conférences&amp;#x0D;</value>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Login failed, username or passsword incorrect.</value>
   </data>
-  <data name="ContentsPage_Support" xml:space="preserve">
-    <value>support</value>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>Login Successful</value>
+  </data>
+  <data name="OkConfirmation" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="PasswordText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>Log in as 
+Interpreter</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="UsernameText" xml:space="preserve">
+    <value>Student ID or Email</value>
+  </data>
+  <data name="HelloMessage" xml:space="preserve">
+    <value>Hello</value>
   </data>
 </root>

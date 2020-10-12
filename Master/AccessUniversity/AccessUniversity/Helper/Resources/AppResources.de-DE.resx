@@ -136,7 +136,31 @@
     <value>Kennwort</value>
   </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Willkommen zum 2. Semester 2020 und zur Abteilung IAB330 - Mobile Application Development! Wir möchten Sie in diesem Semester bei IAB330 Mobile Application Development begrüßen. Bitte lesen Sie die Ordner &amp;quot;Erste Schritte&amp;quot;, &amp;quot;Wochenplan&amp;quot; und &amp;quot;Woche 1&amp;quot;, die wichtige Informationen für das Gerät enthalten. Herzliche Grüße, Sri (Koordinatorin / Dozentin) Trina (Koordinatorin der Einheit) Josh (Tutor)!</value>
+    <value>Willkommen zum 2. Semester 2020 und zur Abteilung IAB330 - Mobile Application Development! Wir möchten Sie in diesem Semester bei IAB330 Mobile Application Development begrüßen. Bitte lesen Sie die Ordner &amp;quot;Erste Schritte&amp;quot;, &amp;quot;Wochenplan&amp;quot; und &amp;quot;Woche 1&amp;quot;, die wichtige Informationen für das Gerät enthalten. Herzliche Grüße, Sri (Koordinatorin / Dozentin) Trina (Koordinatorin der Einheit) Josh (Tutor)</value>
+  </data>
+  <data name="AnnouncementTitle" xml:space="preserve">
+    <value>Ankündigungen</value>
+  </data>
+  <data name="Emergency" xml:space="preserve">
+    <value>Notfall</value>
+  </data>
+  <data name="eStudent" xml:space="preserve">
+    <value>eStudent</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>Bibliothek</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Einheit</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Anmeldung fehlgeschlagen, Benutzername oder Passwort falsch.</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>Die Anmeldung war erfolgreich</value>
+  </data>
+  <data name="OkConfirmation" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="ContentsPage_Topics" xml:space="preserve">
     <value>Themen</value>

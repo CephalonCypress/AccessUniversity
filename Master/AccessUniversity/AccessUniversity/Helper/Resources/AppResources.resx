@@ -128,15 +128,33 @@ Sri (Co-Unit Coordinator/Lecturer)
 Trina (Co-Unit coordinator)
 Josh (Tutor)</value>
   </data>
+  <data name="AnnouncementTitle" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="Emergency" xml:space="preserve">
+    <value>Emergency</value>
+  </data>
+  <data name="eStudent" xml:space="preserve">
+    <value>eStudent</value>
+  </data>
   <data name="ForgotPassword" xml:space="preserve">
     <value>Forgot your password?</value>
-  </data>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>Hello students</value>
   </data>
   <data name="InterpreterLoginButton" xml:space="preserve">
     <value>Log in as 
 Student</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Login failed, username or passsword incorrect.</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>Login Successful</value>
+  </data>
+  <data name="OkConfirmation" xml:space="preserve">
+    <value>Ok</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
     <value>Password</value>
@@ -144,6 +162,9 @@ Student</value>
   <data name="StudentLoginButton" xml:space="preserve">
     <value>Log in as 
 Interpreter</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unit</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
     <value>Student ID or Email</value>

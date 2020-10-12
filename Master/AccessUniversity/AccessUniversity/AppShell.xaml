@@ -2,26 +2,27 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:AccessUniversity.Views;assembly=AccessUniversity"
-       x:Class="AccessUniversity.AppShell">
+       x:Class="AccessUniversity.AppShell"
+       xmlns:res="clr-namespace:AccessUniversity.Helper.Resources">
 
 
-    <FlyoutItem Title="Login" FlyoutDisplayOptions="AsSingleItem">
+    <FlyoutItem Title="{res:Translator Login}" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Login" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="Home" FlyoutDisplayOptions="AsSingleItem">
-        <Tab Title="Unit" Icon="UnitIcon.png">
+    <FlyoutItem Title="{res:Translator Home}" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="{res:Translator Announcements}" Icon="UnitIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:Announcements}" />
         </Tab>
-        <Tab Title="eStudent" Icon="eStudentIcon.png">
+        <Tab Title="{res:Translator eStudent}" Icon="eStudentIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
         </Tab>
-        <Tab Title="Library" Icon="LibraryIcon.png">
+        <Tab Title="{res:Translator Library}" Icon="LibraryIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
         </Tab>
-        <Tab Title="Emergency" Icon="EmergencyIcon.png">
+        <Tab Title="{res:Translator Emergency}" Icon="EmergencyIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:EmergencyPage}" />
         </Tab>
     </FlyoutItem>
@@ -40,7 +41,7 @@
         </Tab>
     </FlyoutItem>-->
 
-    <FlyoutItem Title="Assessment" FlyoutDisplayOptions="AsSingleItem">
+    <FlyoutItem Title="{res:Translator Assessment}" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Assessment Content" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:AssessmentContent}" />
         </Tab>
@@ -49,7 +50,7 @@
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="Contents" FlyoutDisplayOptions="AsSingleItem">
+    <FlyoutItem Title="{res:Translator UnitContent}" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Contents Page" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:ContentsPage}"/>
         </Tab>

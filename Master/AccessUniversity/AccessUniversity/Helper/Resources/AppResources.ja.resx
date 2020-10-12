@@ -136,7 +136,31 @@
     <value>学生IDまたはEメール</value>
   </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>2020年セメスター2とIAB330-モバイルアプリケーション開発ユニットへようこそ！今学期のIAB330モバイルアプリケーション開発へようこそ。ユニットの重要な情報を提供する「はじめに」、「週間スケジュール」、「第1週」フォルダを確認してください。よろしくお願いいたします。Sri（共同ユニットコーディネーター/講師）Trina（共同ユニットコーディネーター）Josh（チューター）！</value>
+    <value>2020年セメスター2とIAB330-モバイルアプリケーション開発ユニットへようこそ！今学期のIAB330モバイルアプリケーション開発へようこそ。ユニットの重要な情報を提供する「はじめに」、「週間スケジュール」、「第1週」フォルダを確認してください。よろしくお願いいたします。Sri（共同ユニットコーディネーター/講師）Trina（共同ユニットコーディネーター）Josh（チューター）</value>
+  </data>
+  <data name="AnnouncementTitle" xml:space="preserve">
+    <value>お知らせ</value>
+  </data>
+  <data name="Emergency" xml:space="preserve">
+    <value>緊急</value>
+  </data>
+  <data name="eStudent" xml:space="preserve">
+    <value>eStudent</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>ライブラリ</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>単位</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>ログインに失敗しました。ユーザー名またはパスワードが正しくありません。</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>正常にログインできました</value>
+  </data>
+  <data name="OkConfirmation" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="ContentsPage_Topics" xml:space="preserve">
     <value>トピック</value>
