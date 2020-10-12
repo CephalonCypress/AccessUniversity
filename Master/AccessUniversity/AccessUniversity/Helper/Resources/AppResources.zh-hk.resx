@@ -138,4 +138,16 @@
   <data name="AnnouncementMessage" xml:space="preserve">
     <value>歡迎來到2020年第二學期和IAB330-移動應用開發部門！我們歡迎您本學期參加IAB330移動應用程序開發。請查看“入門”，“每週時間表”和“第1週”文件夾，其中提供了有關該設備的重要信息。親切的問候，Sri（聯合單元協調員/講師）Trina（聯合單元協調員）Josh（老師）！</value>
   </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>目錄</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>工作表</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>支援</value>
+  </data>
 </root>

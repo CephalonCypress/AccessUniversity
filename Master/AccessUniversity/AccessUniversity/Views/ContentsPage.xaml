@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AccessUniversity.Views.ContentsPage"
-             Title="CAB303 - Network" >
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
+             Title="{res:Translator ContentsPage_Title}" >
     
     <ContentPage.ToolbarItems>
     </ContentPage.ToolbarItems>
@@ -15,7 +16,7 @@
     <ContentPage.Content>
         <StackLayout>
             <!--Top Bar Section-->
-            <Grid BackgroundColor="{StaticResource NavigationPrimary}" 
+            <!--<Grid BackgroundColor="{StaticResource NavigationPrimary}" 
                   HeightRequest="30" VerticalOptions="Start">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -24,7 +25,7 @@
                        TextColor="White" FontSize="15" 
                        HorizontalOptions="Start" VerticalOptions="Start"
                        Margin="70,0,0,0"/>
-            </Grid>
+            </Grid>-->
 
             <!--Contents List-->
             <Grid HeightRequest="300" VerticalOptions="Center">
@@ -42,7 +43,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Topics" FontSize="20" VerticalOptions="Center" />
+                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Topics}" FontSize="20" VerticalOptions="Center" />
                 </Grid>
                 
                 <!--Contents List/Worksheets-->
@@ -52,7 +53,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Worksheets" FontSize="20" VerticalOptions="Center" />
+                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Worksheets}" FontSize="20" VerticalOptions="Center" />
                 </Grid>
                 
                 <!--Contents List/Lectures-->
@@ -62,7 +63,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="VideoIcon.png" Grid.Column="0" Margin="17" />
-                    <Label Grid.Column="1" Text="Lectures" FontSize="20" VerticalOptions="Center" />
+                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Lectures}" FontSize="20" VerticalOptions="Center" />
                 </Grid>
                 
                 <!--Contents List/Support-->
@@ -72,7 +73,7 @@
                         <ColumnDefinition Width="3*" />
                     </Grid.ColumnDefinitions>
                     <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="Support" FontSize="20" VerticalOptions="Center" />
+                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Support}" FontSize="20" VerticalOptions="Center" />
                 </Grid>
             </Grid>
             

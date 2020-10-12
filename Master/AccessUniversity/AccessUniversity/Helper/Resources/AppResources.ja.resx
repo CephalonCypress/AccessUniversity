@@ -138,4 +138,19 @@
   <data name="AnnouncementMessage" xml:space="preserve">
     <value>2020年セメスター2とIAB330-モバイルアプリケーション開発ユニットへようこそ！今学期のIAB330モバイルアプリケーション開発へようこそ。ユニットの重要な情報を提供する「はじめに」、「週間スケジュール」、「第1週」フォルダを確認してください。よろしくお願いいたします。Sri（共同ユニットコーディネーター/講師）Trina（共同ユニットコーディネーター）Josh（チューター）！</value>
   </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>トピック</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - 内容物</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>ワークシート</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>講演会</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>サポート</value>
+  </data>
 </root>

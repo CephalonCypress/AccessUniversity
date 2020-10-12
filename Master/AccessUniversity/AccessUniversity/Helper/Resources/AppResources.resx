@@ -148,4 +148,19 @@ Interpreter</value>
   <data name="UsernameText" xml:space="preserve">
     <value>Student ID or Email</value>
   </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>Topics</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - Contents</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>Worksheets</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>Lectures</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
 </root>

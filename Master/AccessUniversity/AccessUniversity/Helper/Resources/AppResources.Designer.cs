@@ -64,15 +64,61 @@ namespace AccessUniversity.Helper.Resources {
         ///   Looks up a localized string similar to Welcome to Semester 2, 2020 and the IAB330 - Mobile Application Development unit!
         ///
         ///We would like to welcome you to IAB330 Mobile Application Development this semester. 
-        ///Please check out the &apos;Getting Started&apos;, &apos;weekly schedule&apos; and &apos;week 1&apos; folders (folders 
-        ///available via side navigation), which provides important information for the unit. If you
-        ///have any questions, please feel free to contact us. You&apos;ll find our contact details in
-        ///Blackboard under Contact Us.
-        ///We also request you to fill this survey p [rest of string was truncated]&quot;;.
+        ///Please check out the &apos;Getting Started&apos;, &apos;weekly schedule&apos; and &apos;week 1&apos; folders which provides important information for the unit. 
+        ///Kind regards,
+        ///
+        ///Sri (Co-Unit Coordinator/Lecturer)
+        ///Trina (Co-Unit coordinator)
+        ///Josh (Tutor).
         /// </summary>
         internal static string AnnouncementMessage {
             get {
                 return ResourceManager.GetString("AnnouncementMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lectures.
+        /// </summary>
+        internal static string ContentsPage_Lectures {
+            get {
+                return ResourceManager.GetString("ContentsPage_Lectures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Support.
+        /// </summary>
+        internal static string ContentsPage_Support {
+            get {
+                return ResourceManager.GetString("ContentsPage_Support", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CAB303 - Contents.
+        /// </summary>
+        internal static string ContentsPage_Title {
+            get {
+                return ResourceManager.GetString("ContentsPage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Topics.
+        /// </summary>
+        internal static string ContentsPage_Topics {
+            get {
+                return ResourceManager.GetString("ContentsPage_Topics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Worksheets.
+        /// </summary>
+        internal static string ContentsPage_Worksheets {
+            get {
+                return ResourceManager.GetString("ContentsPage_Worksheets", resourceCulture);
             }
         }
         

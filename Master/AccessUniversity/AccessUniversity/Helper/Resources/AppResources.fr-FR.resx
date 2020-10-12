@@ -138,4 +138,19 @@
   <data name="AnnouncementMessage" xml:space="preserve">
     <value>Bienvenue au semestre 2, 2020 et à l&amp;#39;unité IAB330 - Développement d&amp;#39;applications mobiles! Nous aimerions vous souhaiter la bienvenue au développement d&amp;#39;applications mobiles IAB330 ce semestre. Veuillez consulter les dossiers «Mise en route», «Calendrier hebdomadaire» et «Semaine 1» qui fournissent des informations importantes pour l&amp;#39;unité. Cordialement, Sri (Co-coordinateur d&amp;#39;unité / conférencier) Trina (Co-coordinateur d&amp;#39;unité) Josh (Tuteur)!</value>
   </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>Rubriques</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - Contenu</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>Feuilles de calcul</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>Conférences&amp;#x0D;</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>support</value>
+  </data>
 </root>
