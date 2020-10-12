@@ -136,6 +136,30 @@
     <value>學生證或電子郵件</value>
   </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>歡迎來到2020年第二學期和IAB330-移動應用開發部門！我們歡迎您本學期參加IAB330移動應用程序開發。請查看“入門”，“每週時間表”和“第1週”文件夾，其中提供了有關該設備的重要信息。親切的問候，Sri（聯合單元協調員/講師）Trina（聯合單元協調員）Josh（老師）！</value>
+    <value>歡迎來到2020年第二學期和IAB330-移動應用開發部門！我們歡迎您本學期參加IAB330移動應用程序開發。請查看“入門”，“每週時間表”和“第1週”文件夾，其中提供了有關該設備的重要信息。親切的問候，Sri（聯合單元協調員/講師）Trina（聯合單元協調員）Josh（老師）</value>
+  </data>
+  <data name="AnnouncementTitle" xml:space="preserve">
+    <value>宣告</value>
+  </data>
+  <data name="Emergency" xml:space="preserve">
+    <value>緊急</value>
+  </data>
+  <data name="eStudent" xml:space="preserve">
+    <value>電子學生</value>
+  </data>
+  <data name="Library" xml:space="preserve">
+    <value>程式庫</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>登錄失敗，用戶名或密碼錯誤。</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value>登入成功</value>
+  </data>
+  <data name="OkConfirmation" xml:space="preserve">
+    <value>確定</value>
   </data>
 </root>

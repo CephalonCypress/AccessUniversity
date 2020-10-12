@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="AccessUniversity.Views.Announcements"
              xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
-             Title="Announcements">
+             Title="{res:Translator AnnouncementTitle}">
     <ContentPage.Content>
         <StackLayout>
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
@@ -40,7 +40,7 @@
 
                 <Label
                     TextColor="Black"
-                    Text="Announcements"
+                    Text="{res:Translator AnnouncementTitle}"
                     FontSize="30"                    
                     HorizontalOptions="Center"/>
 

@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Helper\Resources\AppResources - Copy.resx">
+    <EmbeddedResource Update="Helper\Resources\AppResources.hi-IN.resx">
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
