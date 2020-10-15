@@ -96,6 +96,42 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Assessment 01.
+        /// </summary>
+        internal static string Assessment_01 {
+            get {
+                return ResourceManager.GetString("Assessment_01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Assessment 02.
+        /// </summary>
+        internal static string Assessment_02 {
+            get {
+                return ResourceManager.GetString("Assessment_02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Assessment 03.
+        /// </summary>
+        internal static string Assessment_03 {
+            get {
+                return ResourceManager.GetString("Assessment_03", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The content of the assessment.
+        /// </summary>
+        internal static string Assessment_Content {
+            get {
+                return ResourceManager.GetString("Assessment_Content", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lectures.
         /// </summary>
         internal static string ContentsPage_Lectures {
@@ -168,15 +204,6 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Home.
-        /// </summary>
-        internal static string Home {
-            get {
-                return ResourceManager.GetString("Home", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Log in as 
         ///Student.
         /// </summary>
@@ -192,15 +219,6 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Library {
             get {
                 return ResourceManager.GetString("Library", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Login.
-        /// </summary>
-        internal static string Login {
-            get {
-                return ResourceManager.GetString("Login", resourceCulture);
             }
         }
         
@@ -256,15 +274,6 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Unit {
             get {
                 return ResourceManager.GetString("Unit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unit Content.
-        /// </summary>
-        internal static string UnitContent {
-            get {
-                return ResourceManager.GetString("UnitContent", resourceCulture);
             }
         }
         
