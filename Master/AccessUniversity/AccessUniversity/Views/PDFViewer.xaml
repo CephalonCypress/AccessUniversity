@@ -8,7 +8,22 @@
     <ContentPage.BindingContext>
         <local:PdfViewerViewModel></local:PdfViewerViewModel>
     </ContentPage.BindingContext>
-    <Grid x:Name="pdfViewGrid">
-        <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}"/>
-    </Grid>
+    <StackLayout VerticalOptions="FillAndExpand">
+
+        <Grid x:Name="pdfViewGrid" VerticalOptions="FillAndExpand">
+            <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" IsToolbarVisible="True" PageViewMode="PageByPage" />
+        </Grid>
+        
+        <ScrollView HeightRequest="120" >
+            <StackLayout>
+                <!--<Entry Keyboard="Numeric" FontSize="18" x:Name="pageNumberEntry" 
+                       HorizontalTextAlignment="Center" VerticalOptions="Center" 
+                       Text="{Binding PageNumber, Source={x:Reference Name=pdfViewerControl}}{Binding PageNo}}">
+                </Entry>-->
+                <Entry Text="{Binding PageNo}" Keyboard="Numeric" Placeholder="Enter Page No" />
+                <Label Text="Extracted Text" HorizontalOptions="Center" FontSize="Medium" />
+                <Label Text="{Binding PdfTextExtraction}" FontSize="Small" Padding="10,0" />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>
