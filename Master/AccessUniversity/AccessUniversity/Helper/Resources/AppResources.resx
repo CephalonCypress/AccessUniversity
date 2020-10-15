@@ -184,4 +184,19 @@ Interpreter</value>
   <data name="ContentsPage_Support" xml:space="preserve">
     <value>Support</value>
   </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>Assessment</value>
+  </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Assessment 01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Assessment 02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Assessment 03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>The content of the assessment</value>
+  </data>
 </root>
