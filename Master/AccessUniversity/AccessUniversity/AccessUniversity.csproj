@@ -27,6 +27,156 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29 - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (3).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29 - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (3) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (3).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %284%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (4).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %284%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %285%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29 - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29 - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (2) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %283%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (3).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %284%29.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="Helper\Resources\AppResources - Copy.Designer.cs">
       <DependentUpon>AppResources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -40,6 +190,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Helper\Resources\AppResources.id-ID.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.ar-EG.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.pt-PT.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.ru-RU.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.es-MX.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Helper\Resources\AppResources.hi-IN.resx">
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>

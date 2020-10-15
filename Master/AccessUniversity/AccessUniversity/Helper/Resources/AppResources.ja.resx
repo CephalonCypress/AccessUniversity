@@ -120,17 +120,8 @@
   <data name="ForgotPassword" xml:space="preserve">
     <value>パスワードを忘れた場合?</value>
   </data>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>こんにちは学生</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>学生としてログイン</value>
-  </data>
   <data name="PasswordText" xml:space="preserve">
     <value>パスワード</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>通訳としてログイン</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
     <value>学生IDまたはEメール</value>
@@ -153,9 +144,6 @@
   <data name="Unit" xml:space="preserve">
     <value>単位</value>
   </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>ログインに失敗しました。ユーザー名またはパスワードが正しくありません。</value>
-  </data>
   <data name="LoginSuccess" xml:space="preserve">
     <value>正常にログインできました</value>
   </data>
@@ -176,5 +164,26 @@
   </data>
   <data name="ContentsPage_Support" xml:space="preserve">
     <value>サポート</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>評価</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="UnitContent" xml:space="preserve">
+    <value>ユニットコンテンツ</value>
+  </data>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>学生としてログイン</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>ログインに失敗しました。ユーザー名またはパスワードが正しくありません。</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>通訳としてログイン</value>
   </data>
 </root>

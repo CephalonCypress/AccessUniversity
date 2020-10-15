@@ -117,73 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ForgotPassword" xml:space="preserve">
-    <value>Kennwort vergessen?</value>
-  </data>
-  <data name="UsernameText" xml:space="preserve">
-    <value>Studentenausweis oder E-Mail</value>
-  </data>
-  <data name="PasswordText" xml:space="preserve">
-    <value>Kennwort</value>
-  </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Willkommen zum 2. Semester 2020 und zur Abteilung IAB330 - Mobile Application Development! Wir möchten Sie in diesem Semester bei IAB330 Mobile Application Development begrüßen. Bitte lesen Sie die Ordner &amp;quot;Erste Schritte&amp;quot;, &amp;quot;Wochenplan&amp;quot; und &amp;quot;Woche 1&amp;quot;, die wichtige Informationen für das Gerät enthalten. Herzliche Grüße, Sri (Koordinatorin / Dozentin) Trina (Koordinatorin der Einheit) Josh (Tutor)</value>
+    <value>¡Bienvenido al Semestre 2, 2020 y a la unidad IAB330 - Desarrollo de aplicaciones móviles! Nos gustaría darle la bienvenida al desarrollo de aplicaciones móviles IAB330 este semestre. Consulte las carpetas &amp;quot;Introducción&amp;quot;, &amp;quot;Programa semanal&amp;quot; y &amp;quot;Semana 1&amp;quot;, que proporcionan información importante para la unidad. Saludos cordiales, Sri (Co-Coordinadora / Conferenciante de Unidad) Trina (Co-coordinadora de Unidad) Josh (Tutor)</value>
   </data>
   <data name="AnnouncementTitle" xml:space="preserve">
-    <value>Ankündigungen</value>
+    <value>Anuncios</value>
   </data>
   <data name="Emergency" xml:space="preserve">
-    <value>Notfall</value>
+    <value>emergencia</value>
   </data>
   <data name="eStudent" xml:space="preserve">
     <value>eStudent</value>
   </data>
-  <data name="Library" xml:space="preserve">
-    <value>Bibliothek</value>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>¿Olvidaste tu contraseña?</value>
   </data>
-  <data name="Unit" xml:space="preserve">
-    <value>Einheit</value>
+  <data name="Library" xml:space="preserve">
+    <value>Biblioteca</value>
   </data>
   <data name="LoginSuccess" xml:space="preserve">
-    <value>Die Anmeldung war erfolgreich</value>
+    <value>Acceso correcto</value>
   </data>
   <data name="OkConfirmation" xml:space="preserve">
-    <value>OK</value>
+    <value>Aceptar</value>
+  </data>
+  <data name="PasswordText" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="UsernameText" xml:space="preserve">
+    <value>¡Identificación de estudiante o correo electrónico</value>
   </data>
   <data name="ContentsPage_Topics" xml:space="preserve">
-    <value>Themen</value>
+    <value>Temas</value>
   </data>
   <data name="ContentsPage_Title" xml:space="preserve">
-    <value>CAB303 - Inhalt</value>
+    <value>CAB303 - Contenido</value>
   </data>
   <data name="ContentsPage_Worksheets" xml:space="preserve">
-    <value>Arbeitsblätter</value>
+    <value>Hojas de cálculo</value>
   </data>
   <data name="ContentsPage_Lectures" xml:space="preserve">
-    <value>Lektionen</value>
+    <value>Conferencias</value>
   </data>
   <data name="ContentsPage_Support" xml:space="preserve">
-    <value>Support</value>
+    <value>Soporte</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Privat</value>
+    <value>Inicio</value>
   </data>
   <data name="Assessment" xml:space="preserve">
-    <value>Bewertung</value>
+    <value>Valoración</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Anmeldung</value>
+    <value>Iniciar sesión</value>
   </data>
   <data name="UnitContent" xml:space="preserve">
-    <value>Erstellung von</value>
+    <value>Contenido de la unidad</value>
   </data>
   <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Logge dich als Student ein</value>
+    <value>¡Inicie sesión como estudiante</value>
   </data>
   <data name="LoginFail" xml:space="preserve">
-    <value>Anmeldung fehlgeschlagen, Benutzername oder Passwort falsch.</value>
+    <value>Error de inicio de sesión, nombre de usuario o contraseña incorrectos.</value>
   </data>
   <data name="StudentLoginButton" xml:space="preserve">
-    <value>Melden Sie sich als Dolmetscher an</value>
+    <value>¡Inicie sesión como intérprete</value>
   </data>
 </root>
