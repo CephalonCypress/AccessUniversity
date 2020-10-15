@@ -19,7 +19,7 @@ namespace AccessUniversity.ViewModels
         /// <summary>
         /// Default Text
         /// </summary>
-        public string extractedText = "not Extracted";
+        public string extractedText = "Not Extracted";
 
         /// <summary>
         /// Default Page No

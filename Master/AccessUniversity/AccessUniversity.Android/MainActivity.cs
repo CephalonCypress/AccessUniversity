@@ -19,6 +19,7 @@ namespace AccessUniversity.Droid
 
             base.OnCreate(savedInstanceState);
             Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
+            Xamarin.Forms.Forms.SetFlags("Expander_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

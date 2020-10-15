@@ -9,7 +9,7 @@ namespace AccessUniversity {
 
         public App() {
             InitializeComponent();
-            Device.SetFlags(new string[] { "MediaElement_Experimental" });
+            Device.SetFlags(new string[] { "MediaElement_Experimental", "Expander_Experimental" });
 
             // MainPage = new MainPage();
             MainPage = new AppShell();
