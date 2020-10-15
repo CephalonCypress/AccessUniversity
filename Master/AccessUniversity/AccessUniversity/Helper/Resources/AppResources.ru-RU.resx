@@ -117,73 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ForgotPassword" xml:space="preserve">
-    <value>Kennwort vergessen?</value>
-  </data>
-  <data name="UsernameText" xml:space="preserve">
-    <value>Studentenausweis oder E-Mail</value>
-  </data>
-  <data name="PasswordText" xml:space="preserve">
-    <value>Kennwort</value>
-  </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>Willkommen zum 2. Semester 2020 und zur Abteilung IAB330 - Mobile Application Development! Wir möchten Sie in diesem Semester bei IAB330 Mobile Application Development begrüßen. Bitte lesen Sie die Ordner &amp;quot;Erste Schritte&amp;quot;, &amp;quot;Wochenplan&amp;quot; und &amp;quot;Woche 1&amp;quot;, die wichtige Informationen für das Gerät enthalten. Herzliche Grüße, Sri (Koordinatorin / Dozentin) Trina (Koordinatorin der Einheit) Josh (Tutor)</value>
+    <value>Добро пожаловать во второй семестр 2020 года и в IAB330 - подразделение по разработке мобильных приложений! Мы хотели бы поприветствовать вас в этом семестре на сайте «Разработка мобильных приложений IAB330». Пожалуйста, ознакомьтесь с папками «Начало работы», «Еженедельное расписание» и «Неделя 1», в которых содержится важная информация для устройства. С уважением, Шри (координатор одного подразделения / лектор) Трина (координатор второго подразделения) Джош (наставник)</value>
   </data>
   <data name="AnnouncementTitle" xml:space="preserve">
-    <value>Ankündigungen</value>
+    <value>Извещения</value>
   </data>
   <data name="Emergency" xml:space="preserve">
-    <value>Notfall</value>
+    <value>Аварийный режим</value>
   </data>
   <data name="eStudent" xml:space="preserve">
     <value>eStudent</value>
   </data>
-  <data name="Library" xml:space="preserve">
-    <value>Bibliothek</value>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Забыли пароль?</value>
   </data>
-  <data name="Unit" xml:space="preserve">
-    <value>Einheit</value>
+  <data name="Library" xml:space="preserve">
+    <value>Библиотека</value>
   </data>
   <data name="LoginSuccess" xml:space="preserve">
-    <value>Die Anmeldung war erfolgreich</value>
+    <value>Вход успешно выполнен</value>
   </data>
   <data name="OkConfirmation" xml:space="preserve">
-    <value>OK</value>
+    <value>ОК</value>
+  </data>
+  <data name="PasswordText" xml:space="preserve">
+    <value>&amp;Пароль</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Единица</value>
+  </data>
+  <data name="UsernameText" xml:space="preserve">
+    <value>Студенческий билет или электронная почта</value>
   </data>
   <data name="ContentsPage_Topics" xml:space="preserve">
-    <value>Themen</value>
+    <value>Темы</value>
   </data>
   <data name="ContentsPage_Title" xml:space="preserve">
-    <value>CAB303 - Inhalt</value>
+    <value>CAB303 - Содержание</value>
   </data>
   <data name="ContentsPage_Worksheets" xml:space="preserve">
-    <value>Arbeitsblätter</value>
+    <value>Листы</value>
   </data>
   <data name="ContentsPage_Lectures" xml:space="preserve">
-    <value>Lektionen</value>
+    <value>Лекции</value>
   </data>
   <data name="ContentsPage_Support" xml:space="preserve">
-    <value>Support</value>
+    <value>Несущее множество</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Privat</value>
+    <value>Домашний</value>
   </data>
   <data name="Assessment" xml:space="preserve">
-    <value>Bewertung</value>
+    <value>Оценка</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Anmeldung</value>
+    <value>Вход</value>
   </data>
   <data name="UnitContent" xml:space="preserve">
-    <value>Erstellung von</value>
+    <value>Содержание</value>
   </data>
   <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Logge dich als Student ein</value>
+    <value>Войдите как студент</value>
   </data>
   <data name="LoginFail" xml:space="preserve">
-    <value>Anmeldung fehlgeschlagen, Benutzername oder Passwort falsch.</value>
+    <value>Ошибка входа, неверное имя пользователя или пароль.</value>
   </data>
   <data name="StudentLoginButton" xml:space="preserve">
-    <value>Melden Sie sich als Dolmetscher an</value>
+    <value>Войдите как переводчик</value>
   </data>
 </root>

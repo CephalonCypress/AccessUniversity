@@ -96,6 +96,51 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lectures.
+        /// </summary>
+        internal static string ContentsPage_Lectures {
+            get {
+                return ResourceManager.GetString("ContentsPage_Lectures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Support.
+        /// </summary>
+        internal static string ContentsPage_Support {
+            get {
+                return ResourceManager.GetString("ContentsPage_Support", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CAB303 - Contents.
+        /// </summary>
+        internal static string ContentsPage_Title {
+            get {
+                return ResourceManager.GetString("ContentsPage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Topics.
+        /// </summary>
+        internal static string ContentsPage_Topics {
+            get {
+                return ResourceManager.GetString("ContentsPage_Topics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Worksheets.
+        /// </summary>
+        internal static string ContentsPage_Worksheets {
+            get {
+                return ResourceManager.GetString("ContentsPage_Worksheets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Emergency.
         /// </summary>
         internal static string Emergency {
