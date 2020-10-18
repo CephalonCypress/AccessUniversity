@@ -186,4 +186,19 @@
   <data name="StudentLoginButton" xml:space="preserve">
     <value>通訳としてログイン</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>評価01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>評価02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>評価03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>評価の内容！</value>
+  </data>
+  <data name="Assessment_Duplicate[1]" xml:space="preserve">
+    <value>評価</value>
+  </data>
 </root>

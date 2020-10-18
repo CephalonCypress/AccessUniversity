@@ -186,4 +186,19 @@
   <data name="StudentLoginButton" xml:space="preserve">
     <value>以口譯員身份登錄</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>評估01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>評估02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>評估03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>評估內容！</value>
+  </data>
+  <data name="Assessment_Duplicate[1]" xml:space="preserve">
+    <value>評估</value>
+  </data>
 </root>

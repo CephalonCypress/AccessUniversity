@@ -186,4 +186,19 @@
   <data name="StudentLoginButton" xml:space="preserve">
     <value>¡Inicie sesión como intérprete</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Evaluación 01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Evaluación 02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Evaluación 03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>¡El contenido de la evaluación!</value>
+  </data>
+  <data name="Assessment_Duplicate[1]" xml:space="preserve">
+    <value>Valoración</value>
+  </data>
 </root>
