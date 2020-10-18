@@ -198,7 +198,4 @@
   <data name="Assessment_Content" xml:space="preserve">
     <value>評価の内容！</value>
   </data>
-  <data name="Assessment_Duplicate[1]" xml:space="preserve">
-    <value>評価</value>
-  </data>
 </root>

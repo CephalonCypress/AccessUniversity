@@ -208,7 +208,4 @@ Interpreter</value>
   <data name="Assessment_Content" xml:space="preserve">
     <value>Isi penilaian!</value>
   </data>
-  <data name="Assessment_Duplicate[1]" xml:space="preserve">
-    <value>Assessment</value>
-  </data>
 </root>
