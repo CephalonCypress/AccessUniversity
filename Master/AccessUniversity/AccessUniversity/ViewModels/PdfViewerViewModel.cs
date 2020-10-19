@@ -71,7 +71,7 @@ namespace AccessUniversity.ViewModels
 
                     PdfPageBase page = loadedDocument.Pages[Int32.Parse(PageNo) - 1];
 
-                    //Extract text from first page.
+                    //Extract text from first page
 
                     TextLineCollection lineCollection = new TextLineCollection();
 
@@ -103,28 +103,12 @@ namespace AccessUniversity.ViewModels
             get
             {
                 return pageNo;
-                /*try
-                {
-                    if (Int32.Parse(pageNo) > 0)
-                    {
-                        return pageNo;
-                    }
-                    else
-                    {
-                        return pageNo;
-                    }
-                }
-                catch (FormatException)
-                {
-                    return pageNo;
-                }*/
             }
             set
             {
                 pageNo = value;
                 NotifyPropertyChanged(nameof(PageNo));
                 NotifyPropertyChanged(nameof(PdfTextExtraction));
-
             }
         }
 

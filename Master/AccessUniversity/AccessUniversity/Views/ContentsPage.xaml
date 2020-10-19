@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AccessUniversity.ViewModels"
              x:Class="AccessUniversity.Views.ContentsPage"
              xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
-             Title="{res:Translator ContentsPage_Title}" >
+             Title="{Binding Title}" >
     
     <ContentPage.ToolbarItems>
     </ContentPage.ToolbarItems>
@@ -12,8 +13,12 @@
         <ResourceDictionary>
         </ResourceDictionary>
     </ContentPage.Resources>
-    
-    <ContentPage.Content>
+
+    <ContentPage.BindingContext>
+        <local:ContentsPageViewModel></local:ContentsPageViewModel>
+    </ContentPage.BindingContext>
+
+        <ContentPage.Content>
         <StackLayout>
             <!--Top Bar Section-->
             <!--<Grid BackgroundColor="{StaticResource NavigationPrimary}" 
@@ -83,7 +88,10 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
             </Grid>
-            
+
+            <Button Text="English" Command="{Binding Eng_Command}" />
+            <Button Text="Japanese" Command="{Binding Jp_Command}" />
+
             <!--Bottom Menu-->
             <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
                 <Grid.ColumnDefinitions>
