@@ -186,4 +186,16 @@
   <data name="StudentLoginButton" xml:space="preserve">
     <value>Melden Sie sich als Dolmetscher an</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Untersuchungsergebnis</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Untersuchungsergebnis</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Untersuchungsergebnis</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>Der Inhalt der Bewertung!</value>
+  </data>
 </root>

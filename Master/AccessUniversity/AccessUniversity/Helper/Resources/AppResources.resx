@@ -199,9 +199,6 @@ Interpreter</value>
   <data name="Assessment_Content" xml:space="preserve">
     <value>The content of the assessment</value>
   </data>
-  <data name="Assessment" xml:space="preserve">
-    <value>Assessment</value>
-  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
@@ -210,4 +207,5 @@ Interpreter</value>
   </data>
   <data name="UnitContent" xml:space="preserve">
     <value>Unit Content</value>
-  </data></root>
+  </data>
+</root>

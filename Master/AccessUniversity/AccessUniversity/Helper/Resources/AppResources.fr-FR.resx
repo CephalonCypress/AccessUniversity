@@ -194,4 +194,16 @@ Josh (Tuteur)</value>
   <data name="StudentLoginButton" xml:space="preserve">
     <value>Connectez-vous en tant interprète</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Évaluation 01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Évaluation 02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Évaluation 03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>Le contenu de l&amp;#39;évaluation!</value>
+  </data>
 </root>

@@ -196,4 +196,16 @@ Interpreter</value>
   <data name="UnitContent" xml:space="preserve">
     <value>Unit Content</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Penilaian01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Penilaian02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Penilaian03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>Isi penilaian!</value>
+  </data>
 </root>

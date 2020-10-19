@@ -188,4 +188,16 @@
   <data name="UsernameText" xml:space="preserve">
     <value>छात्र आईडी या ईमेल</value>
   </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>आकलन ०१</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>आकलन ०२</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>आकलन 03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>मूल्यांकन की सामग्री!</value>
+  </data>
 </root>

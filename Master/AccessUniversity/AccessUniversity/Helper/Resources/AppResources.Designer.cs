@@ -204,6 +204,15 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Home.
+        /// </summary>
+        internal static string Home {
+            get {
+                return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Log in as 
         ///Student.
         /// </summary>
@@ -219,6 +228,15 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Library {
             get {
                 return ResourceManager.GetString("Library", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Login.
+        /// </summary>
+        internal static string Login {
+            get {
+                return ResourceManager.GetString("Login", resourceCulture);
             }
         }
         
@@ -274,6 +292,15 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Unit {
             get {
                 return ResourceManager.GetString("Unit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unit Content.
+        /// </summary>
+        internal static string UnitContent {
+            get {
+                return ResourceManager.GetString("UnitContent", resourceCulture);
             }
         }
         
