@@ -87,15 +87,6 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Assessment.
-        /// </summary>
-        internal static string Assessment {
-            get {
-                return ResourceManager.GetString("Assessment", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Emergency.
         /// </summary>
         internal static string Emergency {
@@ -123,11 +114,11 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Home.
+        ///   Looks up a localized string similar to Hello.
         /// </summary>
-        internal static string Home {
+        internal static string HelloMessage {
             get {
-                return ResourceManager.GetString("Home", resourceCulture);
+                return ResourceManager.GetString("HelloMessage", resourceCulture);
             }
         }
         
@@ -147,15 +138,6 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Library {
             get {
                 return ResourceManager.GetString("Library", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Login.
-        /// </summary>
-        internal static string Login {
-            get {
-                return ResourceManager.GetString("Login", resourceCulture);
             }
         }
         
@@ -211,15 +193,6 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Unit {
             get {
                 return ResourceManager.GetString("Unit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unit Content.
-        /// </summary>
-        internal static string UnitContent {
-            get {
-                return ResourceManager.GetString("UnitContent", resourceCulture);
             }
         }
         

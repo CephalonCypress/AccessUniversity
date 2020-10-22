@@ -44,7 +44,5 @@ namespace AccessUniversity.Views
                 DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
             }
         }
-
-
     }
 }

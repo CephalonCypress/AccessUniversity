@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace AccessUniversity.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class LectureRecording : ContentPage
 	{
-		public LectureRecording ()
+		public LectureRecording()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
     }
 }

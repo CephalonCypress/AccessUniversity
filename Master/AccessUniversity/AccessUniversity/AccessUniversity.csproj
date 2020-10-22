@@ -15,6 +15,7 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="18.2.0.59" />
     <PackageReference Include="Xam.Forms.VideoPlayer" Version="1.0.8" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre2" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
   </ItemGroup>
 
@@ -56,6 +57,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\EmergencyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LectureVideos.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\StudentAnnouncements.xaml">

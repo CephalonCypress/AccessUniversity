@@ -57,8 +57,8 @@
         <Tab Title="PDF" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:ContentsPDF}" />
         </Tab>
-        <Tab Title="Lecture Recording" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:LectureRecording}" />
+        <Tab Title="Lecture Videos" Icon="">
+            <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
         </Tab>
     </FlyoutItem>
 </Shell>
