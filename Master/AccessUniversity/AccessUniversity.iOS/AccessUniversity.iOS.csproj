@@ -132,6 +132,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer">
+      <Version>18.3.0.38</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Forms.VideoPlayer">
       <Version>1.0.8</Version>
     </PackageReference>

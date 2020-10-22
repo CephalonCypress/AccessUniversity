@@ -120,15 +120,6 @@
   <data name="ForgotPassword" xml:space="preserve">
     <value>Kennwort vergessen?</value>
   </data>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>Hallo</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Logge dich als Student ein</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Melden Sie sich als Dolmetscher an</value>
-  </data>
   <data name="UsernameText" xml:space="preserve">
     <value>Studentenausweis oder E-Mail</value>
   </data>
@@ -153,13 +144,58 @@
   <data name="Unit" xml:space="preserve">
     <value>Einheit</value>
   </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>Anmeldung fehlgeschlagen, Benutzername oder Passwort falsch.</value>
-  </data>
   <data name="LoginSuccess" xml:space="preserve">
     <value>Die Anmeldung war erfolgreich</value>
   </data>
   <data name="OkConfirmation" xml:space="preserve">
     <value>OK</value>
+  </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>Themen</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - Inhalt</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>Arbeitsblätter</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>Lektionen</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Privat</value>
+  </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>Bewertung</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Anmeldung</value>
+  </data>
+  <data name="UnitContent" xml:space="preserve">
+    <value>Erstellung von</value>
+  </data>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>Logge dich als Student ein</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Anmeldung fehlgeschlagen, Benutzername oder Passwort falsch.</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>Melden Sie sich als Dolmetscher an</value>
+  </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Untersuchungsergebnis</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Untersuchungsergebnis</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Untersuchungsergebnis</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>Der Inhalt der Bewertung!</value>
   </data>
 </root>

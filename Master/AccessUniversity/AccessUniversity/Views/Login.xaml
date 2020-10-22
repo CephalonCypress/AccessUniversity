@@ -4,21 +4,21 @@
              BackgroundColor="#005595"
              xmlns:res="clr-namespace:AccessUniversity.Helper.Resources">
 
-    <StackLayout>
-        <Grid>
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <Grid VerticalOptions="Center">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="20"/>
-                <RowDefinition Height="70"/>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="4*"/>
             </Grid.RowDefinitions>
             
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width ="100"/>
-                <ColumnDefinition Width ="Auto"/>
-                <ColumnDefinition Width ="Auto"/>
-                <ColumnDefinition Width ="100"/>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="2.5*"/>
+                <ColumnDefinition Width ="*"/>
             </Grid.ColumnDefinitions>
             <!--<Image Grid.Row="1" 
                    Source="LogoAnimated.gif"
@@ -32,7 +32,7 @@
                 x:Name="entryUsername"
                 Text="{Binding Username}"
                 Placeholder="{res:Translator UsernameText}"
-                HorizontalOptions="Center"
+                HorizontalOptions="FillAndExpand"
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="White"
                 TextColor="Black"
@@ -43,7 +43,7 @@
                 IsPassword="true"
                 Text="{Binding Password}"
                 Placeholder="{res:Translator PasswordText}"
-                HorizontalOptions="Center"
+                HorizontalOptions="FillAndExpand"
                 VerticalOptions="CenterAndExpand"
                 BackgroundColor="White" 
                 WidthRequest="200"/>

@@ -26,20 +26,6 @@
             <ShellContent ContentTemplate="{DataTemplate views:EmergencyPage}" />
         </Tab>
     </FlyoutItem>
-    <!--<FlyoutItem Title="Home" FlyoutDisplayOptions="AsSingleItem">
-        <Tab Title="Announcements" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:Announcements}" />
-        </Tab>
-        <Tab Title="Student Announcements" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:StudentAnnouncements}" />
-        </Tab>
-        <Tab Title="Landing Page" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:LandingPage}" />
-        </Tab>
-        <Tab Title="Student Landing Page" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:StudentLandingPage}" />
-        </Tab>
-    </FlyoutItem>-->
 
     <FlyoutItem Title="{res:Translator Assessment}" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Assessment Content" Icon="">
@@ -55,7 +41,7 @@
             <ShellContent ContentTemplate="{DataTemplate views:ContentsPage}"/>
         </Tab>
         <Tab Title="PDF" Icon="">
-            <ShellContent ContentTemplate="{DataTemplate views:ContentsPDF}" />
+            <ShellContent ContentTemplate="{DataTemplate views:PDFViewer}" />
         </Tab>
         <Tab Title="Lecture Videos" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />

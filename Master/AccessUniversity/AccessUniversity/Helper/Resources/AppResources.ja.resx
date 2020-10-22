@@ -120,17 +120,8 @@
   <data name="ForgotPassword" xml:space="preserve">
     <value>パスワードを忘れた場合?</value>
   </data>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>こんにちは学生</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>学生としてログイン</value>
-  </data>
   <data name="PasswordText" xml:space="preserve">
     <value>パスワード</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>通訳としてログイン</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
     <value>学生IDまたはEメール</value>
@@ -153,13 +144,58 @@
   <data name="Unit" xml:space="preserve">
     <value>単位</value>
   </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>ログインに失敗しました。ユーザー名またはパスワードが正しくありません。</value>
-  </data>
   <data name="LoginSuccess" xml:space="preserve">
     <value>正常にログインできました</value>
   </data>
   <data name="OkConfirmation" xml:space="preserve">
     <value>OK</value>
+  </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>トピック</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - 内容物</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>ワークシート</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>講演会</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>サポート</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>評価</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="UnitContent" xml:space="preserve">
+    <value>ユニットコンテンツ</value>
+  </data>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>学生としてログイン</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>ログインに失敗しました。ユーザー名またはパスワードが正しくありません。</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>通訳としてログイン</value>
+  </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>評価01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>評価02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>評価03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>評価の内容！</value>
   </data>
 </root>

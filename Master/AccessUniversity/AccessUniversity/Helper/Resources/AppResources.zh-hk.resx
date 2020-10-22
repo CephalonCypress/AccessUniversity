@@ -120,17 +120,8 @@
   <data name="ForgotPassword" xml:space="preserve">
     <value>忘記密碼?</value>
   </data>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>同學們大家好</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>以學生身份登錄</value>
-  </data>
   <data name="PasswordText" xml:space="preserve">
     <value>密碼</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>以口譯員身份登錄</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
     <value>學生證或電子郵件</value>
@@ -150,9 +141,6 @@
   <data name="Unit" xml:space="preserve">
     <value>單位</value>
   </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>登錄失敗，用戶名或密碼錯誤。</value>
-  </data>
   <data name="LoginSuccess" xml:space="preserve">
     <value>登入成功</value>
   </data>
@@ -161,5 +149,53 @@
   </data>
   <data name="Library" xml:space="preserve">
     <value>程式庫</value>
+  </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>主題</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>目錄</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>工作表</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>讲课</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>評估</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="UnitContent" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>以學生身份登錄</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>登錄失敗，用戶名或密碼錯誤。</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>以口譯員身份登錄</value>
+  </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>評估01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>評估02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>評估03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>評估內容！</value>
   </data>
 </root>

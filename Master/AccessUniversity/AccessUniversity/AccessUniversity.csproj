@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -13,13 +13,171 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="18.2.0.59" />
+    <None Remove="Assets\Lecture 1 Slides.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Lecture 1 Slides.pdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="18.3.0.38" />
     <PackageReference Include="Xam.Forms.VideoPlayer" Version="1.0.8" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre2" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29 - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy (3).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29 - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (3) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (3).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %284%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy (4).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %284%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy %285%29.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29 - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29 - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (2) - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %283%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy (3).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy %284%29.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy %282%29 - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy (2).Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy %283%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy - Copy %282%29.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Helper\Resources\AppResources - Copy - Copy.Designer.cs">
+      <DependentUpon>AppResources - Copy.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="Helper\Resources\AppResources - Copy.Designer.cs">
       <DependentUpon>AppResources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -33,6 +191,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Helper\Resources\AppResources.id-ID.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.ar-EG.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.pt-PT.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.ru-RU.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helper\Resources\AppResources.es-MX.resx">
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Helper\Resources\AppResources.hi-IN.resx">
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
       <Generator>ResXFileCodeGenerator</Generator>
@@ -57,6 +235,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\EmergencyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PDFViewer.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LectureVideos.xaml">

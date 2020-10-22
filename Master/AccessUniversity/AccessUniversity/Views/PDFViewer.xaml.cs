@@ -7,19 +7,15 @@ using AccessUniversity.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using System.Globalization;
-using System.Threading;
-
-
 namespace AccessUniversity.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ContentsPage : ContentPage
+    public partial class PDFViewer : ContentPage
     {
-        public ContentsPage()
+        public PDFViewer()
         {
             InitializeComponent();
-            BindingContext = new ContentsPageViewModel();
+            BindingContext = new PdfViewerViewModel();
         }
     }
 }

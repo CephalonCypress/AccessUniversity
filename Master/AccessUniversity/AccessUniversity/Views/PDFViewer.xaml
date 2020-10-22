@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AccessUniversity.ViewModels"
+             x:Class="AccessUniversity.Views.PDFViewer"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             Title="PDF">
+    <ContentPage.BindingContext>
+        <local:PdfViewerViewModel></local:PdfViewerViewModel>
+    </ContentPage.BindingContext>
+    <StackLayout VerticalOptions="FillAndExpand">
+
+        <Grid x:Name="pdfViewGrid" VerticalOptions="FillAndExpand">
+            <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" IsToolbarVisible="True" PageViewMode="PageByPage" />
+        </Grid>
+
+        <Expander>
+            <Expander.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="4*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="1" Text="Extracted Text" HorizontalOptions="Center" FontSize="Title" />
+                    <Image Grid.Column="2" Source="ExpanderUp.png" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="30">
+                        <Image.Triggers>
+                            <DataTrigger TargetType="Image" 
+                                         Binding="{Binding Source={RelativeSource AncestorType={x:Type Expander}}, Path=IsExpanded}" 
+                                         Value="True">
+                                <Setter Property="Source"
+                                        Value="ExpanderDown.png" />
+                            </DataTrigger>
+                        </Image.Triggers>
+                    </Image>
+                </Grid>
+            </Expander.Header>
+            <Expander.Content>
+                <ScrollView>
+                    <StackLayout>
+                        <Entry Text="{Binding PageNo}" HorizontalTextAlignment="Center" HorizontalOptions="Center" Keyboard="Numeric" Placeholder="Enter Page No" />
+                        <Label Text="{Binding PdfTextExtraction}" FontSize="Small" Padding="10,0" />
+                    </StackLayout>
+                </ScrollView>
+            </Expander.Content>
+        </Expander>
+        
+        <!--<ScrollView HeightRequest="120" >
+            <StackLayout>
+                <Entry Keyboard="Numeric" FontSize="18" x:Name="pageNumberEntry" 
+                       HorizontalTextAlignment="Center" VerticalOptions="Center" 
+                       Text="{Binding PageNumber, Source={x:Reference Name=pdfViewerControl}}{Binding PageNo}}">
+                </Entry>
+                <Entry Text="{Binding PageNo}" Keyboard="Numeric" Placeholder="Enter Page No" />
+                <Label Text="Extracted Text" HorizontalOptions="Center" FontSize="Medium" />
+                <Label Text="{Binding PdfTextExtraction}" FontSize="Small" Padding="10,0" />
+            </StackLayout>
+        </ScrollView>-->
+    </StackLayout>
+</ContentPage>

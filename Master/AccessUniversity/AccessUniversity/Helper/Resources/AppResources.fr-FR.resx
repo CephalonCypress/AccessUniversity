@@ -117,29 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HelloMessage" xml:space="preserve">
-    <value>Bonjours les étudiants</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Connectez-vous en tant qu&amp;#39;étudiant</value>
-  </data>
   <data name="PasswordText" xml:space="preserve">
     <value>Mot de passe</value>
   </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Connectez-vous en tant qu&amp;#39;interprète</value>
-  </data>
   <data name="UsernameText" xml:space="preserve">
-    <value>Carte d&amp;#39;étudiant ou e-mail</value>
+    <value>Carte détudiant ou e-mail</value>
   </data>
   <data name="Library" xml:space="preserve">
     <value>Bibliothèque</value>
   </data>
   <data name="Unit" xml:space="preserve">
     <value>Unité</value>
-  </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>Échec de la connexion, nom d&amp;#39;utilisateur ou mot de passe incorrect.</value>
   </data>
   <data name="LoginSuccess" xml:space="preserve">
     <value>Connexion réussie</value>
@@ -169,5 +157,53 @@ Josh (Tuteur)</value>
   </data>
   <data name="eStudent" xml:space="preserve">
     <value>élève</value>
+  </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>Rubriques</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - Contenu</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>Feuilles de calcul</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>Conférences</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>support</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>Évaluation</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="UnitContent" xml:space="preserve">
+    <value>Contenu de la leçon</value>
+  </data>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>Connectez-vous en tant étudiant</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Échec de la connexion, nom utilisateur ou mot de passe incorrect.</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>Connectez-vous en tant interprète</value>
+  </data>
+  <data name="Assessment_01" xml:space="preserve">
+    <value>Évaluation 01</value>
+  </data>
+  <data name="Assessment_02" xml:space="preserve">
+    <value>Évaluation 02</value>
+  </data>
+  <data name="Assessment_03" xml:space="preserve">
+    <value>Évaluation 03</value>
+  </data>
+  <data name="Assessment_Content" xml:space="preserve">
+    <value>Le contenu de l&amp;#39;évaluation!</value>
   </data>
 </root>

@@ -117,87 +117,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContentsPage_Topics" xml:space="preserve">
-    <value>विषय</value>
-  </data>
-  <data name="ContentsPage_Title" xml:space="preserve">
-    <value>CAB303 - सामग्री</value>
-  </data>
-  <data name="ContentsPage_Worksheets" xml:space="preserve">
-    <value>कार्यपत्रक</value>
-  </data>
-  <data name="ContentsPage_Lectures" xml:space="preserve">
-    <value>व्याख्यान</value>
-  </data>
-  <data name="ContentsPage_Support" xml:space="preserve">
-    <value>सहायता</value>
-  </data>
-  <data name="Home" xml:space="preserve">
-    <value>मुख पृष्ठ</value>
-  </data>
-  <data name="Assessment" xml:space="preserve">
-    <value>मूल्यांकन</value>
-  </data>
-  <data name="Login" xml:space="preserve">
-    <value>लॉगिन करें</value>
-  </data>
-  <data name="UnitContent" xml:space="preserve">
-    <value>यूनिट सामग्री</value>
-  </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>एएस के रूप में लॉग इन करें 
-छात्र</value>
-  </data>
-  <data name="LoginFail" xml:space="preserve">
-    <value>लॉगिन विफल रहा, उपयोगकर्ता नाम या पासवर्ड गलत.</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>एएस के रूप में लॉग इन करें 
-दुभाषिया</value>
-  </data>
   <data name="AnnouncementMessage" xml:space="preserve">
-    <value>सेमेस्टर 2, 2020 और IAB330 में आपका स्वागत है - मोबाइल एप्लीकेशन डेवलपमेंट यूनिट! हम IAB330 मोबाइल एप्लीकेशन डेवलपमेंट इस सेमेस्टर में आपका स्वागत करना चाहते हैं। कृपया &amp;#39;गेटिंग स्टार्टेड&amp;#39;, &amp;#39;साप्ताहिक शेड्यूल&amp;#39; और &amp;#39;वीक 1&amp;#39; फोल्डर देखें जो यूनिट के लिए महत्वपूर्ण जानकारी प्रदान करते हैं। का संबंध है, श्री (सह-इकाई समन्वयक / व्याख्याता) ट्रिना (सह-इकाई समन्वयक) जोश (ट्यूटर)</value>
+    <value>¡Bienvenido al Semestre 2, 2020 y a la unidad IAB330 - Desarrollo de aplicaciones móviles! Nos gustaría darle la bienvenida al desarrollo de aplicaciones móviles IAB330 este semestre. Consulte las carpetas &amp;quot;Introducción&amp;quot;, &amp;quot;Programa semanal&amp;quot; y &amp;quot;Semana 1&amp;quot;, que proporcionan información importante para la unidad. Saludos cordiales, Sri (Co-Coordinadora / Conferenciante de Unidad) Trina (Co-coordinadora de Unidad) Josh (Tutor)</value>
   </data>
   <data name="AnnouncementTitle" xml:space="preserve">
-    <value>घोषणाएँ</value>
+    <value>Anuncios</value>
   </data>
   <data name="Emergency" xml:space="preserve">
-    <value>आकस्मिक</value>
+    <value>emergencia</value>
   </data>
   <data name="eStudent" xml:space="preserve">
     <value>eStudent</value>
   </data>
   <data name="ForgotPassword" xml:space="preserve">
-    <value>अपना पासवर्ड भूल गए?</value>
+    <value>¿Olvidaste tu contraseña?</value>
   </data>
   <data name="Library" xml:space="preserve">
-    <value>लायब्रेरी</value>
+    <value>Biblioteca</value>
   </data>
   <data name="LoginSuccess" xml:space="preserve">
-    <value>लॉगिन सफल</value>
+    <value>Acceso correcto</value>
   </data>
   <data name="OkConfirmation" xml:space="preserve">
-    <value>ठीक</value>
+    <value>Aceptar</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
-    <value>पासवर्ड</value>
+    <value>Contraseña</value>
   </data>
   <data name="Unit" xml:space="preserve">
-    <value>इकाई</value>
+    <value>Unidad</value>
   </data>
   <data name="UsernameText" xml:space="preserve">
-    <value>छात्र आईडी या ईमेल</value>
+    <value>¡Identificación de estudiante o correo electrónico</value>
+  </data>
+  <data name="ContentsPage_Topics" xml:space="preserve">
+    <value>Temas</value>
+  </data>
+  <data name="ContentsPage_Title" xml:space="preserve">
+    <value>CAB303 - Contenido</value>
+  </data>
+  <data name="ContentsPage_Worksheets" xml:space="preserve">
+    <value>Hojas de cálculo</value>
+  </data>
+  <data name="ContentsPage_Lectures" xml:space="preserve">
+    <value>Conferencias</value>
+  </data>
+  <data name="ContentsPage_Support" xml:space="preserve">
+    <value>Soporte</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Assessment" xml:space="preserve">
+    <value>Valoración</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="UnitContent" xml:space="preserve">
+    <value>Contenido de la unidad</value>
+  </data>
+  <data name="InterpreterLoginButton" xml:space="preserve">
+    <value>¡Inicie sesión como estudiante</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Error de inicio de sesión, nombre de usuario o contraseña incorrectos.</value>
+  </data>
+  <data name="StudentLoginButton" xml:space="preserve">
+    <value>¡Inicie sesión como intérprete</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
-    <value>आकलन ०१</value>
+    <value>Evaluación 01</value>
   </data>
   <data name="Assessment_02" xml:space="preserve">
-    <value>आकलन ०२</value>
+    <value>Evaluación 02</value>
   </data>
   <data name="Assessment_03" xml:space="preserve">
-    <value>आकलन 03</value>
+    <value>Evaluación 03</value>
   </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>मूल्यांकन की सामग्री!</value>
+    <value>¡El contenido de la evaluación!</value>
   </data>
 </root>

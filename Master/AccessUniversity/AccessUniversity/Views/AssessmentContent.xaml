@@ -23,9 +23,9 @@
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Row="0" Text="CAB303 - Network"
+                        <Label Grid.Row="0" Text="{res:Translator ContentsPage_Title}" 
                                TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
-                        <Label Grid.Row="1" Text="Assessment"
+                        <Label Grid.Row="1" Text="{res:Translator Assessment}"
                                TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
                     </Grid>
                 </Grid>
@@ -84,7 +84,7 @@
                     <Label Grid.Column="0" 
                            x:Name="lblContent"
                            TextColor="Gray" 
-                           Text="The content of the assessment" 
+                           Text="{res:Translator Assessment_Content}" 
                            FontSize="16" 
                            VerticalOptions="Start" 
                            HorizontalOptions="Start"
@@ -112,7 +112,10 @@
                                  Grid.Row="0" 
                                  Clicked="BtnUnit_Clicked"/>
 
-                    <Label Grid.Row="1" Text="Unit" FontSize="15" HorizontalOptions="Center" 
+                    <Label Grid.Row="1" 
+                           Text="{res:Translator Unit}" 
+                           FontSize="15" 
+                           HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
 
@@ -127,7 +130,10 @@
                                  Grid.Row="0" 
                                  Clicked="BtnStudent_Clicked"/>
 
-                    <Label Grid.Row="1" Text="eStudent" FontSize="15" HorizontalOptions="Center" 
+                    <Label Grid.Row="1" 
+                           Text="{res:Translator eStudent}"
+                           FontSize="15" 
+                           HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
                 
@@ -142,7 +148,10 @@
                                  Grid.Row="0" 
                                  Clicked="BtnLib_Clicked"/>
 
-                    <Label Grid.Row="1" Text="Library" FontSize="15" HorizontalOptions="Center" 
+                    <Label Grid.Row="1" 
+                           Text="{res:Translator Library}"
+                           FontSize="15" 
+                           HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
                 
@@ -156,7 +165,10 @@
                                  Source="EmergencyIcon.png" 
                                  Grid.Row="0" 
                                  Clicked="BtnEmergency_Clicked"/>
-                    <Label Grid.Row="1" Text="Emergency" FontSize="15" HorizontalOptions="Center" 
+                    <Label Grid.Row="1" 
+                           Text="{res:Translator Emergency}"
+                           FontSize="15" 
+                           HorizontalOptions="Center" 
                            VerticalOptions="Start" />
                 </Grid>
             </Grid>
