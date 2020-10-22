@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
-using Xam.Forms.VideoPlayer;
+using FormsVideoLibrary;
 
 namespace AccessUniversity.Views
 {
@@ -19,38 +19,27 @@ namespace AccessUniversity.Views
             InitializeComponent();
         }
 
-        async void URLopen(System.Object sender, System.EventArgs e)
+        async void URLopen(object sender, EventArgs e)
         {
-            string filename = await DependencyService.Get<IVideoPicker>().GetVideoFileAsync();
-            if (!string.IsNullOrWhiteSpace(filename))
-            {
-                selectedVideo.Source = new FileMediaSource
-                {
-                    File = filename
-
-                };
-
-                test.Text = "success";
-            }
-            test.Text = "2390fi32df2039if";
-            test.FontSize = 50;
+            videoPlayer.Source = new FileVideoSource { File = videoURL.Text };
         }
 
-        async void Localopen(System.Object sender, System.EventArgs e)
+        async void Localopen(object sender, EventArgs e)
         {
+            Button btn = (Button)sender;
+            btn.IsEnabled = false;
+
             string filename = await DependencyService.Get<IVideoPicker>().GetVideoFileAsync();
-            if (!string.IsNullOrWhiteSpace(filename))
+
+            if (!String.IsNullOrWhiteSpace(filename))
             {
-                selectedVideo.Source = new FileMediaSource
+                videoPlayer.Source = new FileVideoSource
                 {
                     File = filename
-
                 };
-
-                test.Text = "success";
             }
-            test.Text = "2390fi32df2039if";
-            test.FontSize = 50;
+
+            btn.IsEnabled = true;
         }
     }
 }

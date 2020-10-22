@@ -1,21 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:video="clr-namespace:FormsVideoLibrary"
              x:Class="AccessUniversity.Views.LectureVideos">
     <ContentPage.Content>
         <StackLayout>
             <Button Text="Open from URL" 
                     Clicked="URLopen"/>
+            <Entry 
+                x:Name="videoURL"
+                Text="{Binding videoURL}"
+                Placeholder="Enter the video URL"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="White"
+                TextColor="Black"
+                WidthRequest="200"/>
             <Button Text="Open from local file" 
-                    Command="{Binding URLopen}"/>
+                    Clicked="Localopen"/>
+            
             <MediaElement x:Name="selectedVideo"
-                          Source="ms-appx:///xd.mp4"
                           ShowsPlaybackControls="True"
                           AutoPlay="True"
                           KeepScreenOn="True"
                           VerticalOptions="FillAndExpand">
             </MediaElement>
-            <Label x:Name="test" Text="Fail"></Label>
+            <video:VideoPlayer x:Name="videoPlayer"
+                           VerticalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
