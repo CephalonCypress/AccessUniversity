@@ -22,6 +22,9 @@ namespace AccessUniversity.Views
         async void URLopen(object sender, EventArgs e)
         {
             videoPlayer.Source = new FileVideoSource { File = videoURL.Text };
+            Localbutton.IsVisible = false;
+            URLbutton.IsVisible = false;
+            videoURL.IsVisible = false;
         }
 
         async void Localopen(object sender, EventArgs e)
@@ -38,6 +41,15 @@ namespace AccessUniversity.Views
                     File = filename
                 };
             }
+            Localbutton.TextColor = Color.GhostWhite;
+            Localbutton.BackgroundColor = Color.Black;
+            URLbutton.TextColor = Color.GhostWhite;
+            URLbutton.BackgroundColor = Color.Black;
+            videoURL.BackgroundColor = Color.Black;
+            videoURL.Text = "Enter here";
+            videoURL.TextColor = Color.GhostWhite;
+            BackgroundColor = Color.Black;
+            
 
             btn.IsEnabled = true;
         }

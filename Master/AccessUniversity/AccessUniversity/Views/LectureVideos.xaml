@@ -5,28 +5,38 @@
              x:Class="AccessUniversity.Views.LectureVideos">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Open from URL" 
-                    Clicked="URLopen"/>
-            <Entry 
-                x:Name="videoURL"
-                Text="{Binding videoURL}"
-                Placeholder="Enter the video URL"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="CenterAndExpand"
-                BackgroundColor="White"
-                TextColor="Black"
-                WidthRequest="200"/>
-            <Button Text="Open from local file" 
-                    Clicked="Localopen"/>
-            
-            <MediaElement x:Name="selectedVideo"
-                          ShowsPlaybackControls="True"
-                          AutoPlay="True"
-                          KeepScreenOn="True"
-                          VerticalOptions="FillAndExpand">
-            </MediaElement>
-            <video:VideoPlayer x:Name="videoPlayer"
-                           VerticalOptions="FillAndExpand" />
+            <Grid HeightRequest="900" VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button 
+                    Text="Open from URL"
+                    x:Name="URLbutton"
+                    Clicked="URLopen"
+                    Grid.Row="0"/>
+                <Entry 
+                    x:Name="videoURL"
+                    Text="{Binding videoURL}"
+                    Placeholder="Enter the video URL"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    Grid.Row="1"/>
+                <Button 
+                    x:Name="Localbutton"
+                    Text="Open from local file" 
+                    Clicked="Localopen"
+                    Grid.Row="2"/>
+                <video:VideoPlayer x:Name="videoPlayer"
+                               VerticalOptions="FillAndExpand" 
+                               Grid.Row="3"
+                               AreTransportControlsEnabled="True"/>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
