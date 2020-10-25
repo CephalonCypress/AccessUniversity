@@ -12,8 +12,8 @@
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="{res:Translator Home}" FlyoutDisplayOptions="AsSingleItem">
-        <Tab Title="{res:Translator Announcements}" Icon="UnitIcon.png">
+    <!--<FlyoutItem Title="{res:Translator Home}" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="{res:Translator Home}" Icon="UnitIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:Announcements}" />
         </Tab>
         <Tab Title="{res:Translator eStudent}" Icon="eStudentIcon.png">
@@ -25,16 +25,7 @@
         <Tab Title="{res:Translator Emergency}" Icon="EmergencyIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:EmergencyPage}" />
         </Tab>
-    </FlyoutItem>
-
-    <FlyoutItem Title="{res:Translator Assessment}" FlyoutDisplayOptions="AsSingleItem">
-        <Tab Title="Assessment Content" Icon="FolderIcon.png">
-            <ShellContent ContentTemplate="{DataTemplate views:AssessmentContent}" />
-        </Tab>
-        <Tab Title="Assessment Page" Icon="PDF.png">
-            <ShellContent ContentTemplate="{DataTemplate views:AssessmentPage}" />
-        </Tab>
-    </FlyoutItem>
+    </FlyoutItem>-->
 
     <FlyoutItem Title="{res:Translator UnitContent}" FlyoutDisplayOptions="AsSingleItem">
         <Tab Title="Contents Page" Icon="LibraryIcon.png">
@@ -47,4 +38,18 @@
             <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
         </Tab>
     </FlyoutItem>
+    
+    <FlyoutItem Title="{res:Translator Assessment}" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="Assessment" Icon="FolderIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AssessmentContent}" />
+        </Tab>
+        <Tab Title="Tasks" Icon="PDF.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AssessmentPage}" />
+        </Tab>
+        <Tab Title="Lecture Videos" Icon="VideoIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
+        </Tab>
+    </FlyoutItem>
+
+    
 </Shell>

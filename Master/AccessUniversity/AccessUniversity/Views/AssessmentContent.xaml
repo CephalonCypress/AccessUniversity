@@ -63,7 +63,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    
+
                     <Label Grid.Column="0" 
                            x:Name="lblTitle"
                            Text="Inital Project" 
@@ -76,11 +76,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    
-                    <BoxView Color="#CBCEED"> 
-                        
+
+                    <BoxView Color="#CBCEED">
+
                     </BoxView>
-                    
+
                     <Label Grid.Column="0" 
                            x:Name="lblContent"
                            TextColor="Gray" 
@@ -89,87 +89,6 @@
                            VerticalOptions="Start" 
                            HorizontalOptions="Start"
                            Margin="10"/>
-                </Grid>
-
-            </Grid>
-
-            <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-
-                <Grid Grid.Column="0" >
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-
-                    <ImageButton x:Name="btnUnit"
-                                 Source="UnitIcon.png" 
-                                 Grid.Row="0" 
-                                 Clicked="BtnUnit_Clicked"/>
-
-                    <Label Grid.Row="1" 
-                           Text="{res:Translator Unit}" 
-                           FontSize="15" 
-                           HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-
-                <Grid Grid.Column="1">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-
-                    <ImageButton x:Name="btnStudent"
-                                 Source="eStudentIcon.png" 
-                                 Grid.Row="0" 
-                                 Clicked="BtnStudent_Clicked"/>
-
-                    <Label Grid.Row="1" 
-                           Text="{res:Translator eStudent}"
-                           FontSize="15" 
-                           HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-                
-                <Grid Grid.Column="2">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-
-                    <ImageButton x:Name="btnLib"
-                                 Source="LibraryIcon.png" 
-                                 Grid.Row="0" 
-                                 Clicked="BtnLib_Clicked"/>
-
-                    <Label Grid.Row="1" 
-                           Text="{res:Translator Library}"
-                           FontSize="15" 
-                           HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </Grid>
-                
-                <Grid Grid.Column="3">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="2*" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <Image />
-                    <ImageButton x:Name="btnEmergency"
-                                 Source="EmergencyIcon.png" 
-                                 Grid.Row="0" 
-                                 Clicked="BtnEmergency_Clicked"/>
-                    <Label Grid.Row="1" 
-                           Text="{res:Translator Emergency}"
-                           FontSize="15" 
-                           HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
                 </Grid>
             </Grid>
         </StackLayout>

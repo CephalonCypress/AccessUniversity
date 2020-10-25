@@ -30,19 +30,5 @@ namespace AccessUniversity.Views
                 DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
             }
         }
-
-        private async void interpreterSignInProcess(object sender, EventArgs e)
-        {
-            User user = new User(entryUsername.Text, entryPassword.Text);
-            if (user.VerifyLogin())
-            {
-                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginSuccess, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
-                await Navigation.PushAsync(new LandingPage());
-            }
-            else
-            {
-                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
-            }
-        }
     }
 }

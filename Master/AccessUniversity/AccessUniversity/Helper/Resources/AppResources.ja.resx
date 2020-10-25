@@ -177,14 +177,8 @@
   <data name="UnitContent" xml:space="preserve">
     <value>ユニットコンテンツ</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>学生としてログイン</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>ログインに失敗しました。ユーザー名またはパスワードが正しくありません。</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>通訳としてログイン</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
     <value>評価01</value>
@@ -195,7 +189,21 @@
   <data name="Assessment_03" xml:space="preserve">
     <value>評価03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>評価の内容！</value>
+    <value>割り当て 1&amp;#xD;
+この評価タスクでは、問題領域を調査し、モバイル アプリケーションの必要性と設計を説明するレポートを作成する必要があります。&amp;#xD;
+評価1は評価2の基礎となりますのでご注意ください。&amp;#xD;
+&amp;#xD;
+最終更新日: 2020年08月11日&amp;#xD;
+Changelog&amp;#xD;
+&amp;#xD;
+追加されたビデオ&amp;#xD;
+チームワークの基準はCRAに明示的に記載されています</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>URL をここに入力</value>
   </data>
 </root>

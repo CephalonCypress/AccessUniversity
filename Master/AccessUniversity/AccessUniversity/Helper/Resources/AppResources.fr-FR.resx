@@ -185,14 +185,8 @@ Josh (Tuteur)</value>
   <data name="UnitContent" xml:space="preserve">
     <value>Contenu de la leçon</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Connectez-vous en tant étudiant</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>Échec de la connexion, nom utilisateur ou mot de passe incorrect.</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Connectez-vous en tant interprète</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
     <value>Évaluation 01</value>
@@ -203,7 +197,21 @@ Josh (Tuteur)</value>
   <data name="Assessment_03" xml:space="preserve">
     <value>Évaluation 03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>Le contenu de l&amp;#39;évaluation!</value>
+    <value>Affectation 1
+Cette tâche d'évaluation vous oblige à étudier un espace de problème et à créer un rapport qui explique la nécessité et la conception d'une application mobile.
+Veuillez noter que l'évaluation 1 constituera la base de l'évaluation 2.
+
+Dernière mise à jour: 11/08/2020
+Changelog
+
+Vidéo ajoutée
+Les critères de travail d'équipe ont été explicitement énoncés dans l'ARC</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>Entrer l'URL ici</value>
   </data>
 </root>

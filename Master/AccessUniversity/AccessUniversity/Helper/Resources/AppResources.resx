@@ -140,9 +140,8 @@ Josh (Tutor)</value>
   <data name="ForgotPassword" xml:space="preserve">
     <value>Forgot your password?</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Log in as 
-Student</value>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Log in</value>
   </data>
   <data name="Library" xml:space="preserve">
     <value>Library</value>
@@ -158,10 +157,6 @@ Student</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
     <value>Password</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Log in as 
-Interpreter</value>
   </data>
   <data name="Unit" xml:space="preserve">
     <value>Unit</value>
@@ -197,7 +192,16 @@ Interpreter</value>
     <value>Assessment 03</value>
   </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>The content of the assessment</value>
+    <value>Assignment 1 
+This assessment task requires you to investigate a problem space and create a report that explains the need for and design of a mobile application.
+Please note that assessment 1 will form the basis for assessment 2.
+
+Last updated: 11/08/2020
+Changelog
+
+Video added
+Teamwork criteria has been explicitly stated in the CRA</value>
+    <comment>@MutedRule(PunctuationTail)</comment>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
@@ -207,5 +211,8 @@ Interpreter</value>
   </data>
   <data name="UnitContent" xml:space="preserve">
     <value>Unit Content</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>Enter the URL here</value>
   </data>
 </root>

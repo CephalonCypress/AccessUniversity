@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:video="clr-namespace:FormsVideoLibrary"
-             x:Class="AccessUniversity.Views.LectureVideos">
+             x:Class="AccessUniversity.Views.LectureVideos"
+             BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
             <Grid HeightRequest="900" VerticalOptions="Center">
@@ -24,8 +25,8 @@
                     Placeholder="Enter the video URL"
                     HorizontalOptions="FillAndExpand"
                     VerticalOptions="CenterAndExpand"
-                    BackgroundColor="White"
-                    TextColor="Black"
+                    BackgroundColor="DarkGray"
+                    TextColor="White"
                     Grid.Row="1"/>
                 <Button 
                     x:Name="Localbutton"
@@ -33,10 +34,11 @@
                     Clicked="Localopen"
                     Grid.Row="2"/>
                 <video:VideoPlayer x:Name="videoPlayer"
+                                   Grid.Row="3"
                                VerticalOptions="FillAndExpand" 
-                               Grid.Row="3"
                                AreTransportControlsEnabled="True"/>
             </Grid>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
