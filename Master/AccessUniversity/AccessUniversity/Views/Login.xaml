@@ -53,23 +53,14 @@
                 Text="{res:Translator ForgotPassword}" 
                 HorizontalTextAlignment="End"
                 TextColor="White"/>
-            
+
             <Button Grid.Row="4" Grid.Column="1"
                 x:Name="studentSignIn"
-                Text="{res:Translator StudentLoginButton}"
+                Text="{res:Translator Login}"
                 HorizontalOptions="End"
-                Clicked="interpreterSignInProcess"
-                WidthRequest="105"
-                FontSize="10"
-                />
-            
-            <Button Grid.Row="4" Grid.Column="1"
-                x:Name="interpreterSignIn"
-                Text="{res:Translator InterpreterLoginButton}"
-                HorizontalOptions="Start"
                 Clicked="studentSignInProcess"
                 WidthRequest="105"
-                FontSize="10"
+                FontSize="15"
                 />
         </Grid>
 

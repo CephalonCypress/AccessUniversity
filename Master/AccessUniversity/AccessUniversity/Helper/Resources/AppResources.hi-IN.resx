@@ -144,16 +144,8 @@
   <data name="UnitContent" xml:space="preserve">
     <value>यूनिट सामग्री</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>एएस के रूप में लॉग इन करें 
-छात्र</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>लॉगिन विफल रहा, उपयोगकर्ता नाम या पासवर्ड गलत.</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>एएस के रूप में लॉग इन करें 
-दुभाषिया</value>
   </data>
   <data name="AnnouncementMessage" xml:space="preserve">
     <value>सेमेस्टर 2, 2020 और IAB330 में आपका स्वागत है - मोबाइल एप्लीकेशन डेवलपमेंट यूनिट! हम IAB330 मोबाइल एप्लीकेशन डेवलपमेंट इस सेमेस्टर में आपका स्वागत करना चाहते हैं। कृपया &amp;#39;गेटिंग स्टार्टेड&amp;#39;, &amp;#39;साप्ताहिक शेड्यूल&amp;#39; और &amp;#39;वीक 1&amp;#39; फोल्डर देखें जो यूनिट के लिए महत्वपूर्ण जानकारी प्रदान करते हैं। का संबंध है, श्री (सह-इकाई समन्वयक / व्याख्याता) ट्रिना (सह-इकाई समन्वयक) जोश (ट्यूटर)</value>
@@ -197,7 +189,21 @@
   <data name="Assessment_03" xml:space="preserve">
     <value>आकलन 03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>लॉग इन करें</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>मूल्यांकन की सामग्री!</value>
+    <value>असाइनमेंट 1 &amp;#xD;
+इस मूल्यांकन कार्य के लिए आपको एक समस्या स्थान की जांच करने और एक रिपोर्ट बनाने की आवश्यकता होती है जो मोबाइल एप्लिकेशन की आवश्यकता और डिजाइन के बारे में बताती है।&amp;#xD;
+कृपया ध्यान दें कि मूल्यांकन 1 मूल्यांकन 2 के लिए आधार बनेगी ।&amp;#xD;
+&amp;#xD;
+अंतिम अद्यतन: 11/08/2020&amp;#xD;
+चेंजलॉग&amp;#xD;
+&amp;#xD;
+वीडियो जोड़ा गया&amp;#xD;
+टीम वर्क मापदंड स्पष्ट रूप से सीआरए में कहा गया है</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>URL यहाँ दर्ज करें</value>
   </data>
 </root>

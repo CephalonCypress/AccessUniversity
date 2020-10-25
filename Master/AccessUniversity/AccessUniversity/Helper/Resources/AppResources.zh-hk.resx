@@ -177,14 +177,8 @@
   <data name="UnitContent" xml:space="preserve">
     <value>内容</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>以學生身份登錄</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>登錄失敗，用戶名或密碼錯誤。</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>以口譯員身份登錄</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
     <value>評估01</value>
@@ -195,7 +189,21 @@
   <data name="Assessment_03" xml:space="preserve">
     <value>評估03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>登入</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>評估內容！</value>
+    <value>作业1
+此评估任务需要您调查问题空间并创建报告，以解释对移动应用程序的需求和设计。
+请注意，评估1将构成评估2的基础。
+
+上次更新时间：2020年11月8日
+变更日志
+
+影片已新增
+团队合作标准已在CRA中明确规定</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>輸入數字碼</value>
   </data>
 </root>

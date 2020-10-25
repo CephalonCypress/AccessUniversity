@@ -140,10 +140,6 @@ Josh (Tutor)</value>
   <data name="ForgotPassword" xml:space="preserve">
     <value>Forgot your password?</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Log in as 
-Student</value>
-  </data>
   <data name="Library" xml:space="preserve">
     <value>Library</value>
   </data>
@@ -158,10 +154,6 @@ Student</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
     <value>Password</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Log in as 
-Interpreter</value>
   </data>
   <data name="Unit" xml:space="preserve">
     <value>Unit</value>
@@ -205,7 +197,21 @@ Interpreter</value>
   <data name="Assessment_03" xml:space="preserve">
     <value>Penilaian03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Masuk</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>Isi penilaian!</value>
+    <value>Tugas 1 &amp;#xD;
+Tugas penilaian ini mengharuskan Anda untuk menyelidiki ruang masalah dan membuat laporan yang menjelaskan kebutuhan dan desain aplikasi seluler.&amp;#xD;
+Harap dicatat bahwa penilaian 1 akan menjadi dasar penilaian 2.&amp;#xD;
+&amp;#xD;
+Terakhir diperbarui: 11/08/2020&amp;#xD;
+Changelog&amp;#xD;
+&amp;#xD;
+Video ditambahkan&amp;#xD;
+Kriteria kerja tim telah secara eksplisit dinyatakan dalam CRA</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>Masukkan URL di sini</value>
   </data>
 </root>

@@ -177,14 +177,8 @@
   <data name="UnitContent" xml:space="preserve">
     <value>Erstellung von</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Logge dich als Student ein</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>Anmeldung fehlgeschlagen, Benutzername oder Passwort falsch.</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Melden Sie sich als Dolmetscher an</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
     <value>Untersuchungsergebnis</value>
@@ -195,7 +189,21 @@
   <data name="Assessment_03" xml:space="preserve">
     <value>Untersuchungsergebnis</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>Der Inhalt der Bewertung!</value>
+    <value>Aufgabe 1 &amp;#xD;
+Für diese Bewertungsaufgabe müssen Sie einen Problembereich untersuchen und einen Bericht erstellen, der die Notwendigkeit und den Entwurf einer mobilen Anwendung erläutert.&amp;#xD;
+Bitte beachten Sie, dass die Bewertung 1 die Grundlage für die Bewertung 2 bildet.&amp;#xD;
+&amp;#xD;
+Letzte Aktualisierung: 11.08.2020&amp;#xD;
+Changelog&amp;#xD;
+&amp;#xD;
+Video hinzugefügt&amp;#xD;
+Teamwork-Kriterien wurden in der Ratingagentur ausdrücklich angegeben</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>Geben Sie die URL hier ein</value>
   </data>
 </root>

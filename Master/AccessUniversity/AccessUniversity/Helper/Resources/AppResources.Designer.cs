@@ -123,7 +123,15 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The content of the assessment.
+        ///   Looks up a localized string similar to Assignment 1 
+        ///This assessment task requires you to investigate a problem space and create a report that explains the need for and design of a mobile application.
+        ///Please note that assessment 1 will form the basis for assessment 2.
+        ///
+        ///Last updated: 11/08/2020
+        ///Changelog
+        ///
+        ///Video added
+        ///Teamwork criteria has been explicitly stated in the CRA.
         /// </summary>
         internal static string Assessment_Content {
             get {
@@ -213,16 +221,6 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Log in as 
-        ///Student.
-        /// </summary>
-        internal static string InterpreterLoginButton {
-            get {
-                return ResourceManager.GetString("InterpreterLoginButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Library.
         /// </summary>
         internal static string Library {
@@ -237,6 +235,15 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Login {
             get {
                 return ResourceManager.GetString("Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in.
+        /// </summary>
+        internal static string LoginButton {
+            get {
+                return ResourceManager.GetString("LoginButton", resourceCulture);
             }
         }
         
@@ -277,16 +284,6 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Log in as 
-        ///Interpreter.
-        /// </summary>
-        internal static string StudentLoginButton {
-            get {
-                return ResourceManager.GetString("StudentLoginButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Unit.
         /// </summary>
         internal static string Unit {
@@ -310,6 +307,15 @@ namespace AccessUniversity.Helper.Resources {
         internal static string UsernameText {
             get {
                 return ResourceManager.GetString("UsernameText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter the URL here.
+        /// </summary>
+        internal static string videoURL {
+            get {
+                return ResourceManager.GetString("videoURL", resourceCulture);
             }
         }
     }

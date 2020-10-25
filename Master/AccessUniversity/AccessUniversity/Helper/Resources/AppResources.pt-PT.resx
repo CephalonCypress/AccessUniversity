@@ -177,14 +177,8 @@
   <data name="UnitContent" xml:space="preserve">
     <value>Conteúdo</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Faça login como aluno</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>Falha no login, nome de usuário ou senha incorretos.</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Faça login como intérprete</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
     <value>Avaliação 01</value>
@@ -195,7 +189,21 @@
   <data name="Assessment_03" xml:space="preserve">
     <value>Avaliação 03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Iniciar sessão</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>O conteúdo da avaliação!</value>
+    <value>Atribuição 1 &amp;#xD;
+Essa tarefa de avaliação exige que você investigue um espaço problemático e crie um relatório que explique a necessidade e o design de um aplicativo móvel.&amp;#xD;
+Observe que a avaliação 1 será a base para a avaliação 2.&amp;#xD;
+&amp;#xD;
+Última atualização: 11/08/2020&amp;#xD;
+Changelog&amp;#xD;
+&amp;#xD;
+Vídeo adicionado&amp;#xD;
+Os critérios de trabalho em equipe foram explicitamente declarados no CRA</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>Introduza o URL aqui</value>
   </data>
 </root>

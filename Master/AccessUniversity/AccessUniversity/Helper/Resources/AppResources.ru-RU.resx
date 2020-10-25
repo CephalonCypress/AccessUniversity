@@ -177,14 +177,8 @@
   <data name="UnitContent" xml:space="preserve">
     <value>Содержание</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Войдите как студент</value>
-  </data>
   <data name="LoginFail" xml:space="preserve">
     <value>Ошибка входа, неверное имя пользователя или пароль.</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Войдите как переводчик</value>
   </data>
   <data name="Assessment_01" xml:space="preserve">
     <value>Оценка 01</value>
@@ -195,7 +189,21 @@
   <data name="Assessment_03" xml:space="preserve">
     <value>Оценка 03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Вход</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>Содержание оценки!</value>
+    <value>Назначение 1 &amp;#xD;
+Эта задача оценки требует изучения проблемного пространства и создания отчета, который объясняет необходимость и дизайн мобильного приложения.&amp;#xD;
+Пожалуйста, обратите внимание, что оценка 1 ею ею станет основой для оценки 2.&amp;#xD;
+&amp;#xD;
+Последние обновления: 11/08/2020&amp;#xD;
+Changelog&amp;#xD;
+&amp;#xD;
+Добавлено видео&amp;#xD;
+Критерии командной работы были четко указаны в CRA</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>Введите здесь URL-адрес</value>
   </data>
 </root>

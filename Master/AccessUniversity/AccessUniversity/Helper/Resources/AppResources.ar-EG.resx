@@ -140,10 +140,6 @@ Josh (Tutor)</value>
   <data name="ForgotPassword" xml:space="preserve">
     <value>Forgot your password?</value>
   </data>
-  <data name="InterpreterLoginButton" xml:space="preserve">
-    <value>Log in as 
-Student</value>
-  </data>
   <data name="Library" xml:space="preserve">
     <value>Library</value>
   </data>
@@ -158,10 +154,6 @@ Student</value>
   </data>
   <data name="PasswordText" xml:space="preserve">
     <value>Password</value>
-  </data>
-  <data name="StudentLoginButton" xml:space="preserve">
-    <value>Log in as 
-Interpreter</value>
   </data>
   <data name="Unit" xml:space="preserve">
     <value>Unit</value>
@@ -205,7 +197,21 @@ Interpreter</value>
   <data name="Assessment_03" xml:space="preserve">
     <value>التقييم 03</value>
   </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>تسجيل الدخو</value>
+  </data>
   <data name="Assessment_Content" xml:space="preserve">
-    <value>محتوى التقييم!</value>
+    <value>المهمة 1 &amp;#xD;
+تتطلب مهمة التقييم هذه استكشاف مساحة مشكلة وإنشاء تقرير يوضح الحاجة إلى تطبيق جوال وتصميمه.&amp;#xD;
+يرجى ملاحظة أن التقييم 1 سوف يشكل الأساس للتقييم 2.&amp;#xD;
+&amp;#xD;
+تاريخ آخر تحديث: 11/08/2020&amp;#xD;
+التغيير&amp;#xD;
+&amp;#xD;
+فيديو مضاف&amp;#xD;
+وقد تم ذكر معايير العمل الجماعي صراحة في CRA!</value>
+  </data>
+  <data name="videoURL" xml:space="preserve">
+    <value>أدخل عنوان URL</value>
   </data>
 </root>
