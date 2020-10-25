@@ -16,22 +16,6 @@ namespace AccessUniversity.ViewModels
     public class LanguageSettingsViewModel : INotifyPropertyChanged
     {
 
-        public class Translation
-        {
-            public string text { get; set; }
-            public string to { get; set; }
-        }
-
-        public class MyArray
-        {
-            public List<Translation> translations { get; set; }
-        }
-
-        public class Root
-        {
-            public List<MyArray> MyArray { get; set; }
-        }
-
         /// <summary>
         /// An event to detect the change in the value of a property.
         /// </summary>
@@ -50,7 +34,7 @@ namespace AccessUniversity.ViewModels
                     _selectedLanguage = value;
                     //Functionality when changed
                     //CurrentLanguage = "Current Language: " + _selectedLanguage.Name;
-                    CurrentLanguage = Translate("Current Language: " + _selectedLanguage.Name, _selectedLanguage.dir).Result;
+                    CurrentLanguage = Translate("Current Language Setting: " + _selectedLanguage.Name, _selectedLanguage.dir).Result;
                 }
             }
         }
@@ -123,29 +107,10 @@ namespace AccessUniversity.ViewModels
                 HttpResponseMessage response = await client.SendAsync(request).ConfigureAwait(false);
                 // Read response as a string.
                 string responseBody = await response.Content.ReadAsStringAsync();
-                //Console.WriteLine(result);
-                string result = responseBody;
 
                 // Extract required text from JSON
-                
-                // Below are few methods that I've tried but didn't work
-                /*JObject joResponse = JObject.Parse(responseBody);
-                JObject ojObject = (JObject)joResponse["translations"];
-                JArray array = (JArray)ojObject[""];
-                string result = Convert.ToString(joResponse);*/
-
-                /*JToken token = JObject.Parse(@responseBody);
-                var a = token.Select(o => o.First);
-                string result = a.ToString();*/
-
-                /*DataSet dataSet = JsonConvert.DeserializeObject<DataSet>(responseBody);
-                DataTable dataTable = dataSet.Tables["translations"];
-                string result = dataSet.ToString();*/
-
-                /*Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(responseBody);
-                string result = myDeserializedClass.MyArray[0].translations[0].text;
-                string result = JToken.Parse(responseBody).ToObject<Root>().ToString();*/
-
+                responseBody = responseBody.Substring(27);
+                string result = responseBody.Substring(0, responseBody.Length - 13 - langDir.Length);
 
                 return result;
             }

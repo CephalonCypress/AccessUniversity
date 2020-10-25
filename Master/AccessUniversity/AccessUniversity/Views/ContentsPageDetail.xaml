@@ -5,9 +5,18 @@
              Title="Detail">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Coming Soon"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView ItemsSource="{Binding ContentList}" CachingStrategy="RecycleElement" HasUnevenRows="True" ItemTapped="OnItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HeightRequest="60">
+                                <Image Source="{Binding Icon}" VerticalOptions="Center" Margin="10"/>
+                                <Label Text="{Binding Name}" FontSize="Medium" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 
 
-using System.Globalization;
 using System.Threading;
 using Xamarin.Forms;
 using System.ComponentModel;
@@ -19,19 +18,19 @@ namespace AccessUniversity.ViewModels
         /// An event to detect the change in the value of a property.
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
-
-        //public ICommand Eng_Command { get; set; }
-
-        //public ICommand Jp_Command { get; set; }
-
-        //public string Title = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Title;
-
-        //public string Topics = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Topics;
-
-        //public string Worksheets = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Worksheets;
-
-        //public string Title { get; set; }
         public ObservableCollection<Element> ContentList { get; set; }
+        /*private Element _selectedElement { get; set; }
+        public Element SelectedElement
+        {
+            get { return _selectedElement; }
+            set
+            {
+                if (_selectedElement != value)
+                {
+                    _selectedElement = value;
+                }
+            }
+        }*/
         public ContentsPageViewModel()
         {
             ContentList = new ObservableCollection<Element>
@@ -41,22 +40,6 @@ namespace AccessUniversity.ViewModels
                 new Element(){ Icon = "VideoIcon2.png", Name = "Lectures", Id = 0},
                 new Element(){ Icon = "FolderIcon.png", Name = "Support", Id = 0}
             };
-            //Title = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Title;
-
-            /*Eng_Command = new Command(() =>
-            {
-                CultureInfo.CurrentCulture = new CultureInfo("en-US", false);
-                NotifyCulture();
-                NotifyPropertyChanged(nameof(Title));
-            });*/
-
-
-            /*Jp_Command = new Command(() =>
-            {
-                CultureInfo.CurrentCulture = new CultureInfo("ja-JP", false);
-                NotifyCulture();
-                NotifyPropertyChanged(nameof(Title));
-            });*/
         }
 
         public class Element
@@ -65,11 +48,6 @@ namespace AccessUniversity.ViewModels
             public string Name { get; set; }
             public int Id { get; set; }
         }
-
-        /*void NotifyCulture()
-        {
-            Application.Current.MainPage.DisplayAlert("", "Language changed to " + CultureInfo.CurrentCulture.DisplayName, "Dismiss");
-        }*/
 
         private void NotifyPropertyChanged(string propertyName)
         {
