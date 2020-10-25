@@ -266,4 +266,7 @@ Os critérios de trabalho em equipe foram explicitamente declarados no CRA</valu
   <data name="Language_Spanish" xml:space="preserve">
     <value>Espanhol</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>Para alterar o idioma, altere as configurações de idioma do dispositivo!</value>
+  </data>
 </root>

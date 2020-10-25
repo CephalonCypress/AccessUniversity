@@ -149,6 +149,15 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to To change the language change the language settings of the device.
+        /// </summary>
+        internal static string ContentsPage_Alert {
+            get {
+                return ResourceManager.GetString("ContentsPage_Alert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lectures.
         /// </summary>
         internal static string ContentsPage_Lectures {
@@ -167,8 +176,7 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///   .
+        ///   Looks up a localized string similar to CAB303 - Contents.
         /// </summary>
         internal static string ContentsPage_Title {
             get {

@@ -274,4 +274,7 @@ Josh (Tutor)</value>
   <data name="Language_Spanish" xml:space="preserve">
     <value>الإسبانية</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>لتغيير اللغة قم بتغيير إعدادات لغة الجهاز!</value>
+  </data>
 </root>

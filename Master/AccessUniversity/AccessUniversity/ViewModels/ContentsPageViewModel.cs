@@ -32,7 +32,7 @@ namespace AccessUniversity.ViewModels
 
             if (Trials == 0)
             {
-                Application.Current.MainPage.DisplayAlert("", "Change the device language to change the app language", "Dismiss");
+                Application.Current.MainPage.DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.ContentsPage_Alert, "Dismiss");
                 Trials += 1;
             }
         }

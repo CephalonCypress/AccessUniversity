@@ -266,4 +266,7 @@ Changelog&amp;#xD;
   <data name="Language_Spanish" xml:space="preserve">
     <value>スペイン語</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>言語を変更するには、デバイスの言語設定を変更してください。</value>
+  </data>
 </root>

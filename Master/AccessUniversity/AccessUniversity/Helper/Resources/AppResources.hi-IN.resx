@@ -266,4 +266,7 @@
   <data name="Language_Spanish" xml:space="preserve">
     <value>स्पैनिश</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>भाषा को बदलने के लिए डिवाइस की भाषा सेटिंग्स बदलें!</value>
+  </data>
 </root>

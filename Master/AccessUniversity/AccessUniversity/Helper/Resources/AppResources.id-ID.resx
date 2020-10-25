@@ -274,4 +274,7 @@ Kriteria kerja tim telah secara eksplisit dinyatakan dalam CRA</value>
   <data name="Language_Spanish" xml:space="preserve">
     <value>Spanyol</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>Untuk mengubah bahasa, ubah pengaturan bahasa perangkat!</value>
+  </data>
 </root>

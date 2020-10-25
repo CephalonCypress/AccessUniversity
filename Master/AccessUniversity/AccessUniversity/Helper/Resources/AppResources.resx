@@ -275,4 +275,7 @@ Teamwork criteria has been explicitly stated in the CRA</value>
   <data name="Language_Portuguese" xml:space="preserve">
     <value>Portuguese</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>To change the language change the language settings of the device</value>
+  </data>
 </root>

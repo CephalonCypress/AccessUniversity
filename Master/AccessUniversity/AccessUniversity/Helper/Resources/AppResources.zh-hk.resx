@@ -266,4 +266,7 @@
   <data name="Language_Spanish" xml:space="preserve">
     <value>西班牙文</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>要更改語言，請更改設備的語言設置！</value>
+  </data>
 </root>

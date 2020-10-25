@@ -266,4 +266,7 @@ Vídeo añadido&amp;#xD;
   <data name="Language_Spanish" xml:space="preserve">
     <value>Español</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>Para cambiar el idioma, cambie la configuración de idioma del dispositivo.</value>
+  </data>
 </root>

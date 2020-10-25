@@ -266,4 +266,7 @@ Teamwork-Kriterien wurden in der Ratingagentur ausdrücklich angegeben</value>
   <data name="Language_Spanish" xml:space="preserve">
     <value>Spanisch</value>
   </data>
+  <data name="ContentsPage_Alert" xml:space="preserve">
+    <value>Um die Sprache zu ändern, ändern Sie die Spracheinstellungen des Geräts!</value>
+  </data>
 </root>
