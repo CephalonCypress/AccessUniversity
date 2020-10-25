@@ -16,30 +16,14 @@
         </Grid>
 
         <Expander>
+            <!--Expander Header-->
             <Expander.Header>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="4*" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <Label Grid.Column="1" Text="{res:Translator PDFViewer_ExpanderLabel}" HorizontalOptions="Center" FontSize="Title" />
-                    <Image Grid.Column="2" Source="ExpanderUp.png" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="30">
-                        <Image.Triggers>
-                            <DataTrigger TargetType="Image" 
-                                         Binding="{Binding Source={RelativeSource AncestorType={x:Type Expander}}, Path=IsExpanded}" 
-                                         Value="True">
-                                <Setter Property="Source"
-                                        Value="ExpanderDown.png" />
-                            </DataTrigger>
-                        </Image.Triggers>
-                    </Image>
-                </Grid>
-            </Expander.Header>
-            <Expander.Content>
-                <ScrollView>
-                    <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <StackLayout HorizontalOptions="CenterAndExpand" Margin="40, 0, 0, 0">
+                        <!--Expander Title-->
+                        <Label Text="{res:Translator PDFViewer_ExpanderLabel}" HorizontalOptions="Center" FontSize="Title" />
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <!--Page No Selection-->
                             <Entry Text="{Binding PageNo}" 
                                    FontSize="Medium"
                                    HorizontalTextAlignment="Center" 
@@ -47,6 +31,7 @@
                                    Keyboard="Numeric" 
                                    Placeholder="{res:Translator PDFViewer_PageNoEntry}" 
                                    WidthRequest="100"/>
+                            <!--Language Selection-->
                             <Picker Title="{res:Translator PDFViewer_Picker}"
                                     ItemsSource="{Binding LanguageList}"
                                     ItemDisplayBinding="{Binding Name}"
@@ -56,9 +41,24 @@
                                     WidthRequest="150"
                                     />
                         </StackLayout>
-
-                        <Label Text="{Binding ExtractedText}" FontSize="Small" Padding="10,0" HeightRequest="120"/>
                     </StackLayout>
+                    <Image Source="ExpanderUp.png" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="30">
+                        <Image.Triggers>
+                            <DataTrigger TargetType="Image" 
+                                             Binding="{Binding Source={RelativeSource AncestorType={x:Type Expander}}, Path=IsExpanded}" 
+                                             Value="True">
+                                <Setter Property="Source"
+                                            Value="ExpanderDown.png" />
+                            </DataTrigger>
+                        </Image.Triggers>
+                    </Image>
+                </StackLayout>
+            </Expander.Header>
+            <!--Expander Content-->
+            <Expander.Content>
+                <ScrollView HeightRequest="120">
+                    <!--Extracted Text-->
+                    <Label Text="{Binding ExtractedText}" FontSize="Small" Padding="20,0" HeightRequest="120"/>
                 </ScrollView>
             </Expander.Content>
         </Expander>
