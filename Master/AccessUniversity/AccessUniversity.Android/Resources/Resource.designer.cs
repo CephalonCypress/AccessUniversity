@@ -12057,10 +12057,13 @@ namespace AccessUniversity.Droid
 			public const int VideoIcon = 2131165596;
 			
 			// aapt resource value: 0x7F07019D
-			public const int Viewmode = 2131165597;
+			public const int VideoIcon2 = 2131165597;
 			
 			// aapt resource value: 0x7F07019E
-			public const int xamarin_logo = 2131165598;
+			public const int Viewmode = 2131165598;
+			
+			// aapt resource value: 0x7F07019F
+			public const int xamarin_logo = 2131165599;
 			
 			static Drawable()
 			{

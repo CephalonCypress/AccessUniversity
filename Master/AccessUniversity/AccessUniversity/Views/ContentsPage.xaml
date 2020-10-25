@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:AccessUniversity.ViewModels"
              x:Class="AccessUniversity.Views.ContentsPage"
              xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
-             Title="{Binding Title}" >
+             Title="{res:Translator ContentsPage_Title}" >
     
     <ContentPage.ToolbarItems>
     </ContentPage.ToolbarItems>
@@ -22,54 +22,18 @@
         <StackLayout>
 
             <!--Contents List-->
-            <Grid HeightRequest="300" VerticalOptions="Center">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                
-                <!--Contents List/Topics-->
-                <Grid Grid.Row="0">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
-                    </Grid.ColumnDefinitions>
-                    <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Topics}" FontSize="20" VerticalOptions="Center" />
-                </Grid>
-                
-                <!--Contents List/Worksheets-->
-                <Grid Grid.Row="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
-                    </Grid.ColumnDefinitions>
-                    <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Worksheets}" FontSize="20" VerticalOptions="Center" />
-                </Grid>
-                
-                <!--Contents List/Lectures-->
-                <Grid Grid.Row="2">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
-                    </Grid.ColumnDefinitions>
-                    <Image Source="VideoIcon.png" Grid.Column="0" Margin="17" />
-                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Lectures}" FontSize="20" VerticalOptions="Center" />
-                </Grid>
-                
-                <!--Contents List/Support-->
-                <Grid Grid.Row="3">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="3*" />
-                    </Grid.ColumnDefinitions>
-                    <Image Source="FolderIcon.png" Grid.Column="0" />
-                    <Label Grid.Column="1" Text="{res:Translator ContentsPage_Support}" FontSize="20" VerticalOptions="Center" />
-                </Grid>
-            </Grid>
+            <ListView ItemsSource="{Binding ContentList}" CachingStrategy="RecycleElement" HasUnevenRows="True" ItemTapped="OnItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HeightRequest="70">
+                                <Image Source="{Binding Icon}" VerticalOptions="Center" Margin="10,0"/>
+                                <Label Text="{Binding Name}" FontSize="Title" VerticalOptions="Center"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             
             <!--Gap Section-->
             <Grid HeightRequest="10" VerticalOptions="FillAndExpand">
@@ -78,8 +42,8 @@
                 </Grid.RowDefinitions>
             </Grid>
 
-            <Button Text="English" Command="{Binding Eng_Command}" />
-            <Button Text="Japanese" Command="{Binding Jp_Command}" />
+            <!--<Button Text="English" Command="{Binding Eng_Command}" />
+            <Button Text="Japanese" Command="{Binding Jp_Command}" />-->
 
             <!--Bottom Menu--><!--
             <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">

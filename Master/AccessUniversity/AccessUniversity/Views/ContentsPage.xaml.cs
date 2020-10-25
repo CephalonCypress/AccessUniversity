@@ -21,5 +21,17 @@ namespace AccessUniversity.Views
             InitializeComponent();
             BindingContext = new ContentsPageViewModel();
         }
+        
+        private async void OnItemSelected(Object sender, ItemTappedEventArgs e)
+        {
+            var SelectedItem = e.Item as ContentsPageViewModel;
+            await Navigation.PushAsync(new ContentsPageDetail());
+            /*switch (SelectedItem.Id)
+            {
+                case 0:
+                    await Navigation.PushAsync(new ContentsPageDetail());
+                    break;
+            }*/
+        }
     }
 }
