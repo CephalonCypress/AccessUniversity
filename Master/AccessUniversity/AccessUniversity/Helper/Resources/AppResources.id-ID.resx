@@ -214,4 +214,64 @@ Kriteria kerja tim telah secara eksplisit dinyatakan dalam CRA</value>
   <data name="videoURL" xml:space="preserve">
     <value>Masukkan URL di sini</value>
   </data>
+  <data name="PDFViewer_ExpanderLabel" xml:space="preserve">
+    <value>Teks yang diekstrak</value>
+  </data>
+  <data name="Contents Page" xml:space="preserve">
+    <value>Daftar Isi</value>
+  </data>
+  <data name="Lecture Video" xml:space="preserve">
+    <value>Video Kuliah!</value>
+  </data>
+  <data name="ContentsPageDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="ContentsPageDetail_FileName" xml:space="preserve">
+    <value>IAB330 Mobile Application Development Week 1!</value>
+  </data>
+  <data name="PDFViewer_PageNoEntry" xml:space="preserve">
+    <value>Masukkan No Halaman!</value>
+  </data>
+  <data name="PDFViewer_Picker" xml:space="preserve">
+    <value>Pilih bahasa</value>
+  </data>
+  <data name="PDFViewer_NotExtracted" xml:space="preserve">
+    <value>Tidak Diekstrak</value>
+  </data>
+  <data name="Language_ChineseSimplified" xml:space="preserve">
+    <value>Tionghoa sederhana</value>
+  </data>
+  <data name="Language_ChineseTraditional" xml:space="preserve">
+    <value>Tionghoa tradisional</value>
+  </data>
+  <data name="Language_English" xml:space="preserve">
+    <value>Inggris</value>
+  </data>
+  <data name="Language_French" xml:space="preserve">
+    <value>Bahasa Prancis</value>
+  </data>
+  <data name="Language_German" xml:space="preserve">
+    <value>Jerman</value>
+  </data>
+  <data name="Language_Hindi" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="Language_Indonesian" xml:space="preserve">
+    <value>Indonesia</value>
+  </data>
+  <data name="Language_Japanese" xml:space="preserve">
+    <value>Bahasa Jepang</value>
+  </data>
+  <data name="Language_Korean" xml:space="preserve">
+    <value>Bahasa Korea</value>
+  </data>
+  <data name="Language_Portuguese" xml:space="preserve">
+    <value>Portugis</value>
+  </data>
+  <data name="Language_Russian" xml:space="preserve">
+    <value>Bahasa Rusia</value>
+  </data>
+  <data name="Language_Spanish" xml:space="preserve">
+    <value>Spanyol</value>
+  </data>
 </root>

@@ -12,7 +12,7 @@ namespace AccessUniversity.ViewModels
         {
             ContentList = new ObservableCollection<Element>
             {
-                new Element(){ Icon = "PDF.png", Name = "IAB330 Mobile Application Development Week 1", File = "Lecture 1 Slides.pdf"}
+                new Element(){ Icon = "PDF.png", Name = AccessUniversity.Helper.Resources.AppResources.ContentsPageDetail_FileName, File = "Lecture 1 Slides.pdf"}
             };
         }
 

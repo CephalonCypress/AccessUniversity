@@ -7,19 +7,19 @@
 
 
     <FlyoutItem Title="{res:Translator Login}" FlyoutDisplayOptions="AsSingleItem">
-        <Tab Title="Login" Icon="">
+        <Tab Title="{res:Translator Login}" Icon="">
             <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
         </Tab>
     </FlyoutItem>
 
     <FlyoutItem Title="{res:Translator UnitContent}" FlyoutDisplayOptions="AsSingleItem">
-        <Tab Title="Contents Page" Icon="LibraryIcon.png">
+        <Tab Title="{res:Translator Contents Page}" Icon="LibraryIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:ContentsPage}"/>
         </Tab>
         <Tab Title="PDF" Icon="PDF.png">
             <ShellContent ContentTemplate="{DataTemplate views:PDFViewer}" />
         </Tab>
-        <Tab Title="Lecture Videos" Icon="VideoIcon.png">
+        <Tab Title="{res:Translator Lecture Video}" Icon="VideoIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
         </Tab>
     </FlyoutItem></Shell>

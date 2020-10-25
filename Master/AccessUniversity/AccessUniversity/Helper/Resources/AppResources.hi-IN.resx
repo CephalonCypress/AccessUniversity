@@ -206,4 +206,64 @@
   <data name="videoURL" xml:space="preserve">
     <value>URL यहाँ दर्ज करें</value>
   </data>
+  <data name="PDFViewer_ExpanderLabel" xml:space="preserve">
+    <value>निकाला गया पाठ</value>
+  </data>
+  <data name="Contents Page" xml:space="preserve">
+    <value>तालिका पृष्ट!</value>
+  </data>
+  <data name="Lecture Video" xml:space="preserve">
+    <value>व्याख्यान वीडियो!</value>
+  </data>
+  <data name="ContentsPageDetail" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="ContentsPageDetail_FileName" xml:space="preserve">
+    <value>IAB330 मोबाइल एप्लीकेशन डेवलपमेंट वीक 1!</value>
+  </data>
+  <data name="PDFViewer_PageNoEntry" xml:space="preserve">
+    <value>पेज नंबर दर्ज करें!</value>
+  </data>
+  <data name="PDFViewer_Picker" xml:space="preserve">
+    <value>भाषा चुनें</value>
+  </data>
+  <data name="PDFViewer_NotExtracted" xml:space="preserve">
+    <value>नहीं निकाला गया</value>
+  </data>
+  <data name="Language_ChineseSimplified" xml:space="preserve">
+    <value>चीनी (सरलीकृत)</value>
+  </data>
+  <data name="Language_ChineseTraditional" xml:space="preserve">
+    <value>चीनी (पारंपरिक)</value>
+  </data>
+  <data name="Language_English" xml:space="preserve">
+    <value>अंग्रेज़ी</value>
+  </data>
+  <data name="Language_French" xml:space="preserve">
+    <value>फ़्रेंच</value>
+  </data>
+  <data name="Language_German" xml:space="preserve">
+    <value>जर्मन</value>
+  </data>
+  <data name="Language_Hindi" xml:space="preserve">
+    <value>हिंदी</value>
+  </data>
+  <data name="Language_Indonesian" xml:space="preserve">
+    <value>इंडोनेशियाई</value>
+  </data>
+  <data name="Language_Japanese" xml:space="preserve">
+    <value>जापानी</value>
+  </data>
+  <data name="Language_Korean" xml:space="preserve">
+    <value>कोरियाई</value>
+  </data>
+  <data name="Language_Portuguese" xml:space="preserve">
+    <value>पुर्तगाली</value>
+  </data>
+  <data name="Language_Russian" xml:space="preserve">
+    <value>रूसी</value>
+  </data>
+  <data name="Language_Spanish" xml:space="preserve">
+    <value>स्पैनिश</value>
+  </data>
 </root>

@@ -19,27 +19,22 @@ namespace AccessUniversity.ViewModels
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
         public ObservableCollection<Element> ContentList { get; set; }
-        /*private Element _selectedElement { get; set; }
-        public Element SelectedElement
-        {
-            get { return _selectedElement; }
-            set
-            {
-                if (_selectedElement != value)
-                {
-                    _selectedElement = value;
-                }
-            }
-        }*/
+        public int Trials = 0;
         public ContentsPageViewModel()
         {
             ContentList = new ObservableCollection<Element>
             {
-                new Element(){ Icon = "FolderIcon.png", Name = "Topics", Id = 1},
-                new Element(){ Icon = "FolderIcon.png", Name = "Worksheets", Id = 0},
-                new Element(){ Icon = "VideoIcon2.png", Name = "Lectures", Id = 0},
-                new Element(){ Icon = "FolderIcon.png", Name = "Support", Id = 0}
+                new Element(){ Icon = "FolderIcon.png", Name = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Topics, Id = 1},
+                new Element(){ Icon = "FolderIcon.png", Name = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Worksheets, Id = 0},
+                new Element(){ Icon = "VideoIcon2.png", Name = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Lectures, Id = 0},
+                new Element(){ Icon = "FolderIcon.png", Name = AccessUniversity.Helper.Resources.AppResources.ContentsPage_Support, Id = 0}
             };
+
+            if (Trials == 0)
+            {
+                Application.Current.MainPage.DisplayAlert("", "Change the device language to change the app language", "Dismiss");
+                Trials += 1;
+            }
         }
 
         public class Element

@@ -206,4 +206,64 @@ Changelog&amp;#xD;
   <data name="videoURL" xml:space="preserve">
     <value>URL をここに入力</value>
   </data>
+  <data name="PDFViewer_ExpanderLabel" xml:space="preserve">
+    <value>抽出テキスト</value>
+  </data>
+  <data name="Contents Page" xml:space="preserve">
+    <value>内容物</value>
+  </data>
+  <data name="Lecture Video" xml:space="preserve">
+    <value>レクチャービデオ</value>
+  </data>
+  <data name="ContentsPageDetail" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="ContentsPageDetail_FileName" xml:space="preserve">
+    <value>IAB330モバイルアプリケーション開発第1週！</value>
+  </data>
+  <data name="PDFViewer_PageNoEntry" xml:space="preserve">
+    <value>ページ番号を入力してください！</value>
+  </data>
+  <data name="PDFViewer_Picker" xml:space="preserve">
+    <value>言語の選択</value>
+  </data>
+  <data name="PDFViewer_NotExtracted" xml:space="preserve">
+    <value>抽出なし</value>
+  </data>
+  <data name="Language_ChineseSimplified" xml:space="preserve">
+    <value>簡体字中国語</value>
+  </data>
+  <data name="Language_ChineseTraditional" xml:space="preserve">
+    <value>繁体字中国語</value>
+  </data>
+  <data name="Language_English" xml:space="preserve">
+    <value>英語</value>
+  </data>
+  <data name="Language_French" xml:space="preserve">
+    <value>フランス語</value>
+  </data>
+  <data name="Language_German" xml:space="preserve">
+    <value>ドイツ語</value>
+  </data>
+  <data name="Language_Hindi" xml:space="preserve">
+    <value>ヒンディー語</value>
+  </data>
+  <data name="Language_Indonesian" xml:space="preserve">
+    <value>インドネシア語</value>
+  </data>
+  <data name="Language_Japanese" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="Language_Korean" xml:space="preserve">
+    <value>韓国語</value>
+  </data>
+  <data name="Language_Portuguese" xml:space="preserve">
+    <value>ポルトガル語</value>
+  </data>
+  <data name="Language_Russian" xml:space="preserve">
+    <value>ロシア語</value>
+  </data>
+  <data name="Language_Spanish" xml:space="preserve">
+    <value>スペイン語</value>
+  </data>
 </root>

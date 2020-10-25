@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:AccessUniversity.ViewModels"
              x:Class="AccessUniversity.Views.PDFViewer"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
              Title="PDF">
     <ContentPage.BindingContext>
         <local:PdfViewerViewModel></local:PdfViewerViewModel>
@@ -22,7 +23,7 @@
                         <ColumnDefinition Width="4*" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="1" Text="Extracted Text" HorizontalOptions="Center" FontSize="Title" />
+                    <Label Grid.Column="1" Text="{res:Translator PDFViewer_ExpanderLabel}" HorizontalOptions="Center" FontSize="Title" />
                     <Image Grid.Column="2" Source="ExpanderUp.png" HorizontalOptions="End" VerticalOptions="Center" HeightRequest="30">
                         <Image.Triggers>
                             <DataTrigger TargetType="Image" 
@@ -44,9 +45,9 @@
                                    HorizontalTextAlignment="Center" 
                                    HorizontalOptions="Center" 
                                    Keyboard="Numeric" 
-                                   Placeholder="Enter Page No" 
+                                   Placeholder="{res:Translator PDFViewer_PageNoEntry}" 
                                    WidthRequest="100"/>
-                            <Picker Title="Select Language"
+                            <Picker Title="{res:Translator PDFViewer_Picker}"
                                     ItemsSource="{Binding LanguageList}"
                                     ItemDisplayBinding="{Binding Name}"
                                     SelectedItem="{Binding SelectedLanguage}"

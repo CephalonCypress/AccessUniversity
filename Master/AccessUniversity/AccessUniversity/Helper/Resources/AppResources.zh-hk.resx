@@ -206,4 +206,64 @@
   <data name="videoURL" xml:space="preserve">
     <value>輸入數字碼</value>
   </data>
+  <data name="PDFViewer_ExpanderLabel" xml:space="preserve">
+    <value>提取文字！</value>
+  </data>
+  <data name="Contents Page" xml:space="preserve">
+    <value>目錄</value>
+  </data>
+  <data name="Lecture Video" xml:space="preserve">
+    <value>講座視頻</value>
+  </data>
+  <data name="ContentsPageDetail" xml:space="preserve">
+    <value>詳細資料</value>
+  </data>
+  <data name="ContentsPageDetail_FileName" xml:space="preserve">
+    <value>IAB330移動應用程序開發第1週！</value>
+  </data>
+  <data name="PDFViewer_PageNoEntry" xml:space="preserve">
+    <value>輸入頁面編號！</value>
+  </data>
+  <data name="PDFViewer_Picker" xml:space="preserve">
+    <value>選取語言</value>
+  </data>
+  <data name="PDFViewer_NotExtracted" xml:space="preserve">
+    <value>未提取！</value>
+  </data>
+  <data name="Language_ChineseSimplified" xml:space="preserve">
+    <value>中文 (簡體)</value>
+  </data>
+  <data name="Language_ChineseTraditional" xml:space="preserve">
+    <value>繁體中文</value>
+  </data>
+  <data name="Language_English" xml:space="preserve">
+    <value>英文</value>
+  </data>
+  <data name="Language_French" xml:space="preserve">
+    <value>法文</value>
+  </data>
+  <data name="Language_German" xml:space="preserve">
+    <value>德文</value>
+  </data>
+  <data name="Language_Hindi" xml:space="preserve">
+    <value>印度文</value>
+  </data>
+  <data name="Language_Indonesian" xml:space="preserve">
+    <value>印尼文</value>
+  </data>
+  <data name="Language_Japanese" xml:space="preserve">
+    <value>日文</value>
+  </data>
+  <data name="Language_Korean" xml:space="preserve">
+    <value>韓文</value>
+  </data>
+  <data name="Language_Portuguese" xml:space="preserve">
+    <value>葡萄牙文</value>
+  </data>
+  <data name="Language_Russian" xml:space="preserve">
+    <value>俄文</value>
+  </data>
+  <data name="Language_Spanish" xml:space="preserve">
+    <value>西班牙文</value>
+  </data>
 </root>

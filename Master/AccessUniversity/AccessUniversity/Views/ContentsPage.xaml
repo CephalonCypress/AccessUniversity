@@ -41,51 +41,6 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
             </Grid>
-
-            <!--<Button Text="English" Command="{Binding Eng_Command}" />
-            <Button Text="Japanese" Command="{Binding Jp_Command}" />-->
-
-            <!--Bottom Menu--><!--
-            <Grid BackgroundColor="#DDDFE1" HeightRequest="60" VerticalOptions="End">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                
-                --><!--Bottom Menu/Units--><!--
-                <StackLayout Grid.Column="0" VerticalOptions="CenterAndExpand" 
-                             HorizontalOptions="Center">
-                    <Image Source="UnitIcon.png" HeightRequest="36" />
-                    <Label Text="Unit" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </StackLayout>
-
-                --><!--Bottom Menu/eStudent--><!--
-                <StackLayout Grid.Column="1" VerticalOptions="CenterAndExpand" 
-                             HorizontalOptions="Center">
-                    <Image Source="eStudentIcon.png" HeightRequest="36" />
-                    <Label Text="eStudent" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </StackLayout>
-
-                --><!--Bottom Menu/Library--><!--
-                <StackLayout Grid.Column="2" VerticalOptions="CenterAndExpand" 
-                             HorizontalOptions="Center">
-                    <Image Source="LibraryIcon.png" HeightRequest="36" />
-                    <Label Text="Library" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </StackLayout>
-
-                --><!--Bottom Menu/Emergency--><!--
-                <StackLayout Grid.Column="3" VerticalOptions="CenterAndExpand" 
-                             HorizontalOptions="Center">
-                    <Image Source="EmergencyIcon.png" HeightRequest="36" />
-                    <Label Text="Emergency" FontSize="15" HorizontalOptions="Center" 
-                           VerticalOptions="Start" />
-                </StackLayout>
-            </Grid>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

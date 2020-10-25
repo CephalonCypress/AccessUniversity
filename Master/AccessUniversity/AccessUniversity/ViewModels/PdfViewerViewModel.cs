@@ -29,7 +29,7 @@ namespace AccessUniversity.ViewModels
         /// <summary>
         /// Default Text
         /// </summary>
-        public string extractedText = "Not Extracted";
+        public string extractedText = AccessUniversity.Helper.Resources.AppResources.PDFViewer_NotExtracted;
 
         /// <summary>
         /// Default Page No
@@ -192,16 +192,18 @@ namespace AccessUniversity.ViewModels
         {
             var languages = new List<Language>()
             {
-                new Language(){Value = 1, Name = "English", dir = "en"},
-                new Language(){Value = 2, Name = "German", dir = "de"},
-                new Language(){Value = 3, Name = "French", dir = "fr"},
-                new Language(){Value = 4, Name = "Russian", dir = "ru"},
-                new Language(){Value = 5, Name = "Japanese", dir = "ja"},
-                new Language(){Value = 6, Name = "Chinese Simplified", dir = "zh-Hans"},
-                new Language(){Value = 7, Name = "Chinese Traditional", dir = "zh-Hant"},
-                new Language(){Value = 8, Name = "Korean", dir = "ko"},
-                new Language(){Value = 9, Name = "Indonesian", dir = "id"},
-                new Language(){Value = 10, Name = "Hindi", dir = "hi"}
+                new Language(){Value = 1, Name = AccessUniversity.Helper.Resources.AppResources.Language_English, dir = "en"},
+                new Language(){Value = 2, Name = AccessUniversity.Helper.Resources.AppResources.Language_Spanish, dir = "es"},
+                new Language(){Value = 3, Name = AccessUniversity.Helper.Resources.AppResources.Language_German, dir = "de"},
+                new Language(){Value = 4, Name = AccessUniversity.Helper.Resources.AppResources.Language_French, dir = "fr"},
+                new Language(){Value = 5, Name = AccessUniversity.Helper.Resources.AppResources.Language_Russian, dir = "ru"},
+                new Language(){Value = 6, Name = AccessUniversity.Helper.Resources.AppResources.Language_Portuguese, dir = "pt-br"},
+                new Language(){Value = 7, Name = AccessUniversity.Helper.Resources.AppResources.Language_Japanese, dir = "ja"},
+                new Language(){Value = 8, Name = AccessUniversity.Helper.Resources.AppResources.Language_ChineseSimplified, dir = "zh-Hans"},
+                new Language(){Value = 9, Name = AccessUniversity.Helper.Resources.AppResources.Language_ChineseTraditional, dir = "zh-Hant"},
+                new Language(){Value = 10, Name = AccessUniversity.Helper.Resources.AppResources.Language_Korean, dir = "ko"},
+                new Language(){Value = 11, Name = AccessUniversity.Helper.Resources.AppResources.Language_Indonesian, dir = "id"},
+                new Language(){Value = 12, Name = AccessUniversity.Helper.Resources.AppResources.Language_Hindi, dir = "hi"}
             };
             return languages;
         }

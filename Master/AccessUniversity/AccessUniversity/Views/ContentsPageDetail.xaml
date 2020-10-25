@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AccessUniversity.Views.ContentsPageDetail"
-             Title="Detail">
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
+             Title="{res:Translator ContentsPageDetail}">
     <ContentPage.Content>
         <StackLayout>
             <ListView ItemsSource="{Binding ContentList}" CachingStrategy="RecycleElement" HasUnevenRows="True" ItemTapped="OnItemSelected" >

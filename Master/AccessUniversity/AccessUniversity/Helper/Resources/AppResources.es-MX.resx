@@ -206,4 +206,64 @@ Vídeo añadido&amp;#xD;
   <data name="videoURL" xml:space="preserve">
     <value>Escribe la dirección URL aquí</value>
   </data>
+  <data name="PDFViewer_ExpanderLabel" xml:space="preserve">
+    <value>Texto extraído</value>
+  </data>
+  <data name="Contents Page" xml:space="preserve">
+    <value>Página de contenidos</value>
+  </data>
+  <data name="Lecture Video" xml:space="preserve">
+    <value>Video de la conferencia!</value>
+  </data>
+  <data name="ContentsPageDetail" xml:space="preserve">
+    <value>Detalle</value>
+  </data>
+  <data name="ContentsPageDetail_FileName" xml:space="preserve">
+    <value>¡Semana 1 del desarrollo de aplicaciones móviles IAB330!</value>
+  </data>
+  <data name="PDFViewer_PageNoEntry" xml:space="preserve">
+    <value>Entrar en la página ¡No!</value>
+  </data>
+  <data name="PDFViewer_Picker" xml:space="preserve">
+    <value>Seleccionar idioma</value>
+  </data>
+  <data name="PDFViewer_NotExtracted" xml:space="preserve">
+    <value>Y NO extraida</value>
+  </data>
+  <data name="Language_ChineseSimplified" xml:space="preserve">
+    <value>Chino (Simplificado)</value>
+  </data>
+  <data name="Language_ChineseTraditional" xml:space="preserve">
+    <value>Chino (Tradicional)</value>
+  </data>
+  <data name="Language_English" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="Language_French" xml:space="preserve">
+    <value>Francés</value>
+  </data>
+  <data name="Language_German" xml:space="preserve">
+    <value>Alemán</value>
+  </data>
+  <data name="Language_Hindi" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="Language_Indonesian" xml:space="preserve">
+    <value>Indonesio</value>
+  </data>
+  <data name="Language_Japanese" xml:space="preserve">
+    <value>Japonés</value>
+  </data>
+  <data name="Language_Korean" xml:space="preserve">
+    <value>Coreano</value>
+  </data>
+  <data name="Language_Portuguese" xml:space="preserve">
+    <value>Portugués</value>
+  </data>
+  <data name="Language_Russian" xml:space="preserve">
+    <value>Ruso</value>
+  </data>
+  <data name="Language_Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
 </root>

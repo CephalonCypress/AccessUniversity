@@ -140,6 +140,15 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Contents Page.
+        /// </summary>
+        internal static string Contents_Page {
+            get {
+                return ResourceManager.GetString("Contents Page", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Lectures.
         /// </summary>
         internal static string ContentsPage_Lectures {
@@ -185,6 +194,24 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Detail.
+        /// </summary>
+        internal static string ContentsPageDetail {
+            get {
+                return ResourceManager.GetString("ContentsPageDetail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IAB330 Mobile Application Development Week 1.
+        /// </summary>
+        internal static string ContentsPageDetail_FileName {
+            get {
+                return ResourceManager.GetString("ContentsPageDetail_FileName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Emergency.
         /// </summary>
         internal static string Emergency {
@@ -217,6 +244,123 @@ namespace AccessUniversity.Helper.Resources {
         internal static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chinese Simplified.
+        /// </summary>
+        internal static string Language_ChineseSimplified {
+            get {
+                return ResourceManager.GetString("Language_ChineseSimplified", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chinese Traditional.
+        /// </summary>
+        internal static string Language_ChineseTraditional {
+            get {
+                return ResourceManager.GetString("Language_ChineseTraditional", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to English.
+        /// </summary>
+        internal static string Language_English {
+            get {
+                return ResourceManager.GetString("Language_English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to French.
+        /// </summary>
+        internal static string Language_French {
+            get {
+                return ResourceManager.GetString("Language_French", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to German.
+        /// </summary>
+        internal static string Language_German {
+            get {
+                return ResourceManager.GetString("Language_German", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hindi.
+        /// </summary>
+        internal static string Language_Hindi {
+            get {
+                return ResourceManager.GetString("Language_Hindi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indonesian.
+        /// </summary>
+        internal static string Language_Indonesian {
+            get {
+                return ResourceManager.GetString("Language_Indonesian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Japanese.
+        /// </summary>
+        internal static string Language_Japanese {
+            get {
+                return ResourceManager.GetString("Language_Japanese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Korean.
+        /// </summary>
+        internal static string Language_Korean {
+            get {
+                return ResourceManager.GetString("Language_Korean", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Portuguese.
+        /// </summary>
+        internal static string Language_Portuguese {
+            get {
+                return ResourceManager.GetString("Language_Portuguese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Russian.
+        /// </summary>
+        internal static string Language_Russian {
+            get {
+                return ResourceManager.GetString("Language_Russian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spanish.
+        /// </summary>
+        internal static string Language_Spanish {
+            get {
+                return ResourceManager.GetString("Language_Spanish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lecture Video.
+        /// </summary>
+        internal static string Lecture_Video {
+            get {
+                return ResourceManager.GetString("Lecture Video", resourceCulture);
             }
         }
         
@@ -280,6 +424,42 @@ namespace AccessUniversity.Helper.Resources {
         internal static string PasswordText {
             get {
                 return ResourceManager.GetString("PasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extracted Text.
+        /// </summary>
+        internal static string PDFViewer_ExpanderLabel {
+            get {
+                return ResourceManager.GetString("PDFViewer_ExpanderLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Extracted.
+        /// </summary>
+        internal static string PDFViewer_NotExtracted {
+            get {
+                return ResourceManager.GetString("PDFViewer_NotExtracted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter Page No.
+        /// </summary>
+        internal static string PDFViewer_PageNoEntry {
+            get {
+                return ResourceManager.GetString("PDFViewer_PageNoEntry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Language.
+        /// </summary>
+        internal static string PDFViewer_Picker {
+            get {
+                return ResourceManager.GetString("PDFViewer_Picker", resourceCulture);
             }
         }
         
