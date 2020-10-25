@@ -47,4 +47,10 @@
             <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
         </Tab>
     </FlyoutItem>
+
+    <FlyoutItem Title="Settings" FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Language Setting" Icon="">
+            <ShellContent ContentTemplate="{DataTemplate views:LanguageSettings}" />
+        </Tab>
+    </FlyoutItem>
 </Shell>
