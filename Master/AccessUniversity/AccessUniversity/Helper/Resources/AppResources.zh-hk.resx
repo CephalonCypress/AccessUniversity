@@ -269,4 +269,7 @@
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>要更改語言，請更改設備的語言設置！</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303-評估！</value>
+  </data>
 </root>

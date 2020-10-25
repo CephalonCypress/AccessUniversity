@@ -277,4 +277,7 @@ Les critères de travail d'équipe ont été explicitement énoncés dans l'ARC<
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>Pour changer la langue, modifiez les paramètres de langue de l&amp;#39;appareil!</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - Évaluation!</value>
+  </data>
 </root>

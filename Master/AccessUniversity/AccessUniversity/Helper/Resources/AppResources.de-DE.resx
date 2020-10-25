@@ -269,4 +269,7 @@ Teamwork-Kriterien wurden in der Ratingagentur ausdrücklich angegeben</value>
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>Um die Sprache zu ändern, ändern Sie die Spracheinstellungen des Geräts!</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - Bewertung!</value>
+  </data>
 </root>

@@ -278,4 +278,7 @@ Teamwork criteria has been explicitly stated in the CRA</value>
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>To change the language change the language settings of the device</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - Assessment</value>
+  </data>
 </root>

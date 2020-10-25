@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AccessUniversity.Views.AssessmentContent"
              xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
-             Title="CAB303 - Assessment">
+             Title="{res:Translator Assessment}">
     
     <ContentPage.Content>
         <StackLayout>
+            
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />

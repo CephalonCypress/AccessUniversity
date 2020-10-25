@@ -277,4 +277,7 @@ Josh (Tutor)</value>
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>لتغيير اللغة قم بتغيير إعدادات لغة الجهاز!</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - التقييم!</value>
+  </data>
 </root>

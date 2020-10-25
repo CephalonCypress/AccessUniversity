@@ -277,4 +277,7 @@ Kriteria kerja tim telah secara eksplisit dinyatakan dalam CRA</value>
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>Untuk mengubah bahasa, ubah pengaturan bahasa perangkat!</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - Penilaian!</value>
+  </data>
 </root>

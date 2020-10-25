@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AccessUniversity.Views.AssessmentPage"
-             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources">
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
+             Title="{res:Translator AssessmentPage_Title}">
 
     <ContentPage.Content>
         <StackLayout>
+            <!--
             <Grid BackgroundColor="#263445" HeightRequest="80" VerticalOptions="Start">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -30,7 +32,7 @@
                                TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
                     </Grid>
                 </Grid>
-            </Grid>
+            </Grid>-->
 
             <Grid BackgroundColor="White" HeightRequest="480" VerticalOptions="Start">
                 <Grid.RowDefinitions>

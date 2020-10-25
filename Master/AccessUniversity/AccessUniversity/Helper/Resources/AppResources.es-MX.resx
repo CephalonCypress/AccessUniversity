@@ -269,4 +269,7 @@ Vídeo añadido&amp;#xD;
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>Para cambiar el idioma, cambie la configuración de idioma del dispositivo.</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - ¡Evaluación!</value>
+  </data>
 </root>

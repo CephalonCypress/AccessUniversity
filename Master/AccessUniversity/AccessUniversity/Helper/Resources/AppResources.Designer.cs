@@ -140,6 +140,15 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to CAB303 - Assessment.
+        /// </summary>
+        internal static string AssessmentPage_Title {
+            get {
+                return ResourceManager.GetString("AssessmentPage_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contents Page.
         /// </summary>
         internal static string Contents_Page {

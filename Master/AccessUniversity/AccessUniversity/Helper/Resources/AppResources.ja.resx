@@ -269,4 +269,7 @@ Changelog&amp;#xD;
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>言語を変更するには、デバイスの言語設定を変更してください。</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303-評価！</value>
+  </data>
 </root>

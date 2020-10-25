@@ -269,4 +269,7 @@ Os critérios de trabalho em equipe foram explicitamente declarados no CRA</valu
   <data name="ContentsPage_Alert" xml:space="preserve">
     <value>Para alterar o idioma, altere as configurações de idioma do dispositivo!</value>
   </data>
+  <data name="AssessmentPage_Title" xml:space="preserve">
+    <value>CAB303 - Avaliação!</value>
+  </data>
 </root>
