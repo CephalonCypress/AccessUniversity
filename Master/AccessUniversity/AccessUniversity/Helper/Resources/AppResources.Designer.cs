@@ -167,7 +167,8 @@ namespace AccessUniversity.Helper.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to CAB303 - Contents.
+        ///   Looks up a localized string similar to 
+        ///   .
         /// </summary>
         internal static string ContentsPage_Title {
             get {

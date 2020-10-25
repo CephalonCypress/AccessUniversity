@@ -19,7 +19,7 @@ namespace AccessUniversity.Views
             InitializeComponent();
         }
 
-        async void URLopen(object sender, EventArgs e)
+        void URLopen(object sender, EventArgs e)
         {
             videoPlayer.Source = new FileVideoSource { File = videoURL.Text };
             Localbutton.IsVisible = false;
@@ -46,7 +46,6 @@ namespace AccessUniversity.Views
             URLbutton.TextColor = Color.GhostWhite;
             URLbutton.BackgroundColor = Color.DarkGray;
             videoURL.BackgroundColor = Color.Black;
-            videoURL.Text = "Enter here";
             videoURL.TextColor = Color.GhostWhite;
             BackgroundColor = Color.Black;
             

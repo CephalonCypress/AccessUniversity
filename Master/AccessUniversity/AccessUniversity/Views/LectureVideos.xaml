@@ -18,25 +18,27 @@
                     Text="Open from URL"
                     x:Name="URLbutton"
                     Clicked="URLopen"
-                    Grid.Row="0"/>
+                    Grid.Row="0"
+                    TextColor="GhostWhite"
+                    BackgroundColor="Black"/>
                 <Entry 
                     x:Name="videoURL"
                     Text="{Binding videoURL}"
                     Placeholder="Enter the video URL"
-                    HorizontalOptions="FillAndExpand"
-                    VerticalOptions="CenterAndExpand"
-                    BackgroundColor="DarkGray"
-                    TextColor="White"
+                    BackgroundColor="Gray"
+                    TextColor="GhostWhite"
                     Grid.Row="1"/>
                 <Button 
                     x:Name="Localbutton"
                     Text="Open from local file" 
                     Clicked="Localopen"
-                    Grid.Row="2"/>
+                    Grid.Row="2"
+                    TextColor="GhostWhite"
+                    BackgroundColor="Black"/>
                 <video:VideoPlayer x:Name="videoPlayer"
                                    Grid.Row="3"
-                               VerticalOptions="FillAndExpand" 
-                               AreTransportControlsEnabled="True"/>
+                                   VerticalOptions="FillAndExpand" 
+                                   AreTransportControlsEnabled="True"/>
             </Grid>
             
         </StackLayout>

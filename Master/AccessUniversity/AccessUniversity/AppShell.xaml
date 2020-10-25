@@ -22,4 +22,18 @@
         <Tab Title="{res:Translator Lecture Video}" Icon="VideoIcon.png">
             <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
         </Tab>
-    </FlyoutItem></Shell>
+    </FlyoutItem>
+
+    <FlyoutItem Title="{res:Translator Assessment}" FlyoutDisplayOptions="AsSingleItem">
+        <Tab Title="Assessment" Icon="FolderIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AssessmentContent}" />
+        </Tab>
+        <Tab Title="Tasks" Icon="PDF.png">
+            <ShellContent ContentTemplate="{DataTemplate views:AssessmentPage}" />
+        </Tab>
+        <Tab Title="Lecture Videos" Icon="VideoIcon.png">
+            <ShellContent ContentTemplate="{DataTemplate views:LectureVideos}" />
+        </Tab>
+    </FlyoutItem>
+
+</Shell>

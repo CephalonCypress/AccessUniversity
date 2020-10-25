@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AccessUniversity.Views.AssessmentContent"
-             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources">
+             xmlns:res="clr-namespace:AccessUniversity.Helper.Resources"
+             Title="CAB303 - Assessment">
     
     <ContentPage.Content>
         <StackLayout>
@@ -20,12 +21,9 @@
 
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Row="0" Text="{res:Translator ContentsPage_Title}" 
-                               TextColor="White" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
-                        <Label Grid.Row="1" Text="{res:Translator Assessment}"
+                        <Label Grid.Row="0" Text="{res:Translator Assessment}"
                                TextColor="White" FontSize="18" VerticalOptions="Center" HorizontalOptions="Center" />
                     </Grid>
                 </Grid>
@@ -66,7 +64,7 @@
 
                     <Label Grid.Column="0" 
                            x:Name="lblTitle"
-                           Text="Inital Project" 
+                           Text="Initial Project" 
                            FontSize="20" 
                            VerticalOptions="Center" 
                            HorizontalOptions="Center"/>

@@ -23,11 +23,11 @@ namespace AccessUniversity.Views
             User user = new User(entryUsername.Text, entryPassword.Text);
             if (user.VerifyLogin())
             {
-                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginSuccess, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
+                await DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginSuccess, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
                 await Navigation.PushAsync(new LandingPage());
             } else
             {
-                DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
+                await DisplayAlert("", AccessUniversity.Helper.Resources.AppResources.LoginFail, AccessUniversity.Helper.Resources.AppResources.OkConfirmation);
             }
         }
     }
