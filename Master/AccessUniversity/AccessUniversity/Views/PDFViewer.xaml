@@ -11,7 +11,7 @@
     <StackLayout VerticalOptions="FillAndExpand">
 
         <Grid x:Name="pdfViewGrid" VerticalOptions="FillAndExpand">
-            <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" IsToolbarVisible="True" PageViewMode="PageByPage" />
+            <syncfusion:SfPdfViewer x:Name="pdfViewerControl" InputFileStream="{Binding PdfDocumentStream}" IsToolbarVisible="True" PageViewMode="Continuous" />
         </Grid>
 
         <Expander>
@@ -38,23 +38,28 @@
             <Expander.Content>
                 <ScrollView>
                     <StackLayout>
-                        <Entry Text="{Binding PageNo}" HorizontalTextAlignment="Center" HorizontalOptions="Center" Keyboard="Numeric" Placeholder="Enter Page No" />
-                        <Label Text="{Binding PdfTextExtraction}" FontSize="Small" Padding="10,0" />
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Entry Text="{Binding PageNo}" 
+                                   FontSize="Medium"
+                                   HorizontalTextAlignment="Center" 
+                                   HorizontalOptions="Center" 
+                                   Keyboard="Numeric" 
+                                   Placeholder="Enter Page No" 
+                                   WidthRequest="100"/>
+                            <Picker Title="Select Language"
+                                    ItemsSource="{Binding LanguageList}"
+                                    ItemDisplayBinding="{Binding Name}"
+                                    SelectedItem="{Binding SelectedLanguage}"
+                                    FontSize="Medium"
+                                    HorizontalTextAlignment="Center"
+                                    WidthRequest="150"
+                                    />
+                        </StackLayout>
+
+                        <Label Text="{Binding ExtractedText}" FontSize="Small" Padding="10,0" HeightRequest="120"/>
                     </StackLayout>
                 </ScrollView>
             </Expander.Content>
         </Expander>
-        
-        <!--<ScrollView HeightRequest="120" >
-            <StackLayout>
-                <Entry Keyboard="Numeric" FontSize="18" x:Name="pageNumberEntry" 
-                       HorizontalTextAlignment="Center" VerticalOptions="Center" 
-                       Text="{Binding PageNumber, Source={x:Reference Name=pdfViewerControl}}{Binding PageNo}}">
-                </Entry>
-                <Entry Text="{Binding PageNo}" Keyboard="Numeric" Placeholder="Enter Page No" />
-                <Label Text="Extracted Text" HorizontalOptions="Center" FontSize="Medium" />
-                <Label Text="{Binding PdfTextExtraction}" FontSize="Small" Padding="10,0" />
-            </StackLayout>
-        </ScrollView>-->
     </StackLayout>
 </ContentPage>

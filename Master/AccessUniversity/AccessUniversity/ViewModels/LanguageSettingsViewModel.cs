@@ -35,6 +35,20 @@ namespace AccessUniversity.ViewModels
                     //Functionality when changed
                     //CurrentLanguage = "Current Language: " + _selectedLanguage.Name;
                     CurrentLanguage = Translate("Current Language Setting: " + _selectedLanguage.Name, _selectedLanguage.dir).Result;
+                    Title = Translate("Language Settings", _selectedLanguage.dir).Result;
+                }
+            }
+        }
+        private string _title { get; set; }
+        public string Title
+        {
+            get { return _title; }
+            set
+            {
+                if (_title != value)
+                {
+                    _title = value;
+                    NotifyPropertyChanged(nameof(Title));
                 }
             }
         }
